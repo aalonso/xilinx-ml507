@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="EDK" num="453" delta="new" ><arg fmt="%s" index="1">/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss</arg> line <arg fmt="%i" index="2">81</arg> - <arg fmt="%s" index="3">PARAMETER</arg> <arg fmt="%s" index="4">CLOCK_HZ</arg> is deprecated !. <arg fmt="%s" index="5"></arg>.
+To avoid seeing this Warning again, please remove <arg fmt="%s" index="6">PARAMETER</arg> <arg fmt="%s" index="7">CLOCK_HZ</arg>.
+</msg>
+
+<msg type="info" file="EDK" num="1740" delta="new" >List of peripherals connected to processor instance <arg fmt="%s" index="1">ppc440_0</arg>: 
+</msg>
+
+</messages>
+

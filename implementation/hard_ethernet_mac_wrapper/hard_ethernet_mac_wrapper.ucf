@@ -1,0 +1,2 @@
+INST "Hard_Ethernet_MAC/*gen_instantiate_idelayctrls[0].idelayctrl0"   LOC = "IDELAYCTRL_X0Y4";
+INST "Hard_Ethernet_MAC/*gen_instantiate_idelayctrls[1].idelayctrl0"   LOC = "IDELAYCTRL_X1Y5";

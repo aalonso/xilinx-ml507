@@ -1,0 +1,13 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc5vfx70tff1136-1
+-top hard_ethernet_mac_wrapper
+-ifmt MIXED
+-ifn hard_ethernet_mac_wrapper_xst.prj
+-ofn ../implementation/hard_ethernet_mac_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation/hard_ethernet_mac_wrapper}
+-vlgincdir {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }

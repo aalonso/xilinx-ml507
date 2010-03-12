@@ -1,0 +1,93 @@
+Release 11.4 - libgen Xilinx EDK 11.4 Build EDK_LS4.68
+ (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc5vfx70tff1136-1 -msg
+__xps/ise/xmsgprops.lst system.mss 
+
+Release 11.4 - psf2Edward EDK_LS4.68 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 -
+   PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
+   value to 6
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 97 - 1
+master(s) : 13 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
+WARNING:EDK:2099 - PORT:HostReq CONNECTOR:host_req -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 267 - floating connection!
+WARNING:EDK:2099 - PORT:HostAddr CONNECTOR:host_addr -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 268 - floating connection!
+WARNING:EDK:2099 - PORT:HostEmac1Sel CONNECTOR:host_emac1_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 269 - floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+WARNING:EDK:494 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/synthesis/
+   not found.
+WARNING:EDK:2530 - Timing and Resource utilization information not added
+WARNING:EDK:453 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
+   line 81 - PARAMETER CLOCK_HZ is deprecated !. .
+   To avoid seeing this Warning again, please remove PARAMETER CLOCK_HZ.
+INFO:EDK:1740 - List of peripherals connected to processor instance ppc440_0: 
+  - DDR2_SDRAM
+  - DIP_Switches_8Bit
+  - FLASH
+  - Hard_Ethernet_MAC
+  - IIC_EEPROM
+  - LEDs_8Bit
+  - LEDs_Positions
+  - Push_Buttons_5Bit
+  - RS232_Uart_1
+  - SysACE_CompactFlash
+  - xps_bram_if_cntlr_1
+  - xps_intc_0
+  - xps_timebase_wdt_0
+  - xps_timer_0
+
+-- Generating libraries for processor: ppc440_0 --
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=powerpc-eabi-gcc"
+"ARCHIVER=powerpc-eabi-ar" "COMPILER_FLAGS=-mcpu=440  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=powerpc-eabi-gcc"
+"ARCHIVER=powerpc-eabi-ar" "COMPILER_FLAGS=-mcpu=440  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Running execs_generate.

@@ -1,0 +1,47 @@
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 -
+   PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
+   value to 6
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 97 - 1
+master(s) : 13 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
+WARNING:EDK:2099 - PORT:HostReq CONNECTOR:host_req -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 267 - floating connection!
+WARNING:EDK:2099 - PORT:HostAddr CONNECTOR:host_addr -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 268 - floating connection!
+WARNING:EDK:2099 - PORT:HostEmac1Sel CONNECTOR:host_emac1_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 269 - floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...

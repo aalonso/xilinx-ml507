@@ -1,0 +1,1 @@
+ -p virtex5 -lang vhdl   TestApp_Memory_ppc440_0/executable.elf -msg __xps/ise/xmsgprops.lst -s mti
