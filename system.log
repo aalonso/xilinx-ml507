@@ -4526,3 +4526,244 @@ Done writing filter settings to:
 Done writing Tab View settings to:
 	/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/__xps/system.gui
 
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 - PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the value to 6
+
+Generating Block Diagram to Buffer 
+
+Generated Block Diagram SVG
+
+Saved MSS File.
+
+Saved MSS File.
+
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 - PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the value to 6
+
+At Local date and time: Fri Mar 12 17:57:52 2010
+ make -f system.make libs started...
+
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc5vfx70tff1136-1  -msg __xps/ise/xmsgprops.lst system.mss
+libgen
+Xilinx EDK 11.4 Build EDK_LS4.68
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Command Line: libgen -mhs system.mhs -p xc5vfx70tff1136-1 -msg
+__xps/ise/xmsgprops.lst system.mss 
+Release 11.4 - psf2Edward EDK_LS4.68 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 -
+   PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
+   value to 6
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 97 - 1
+master(s) : 13 slave(s)
+Checking port drivers...
+WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
+WARNING:EDK:2099 - PORT:HostReq CONNECTOR:host_req -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 267 - floating connection!
+WARNING:EDK:2099 - PORT:HostAddr CONNECTOR:host_addr -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 268 - floating connection!
+WARNING:EDK:2099 - PORT:HostEmac1Sel CONNECTOR:host_emac1_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 269 - floating connection!
+Performing Clock DRCs...
+Performing Reset DRCs...
+Overriding system level properties...
+Running system level update procedures...
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+Running system level DRCs...
+Performing System level DRCs on properties...
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ERROR:EDK:491 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss line
+   8 - Peripheral instance RS232_Uart_1 is not a valid IP for PARAMETER stdout !
+WARNING:EDK:453 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
+   line 79 - PARAMETER CLOCK_HZ is deprecated !. .
+   To avoid seeing this Warning again, please remove PARAMETER CLOCK_HZ.
+ERROR:EDK:1204 - Errors occured while creating Software System.
+make: *** [ppc440_0/lib/libxil.a] Error 2
+
+
+
+Done!
+
+Saved MSS File.
+
+Assigning default drivers to peripherals
+
+At Local date and time: Fri Mar 12 17:59:24 2010
+ make -f system.make libs started...
+
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc5vfx70tff1136-1  -msg __xps/ise/xmsgprops.lst system.mss
+libgen
+Xilinx EDK 11.4 Build EDK_LS4.68
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Command Line: libgen -mhs system.mhs -p xc5vfx70tff1136-1 -msg
+__xps/ise/xmsgprops.lst system.mss 
+Release 11.4 - psf2Edward EDK_LS4.68 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 -
+   PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
+   value to 6
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 97 - 1
+master(s) : 13 slave(s)
+Checking port drivers...
+WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
+WARNING:EDK:2099 - PORT:HostReq CONNECTOR:host_req -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 267 - floating connection!
+WARNING:EDK:2099 - PORT:HostAddr CONNECTOR:host_addr -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 268 - floating connection!
+WARNING:EDK:2099 - PORT:HostEmac1Sel CONNECTOR:host_emac1_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 269 - floating connection!
+Performing Clock DRCs...
+Performing Reset DRCs...
+Overriding system level properties...
+Running system level update procedures...
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+Running system level DRCs...
+Performing System level DRCs on properties...
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ERROR:EDK:491 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss line
+   8 - Peripheral instance RS232_Uart_1 is not a valid IP for PARAMETER stdout !
+WARNING:EDK:453 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
+   line 79 - PARAMETER CLOCK_HZ is deprecated !. .
+   To avoid seeing this Warning again, please remove PARAMETER CLOCK_HZ.
+ERROR:EDK:1204 - Errors occured while creating Software System.
+make: *** [ppc440_0/lib/libxil.a] Error 2
+
+
+
+Done!
+
+The project's MSS file has changed on disk.
+
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 - PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the value to 6
+
+At Local date and time: Fri Mar 12 18:00:37 2010
+ make -f system.make libs started...
+
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc5vfx70tff1136-1  -msg __xps/ise/xmsgprops.lst system.mss
+libgen
+Xilinx EDK 11.4 Build EDK_LS4.68
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Command Line: libgen -mhs system.mhs -p xc5vfx70tff1136-1 -msg
+__xps/ise/xmsgprops.lst system.mss 
+Release 11.4 - psf2Edward EDK_LS4.68 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 -
+   PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
+   value to 6
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 97 - 1
+master(s) : 13 slave(s)
+Checking port drivers...
+WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
+WARNING:EDK:2099 - PORT:HostReq CONNECTOR:host_req -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 267 - floating connection!
+WARNING:EDK:2099 - PORT:HostAddr CONNECTOR:host_addr -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 268 - floating connection!
+WARNING:EDK:2099 - PORT:HostEmac1Sel CONNECTOR:host_emac1_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 269 - floating connection!
+Performing Clock DRCs...
+Performing Reset DRCs...
+Overriding system level properties...
+Running system level update procedures...
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+Running system level DRCs...
+Performing System level DRCs on properties...
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ERROR:EDK:491 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss line
+   8 - Peripheral instance RS232_Uart_1 is not a valid IP for PARAMETER stdout !
+WARNING:EDK:453 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
+   line 79 - PARAMETER CLOCK_HZ is deprecated !. .
+   To avoid seeing this Warning again, please remove PARAMETER CLOCK_HZ.
+ERROR:EDK:1204 - Errors occured while creating Software System.
+make: *** [ppc440_0/lib/libxil.a] Error 2
+
+
+
+Done!
+
+At Local date and time: Fri Mar 12 18:01:04 2010
+ make -f system.make clean started...
+
+rm -f implementation/system.ngc
+rm -f platgen.log
+rm -f __xps/ise/_xmsgs/platgen.xmsgs
+rm -f implementation/system.bmm
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -f implementation/system_map.ncd 
+rm -f __xps/system_routed
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -f __xps/ise/_xmsgs/bitinit.xmsgs
+rm -rf ppc440_0/
+rm -f libgen.log
+rm -f __xps/ise/_xmsgs/libgen.xmsgs
+rm -f TestApp_Memory_ppc440_0/executable.elf 
+rm -f TestApp_Peripheral_ppc440_0/executable.elf 
+rm -rf simulation/behavioral
+rm -f simgen.log
+rm -f __xps/ise/_xmsgs/simgen.xmsgs
+rm -f _impact.cmd
+
+
+Done!
+
+The project's MSS file has changed on disk.
+
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 - PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the value to 6
+
