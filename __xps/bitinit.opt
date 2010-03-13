@@ -1,1 +1,1 @@
-   TestApp_Memory_ppc440_0/executable.elf
+   $(PPC440_0_BOOTLOOP) 

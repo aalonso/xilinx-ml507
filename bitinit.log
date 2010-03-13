@@ -136,17 +136,17 @@ INFO:EDK:1560 - IPNAME:xps_timebase_wdt INSTANCE:xps_timebase_wdt_0 -
    data/xps_timebase_wdt_v2_1_0.mpd line 73 - tool is overriding PARAMETER
    C_SPLB_DWIDTH value to 128
 INFO:EDK:1560 - IPNAME:xps_timer INSTANCE:xps_timer_0 -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_01_b/data/xp
-   s_timer_v2_1_0.mpd line 78 - tool is overriding PARAMETER C_SPLB_DWIDTH value
-   to 128
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/xps_timer_v1_01_b/dat
+   a/xps_timer_v2_1_0.mpd line 78 - tool is overriding PARAMETER C_SPLB_DWIDTH
+   value to 128
 INFO:EDK:1560 - IPNAME:xps_timer INSTANCE:xps_timer_0 -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_01_b/data/xp
-   s_timer_v2_1_0.mpd line 80 - tool is overriding PARAMETER C_SPLB_MID_WIDTH
-   value to 1
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/xps_timer_v1_01_b/dat
+   a/xps_timer_v2_1_0.mpd line 80 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
 INFO:EDK:1560 - IPNAME:xps_timer INSTANCE:xps_timer_0 -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_01_b/data/xp
-   s_timer_v2_1_0.mpd line 81 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
-   value to 1
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/xps_timer_v1_01_b/dat
+   a/xps_timer_v2_1_0.mpd line 81 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 1
 INFO:EDK:1560 - IPNAME:xps_intc INSTANCE:xps_intc_0 -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_00_a/data/xps
    _intc_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_SPLB_DWIDTH value
@@ -157,7 +157,6 @@ Checking platform address map ...
 Initializing Memory...
 Running Data2Mem with the following command:
 data2mem -bm implementation/system_bd -bt implementation/system.bit  -bd
-TestApp_Memory_ppc440_0/executable.elf tag ppc440_0  -o b
-implementation/download.bit 
+bootloops/ppc440_0.elf tag ppc440_0  -o b implementation/download.bit 
 Memory Initialization completed successfully.
 
