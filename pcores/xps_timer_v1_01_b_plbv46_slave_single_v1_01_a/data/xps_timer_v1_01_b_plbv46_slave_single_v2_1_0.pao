@@ -1,0 +1,13 @@
+# Peripheral Analyze Order (.pao) file for the
+# PLB V4.6 Slave Single Version 1.01.a
+#
+# ----- Proc Common Library Files -----------------
+lib xps_timer_v1_01_b_proc_common_v3_00_a all 
+#
+#----- PLB Slave Attachment Library Files --------
+lib xps_timer_v1_01_b_plbv46_slave_single_v1_01_a plb_address_decoder.vhd vhdl
+lib xps_timer_v1_01_b_plbv46_slave_single_v1_01_a plb_slave_attachment.vhd vhdl 
+lib xps_timer_v1_01_b_plbv46_slave_single_v1_01_a plbv46_slave_single.vhd vhdl 
+#
+# --- End of list ------------------------------
+#nosort

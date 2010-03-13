@@ -1,0 +1,14 @@
+
+This core was made local using the MakeIPLocal tool. 
+
+Env variables when core was made local are as follows: 
+
+XILINX = /opt/Xilinx/11.4/ISE:/opt/Xilinx/11.4/EDK 
+XILINX_EDK = /opt/Xilinx/11.4/EDK 
+
+Repository from which the core was copied = /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/ 
+
+The following helper cores were copied as a part of making this core local: 
+
+proc_common_v3_00_a was copied and renamed to xps_timer_v1_01_b_proc_common_v3_00_a 
+plbv46_slave_single_v1_01_a was copied and renamed to xps_timer_v1_01_b_plbv46_slave_single_v1_01_a 
