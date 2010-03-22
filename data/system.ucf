@@ -247,6 +247,28 @@ TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
 Net fpga_0_clk_1_sys_clk_pin LOC = AH15  |  IOSTANDARD=LVCMOS33;
 Net fpga_0_rst_1_sys_rst_pin TIG;
 Net fpga_0_rst_1_sys_rst_pin LOC = E9  |  IOSTANDARD=LVCMOS33  |  PULLUP;
+# xps_tft pin definitions
+Net xps_tft_0_TFT_HSYNC_pin LOC = AM12 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_VSYNC_pin LOC = AM11 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DE_pin LOC = AE8 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_CLK_P_pin LOC = AL11 | IOSTANDARD = LVCMOS33 | DRIVE = 24 | SLEW = FAST;
+Net xps_tft_0_TFT_DVI_CLK_N_pin LOC = AL10 | IOSTANDARD = LVCMOS33 | DRIVE = 24 | SLEW = FAST;
+Net xps_tft_0_TFT_DVI_DATA_pin<0> LOC = AB8 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<1> LOC = AC8 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<2> LOC = AN12 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<3> LOC = AP12 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<4> LOC = AA9 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<5> LOC = AA8 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<6> LOC = AM13 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<7> LOC = AN13 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<8> LOC = AA10 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<9> LOC = AB10 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<10> LOC = AP14 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_DVI_DATA_pin<11> LOC = AN14 | IOSTANDARD = LVDCI_33;
+Net xps_tft_0_TFT_RESET_pin LOC = AK6 | IOSTANDARD = LVCMOS33;
+Net xps_tft_0_TFT_IIC_SCL LOC = U27 | DRIVE = 6 | SLEW = SLOW | IOSTANDARD = LVCMOS18;
+Net xps_tft_0_TFT_IIC_SDA LOC = T29 | DRIVE = 6 | SLEW = SLOW | IOSTANDARD = LVCMOS18;
+
 
 ###### DDR2_SDRAM
 ############################################################################

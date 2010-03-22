@@ -1,14 +1,41 @@
 WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 199 -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 214 -
    PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
    value to 6
 
 Checking platform configuration ...
 IPNAME:plb_v46 INSTANCE:plb_v46_0 -
-/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 97 - 1
-master(s) : 13 slave(s)
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 112 - 2
+master(s) : 15 slave(s)
 
 Checking port drivers...
+WARNING:EDK:2098 - PORT:xps_tft_0_TFT_RESET_pin
+   CONNECTOR:xps_tft_0_TFT_RESET_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 69 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xps_tft_0_TFT_HSYNC_pin
+   CONNECTOR:xps_tft_0_TFT_HSYNC_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 70 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xps_tft_0_TFT_VSYNC_pin
+   CONNECTOR:xps_tft_0_TFT_VSYNC_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 71 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DE_pin CONNECTOR:xps_tft_0_TFT_DE_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 72 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DVI_CLK_P_pin
+   CONNECTOR:xps_tft_0_TFT_DVI_CLK_P_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 73 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DVI_CLK_N_pin
+   CONNECTOR:xps_tft_0_TFT_DVI_CLK_N_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 74 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DVI_DATA_pin
+   CONNECTOR:xps_tft_0_TFT_DATA_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 75 - No
+   driver found. Port will be driven to GND!
 WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
@@ -17,6 +44,10 @@ WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
    GND!
+WARNING:EDK:2099 - PORT:fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin
+   CONNECTOR:fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 66 -
+   floating connection!
 WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
@@ -45,6 +76,3 @@ Running system level DRCs...
 Performing System level DRCs on properties...
 
 Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
-WARNING:EDK:494 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/synthesis/
-   not found.
-WARNING:EDK:2530 - Timing and Resource utilization information not added

@@ -178,6 +178,24 @@ TestApp_Peripheral_ppc440_0_programclean:
 	rm -f $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) 
 
 #################################################################
+# SOFTWARE APPLICATION TESTAPP_XPS_TFT_PPC440_0
+#################################################################
+
+TestApp_xps_tft_ppc440_0_program: $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) 
+
+$(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) : $(TESTAPP_XPS_TFT_PPC440_0_SOURCES) $(TESTAPP_XPS_TFT_PPC440_0_HEADERS) $(TESTAPP_XPS_TFT_PPC440_0_LINKER_SCRIPT) \
+                    $(LIBRARIES) __xps/testapp_xps_tft_ppc440_0_compiler.opt
+	@mkdir -p $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT_DIR) 
+	$(TESTAPP_XPS_TFT_PPC440_0_CC) $(TESTAPP_XPS_TFT_PPC440_0_CC_OPT) $(TESTAPP_XPS_TFT_PPC440_0_SOURCES) -o $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) \
+	$(TESTAPP_XPS_TFT_PPC440_0_OTHER_CC_FLAGS) $(TESTAPP_XPS_TFT_PPC440_0_INCLUDES) $(TESTAPP_XPS_TFT_PPC440_0_LIBPATH) \
+	$(TESTAPP_XPS_TFT_PPC440_0_CFLAGS) $(TESTAPP_XPS_TFT_PPC440_0_LFLAGS) 
+	$(TESTAPP_XPS_TFT_PPC440_0_CC_SIZE) $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) 
+	@echo ""
+
+TestApp_xps_tft_ppc440_0_programclean:
+	rm -f $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) 
+
+#################################################################
 # BOOTLOOP ELF FILES
 #################################################################
 
@@ -230,11 +248,11 @@ $(DOWNLOAD_BIT): $(SYSTEM_BIT) $(BRAMINIT_ELF_FILES) __xps/bitinit.opt
 	-bt $(SYSTEM_BIT) -o $(DOWNLOAD_BIT)
 	@rm -f $(SYSTEM)_bd.bmm
 
-$(SYSTEM_ACE): $(DOWNLOAD_BIT) $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) 
+$(SYSTEM_ACE): $(DOWNLOAD_BIT) $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) 
 	@echo "*********************************************"
 	@echo "Creating system ace file"
 	@echo "*********************************************"
-	xmd -tcl genace.tcl -jprog -hw $(DOWNLOAD_BIT) -elf $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT)  -target ppc_hw  -ace $(SYSTEM_ACE)
+	xmd -tcl genace.tcl -jprog -hw $(DOWNLOAD_BIT) -elf $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT)  -target ppc_hw  -ace $(SYSTEM_ACE)
 
 #################################################################
 # EXPORT_TO_SDK FLOW
