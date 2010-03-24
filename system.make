@@ -196,6 +196,42 @@ TestApp_xps_tft_ppc440_0_programclean:
 	rm -f $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) 
 
 #################################################################
+# SOFTWARE APPLICATION TESTAPP_XPS_TFT_COLORBAR
+#################################################################
+
+TestApp_xps_tft_colorbar_program: $(TESTAPP_XPS_TFT_COLORBAR_OUTPUT) 
+
+$(TESTAPP_XPS_TFT_COLORBAR_OUTPUT) : $(TESTAPP_XPS_TFT_COLORBAR_SOURCES) $(TESTAPP_XPS_TFT_COLORBAR_HEADERS) $(TESTAPP_XPS_TFT_COLORBAR_LINKER_SCRIPT) \
+                    $(LIBRARIES) __xps/testapp_xps_tft_colorbar_compiler.opt
+	@mkdir -p $(TESTAPP_XPS_TFT_COLORBAR_OUTPUT_DIR) 
+	$(TESTAPP_XPS_TFT_COLORBAR_CC) $(TESTAPP_XPS_TFT_COLORBAR_CC_OPT) $(TESTAPP_XPS_TFT_COLORBAR_SOURCES) -o $(TESTAPP_XPS_TFT_COLORBAR_OUTPUT) \
+	$(TESTAPP_XPS_TFT_COLORBAR_OTHER_CC_FLAGS) $(TESTAPP_XPS_TFT_COLORBAR_INCLUDES) $(TESTAPP_XPS_TFT_COLORBAR_LIBPATH) \
+	$(TESTAPP_XPS_TFT_COLORBAR_CFLAGS) $(TESTAPP_XPS_TFT_COLORBAR_LFLAGS) 
+	$(TESTAPP_XPS_TFT_COLORBAR_CC_SIZE) $(TESTAPP_XPS_TFT_COLORBAR_OUTPUT) 
+	@echo ""
+
+TestApp_xps_tft_colorbar_programclean:
+	rm -f $(TESTAPP_XPS_TFT_COLORBAR_OUTPUT) 
+
+#################################################################
+# SOFTWARE APPLICATION TESTAPP_XPS_TFT_COLORBAR_DDR
+#################################################################
+
+TestApp_xps_tft_colorbar_ddr_program: $(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT) 
+
+$(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT) : $(TESTAPP_XPS_TFT_COLORBAR_DDR_SOURCES) $(TESTAPP_XPS_TFT_COLORBAR_DDR_HEADERS) $(TESTAPP_XPS_TFT_COLORBAR_DDR_LINKER_SCRIPT) \
+                    $(LIBRARIES) __xps/testapp_xps_tft_colorbar_ddr_compiler.opt
+	@mkdir -p $(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT_DIR) 
+	$(TESTAPP_XPS_TFT_COLORBAR_DDR_CC) $(TESTAPP_XPS_TFT_COLORBAR_DDR_CC_OPT) $(TESTAPP_XPS_TFT_COLORBAR_DDR_SOURCES) -o $(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT) \
+	$(TESTAPP_XPS_TFT_COLORBAR_DDR_OTHER_CC_FLAGS) $(TESTAPP_XPS_TFT_COLORBAR_DDR_INCLUDES) $(TESTAPP_XPS_TFT_COLORBAR_DDR_LIBPATH) \
+	$(TESTAPP_XPS_TFT_COLORBAR_DDR_CFLAGS) $(TESTAPP_XPS_TFT_COLORBAR_DDR_LFLAGS) 
+	$(TESTAPP_XPS_TFT_COLORBAR_DDR_CC_SIZE) $(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT) 
+	@echo ""
+
+TestApp_xps_tft_colorbar_ddr_programclean:
+	rm -f $(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT) 
+
+#################################################################
 # BOOTLOOP ELF FILES
 #################################################################
 
@@ -248,11 +284,11 @@ $(DOWNLOAD_BIT): $(SYSTEM_BIT) $(BRAMINIT_ELF_FILES) __xps/bitinit.opt
 	-bt $(SYSTEM_BIT) -o $(DOWNLOAD_BIT)
 	@rm -f $(SYSTEM)_bd.bmm
 
-$(SYSTEM_ACE): $(DOWNLOAD_BIT) $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) 
+$(SYSTEM_ACE): $(DOWNLOAD_BIT) $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_COLORBAR_OUTPUT) $(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT) 
 	@echo "*********************************************"
 	@echo "Creating system ace file"
 	@echo "*********************************************"
-	xmd -tcl genace.tcl -jprog -hw $(DOWNLOAD_BIT) -elf $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT)  -target ppc_hw  -ace $(SYSTEM_ACE)
+	xmd -tcl genace.tcl -jprog -hw $(DOWNLOAD_BIT) -elf $(TESTAPP_MEMORY_PPC440_0_OUTPUT) $(TESTAPP_PERIPHERAL_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_PPC440_0_OUTPUT) $(TESTAPP_XPS_TFT_COLORBAR_OUTPUT) $(TESTAPP_XPS_TFT_COLORBAR_DDR_OUTPUT)  -target ppc_hw  -ace $(SYSTEM_ACE)
 
 #################################################################
 # EXPORT_TO_SDK FLOW
@@ -280,7 +316,6 @@ $(SYSTEM_HW_HANDOFF_BMM): implementation/$(SYSTEM)_bd.bmm
 ################## BEHAVIORAL SIMULATION ##################
 
 $(BEHAVIORAL_SIM_SCRIPT): $(MHSFILE) __xps/simgen.opt \
-                          $(WRAPPER_NGC_FILES) \
                           $(BRAMINIT_ELF_FILES)
 	@echo "*********************************************"
 	@echo "Creating behavioral simulation models..."

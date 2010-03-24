@@ -9,33 +9,6 @@ IPNAME:plb_v46 INSTANCE:plb_v46_0 -
 master(s) : 15 slave(s)
 
 Checking port drivers...
-WARNING:EDK:2098 - PORT:xps_tft_0_TFT_RESET_pin
-   CONNECTOR:xps_tft_0_TFT_RESET_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 69 - No
-   driver found. Port will be driven to GND!
-WARNING:EDK:2098 - PORT:xps_tft_0_TFT_HSYNC_pin
-   CONNECTOR:xps_tft_0_TFT_HSYNC_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 70 - No
-   driver found. Port will be driven to GND!
-WARNING:EDK:2098 - PORT:xps_tft_0_TFT_VSYNC_pin
-   CONNECTOR:xps_tft_0_TFT_VSYNC_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 71 - No
-   driver found. Port will be driven to GND!
-WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DE_pin CONNECTOR:xps_tft_0_TFT_DE_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 72 - No
-   driver found. Port will be driven to GND!
-WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DVI_CLK_P_pin
-   CONNECTOR:xps_tft_0_TFT_DVI_CLK_P_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 73 - No
-   driver found. Port will be driven to GND!
-WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DVI_CLK_N_pin
-   CONNECTOR:xps_tft_0_TFT_DVI_CLK_N_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 74 - No
-   driver found. Port will be driven to GND!
-WARNING:EDK:2098 - PORT:xps_tft_0_TFT_DVI_DATA_pin
-   CONNECTOR:xps_tft_0_TFT_DATA_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 75 - No
-   driver found. Port will be driven to GND!
 WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to

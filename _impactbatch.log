@@ -1,6 +1,6 @@
-iMPACT Version: Nov 16 2009 17:03:19
+iMPACT Version: Feb 12 2010 23:23:05
 
-iMPACT log file Started on Mon Mar 22 13:55:19 2010
+iMPACT log file Started on Tue Mar 23 23:51:57 2010
 
 Preference Table
 Name                 Setting             
@@ -15,6 +15,8 @@ MessageLevel         Detailed
 svfUseTime           false               
 SpiByteSwap          Auto_Correction     
 AutoDetecting cable. Please wait.
+Reusing A0002004 key.
+Reusing 24002004 key.
 Connecting to cable (Usb Port - USB21).
 Checking cable driver.
 File version of /opt/Xilinx/11.4/ISE/bin/lin64/xusbdfwu.hex = 1030.
@@ -63,7 +65,7 @@ INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 done.
-Elapsed time =      1 sec.
+Elapsed time =      0 sec.
 Elapsed time =      0 sec.
 '5': Loading file 'implementation/download.bit' ...
 done.
@@ -75,7 +77,7 @@ INFO:iMPACT:501 - '5': Added Device xc5vfx70t successfully.
 Maximum TCK operating frequency for this device chain: 10000000.
 Validating chain...
 Boundary-scan chain validated successfully.
-5: Device Temperature: Current Reading:   33.64 C, Min. Reading:   25.27 C, Max.Reading:   33.64 C
+5: Device Temperature: Current Reading:   35.61 C, Min. Reading:   28.23 C, Max.Reading:   35.61 C
 5: VCCINT Supply: Current Reading:   0.996 V, Min. Reading:   0.996 V, Max.Reading:   1.002 V
 5: VCCAUX Supply: Current Reading:   2.479 V, Min. Reading:   2.479 V, Max.Reading:   2.487 V
 '5': Programming device...

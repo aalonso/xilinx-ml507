@@ -188,16 +188,16 @@
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N259</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N260</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N260</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N261</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N261</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N262</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N262</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N263</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N263</arg> has no load.
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N272</arg> has no load.
@@ -236,28 +236,28 @@
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N283</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N284</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N284</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N285</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N285</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N286</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N286</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">N287</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N287</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0_M_abort&lt;0&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0_M_abort&lt;0&gt;</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0_PLB_MBusy&lt;1&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0_PLB_MBusy&lt;1&gt;</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0_PLB_MIRQ&lt;1&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0_PLB_MIRQ&lt;1&gt;</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0_PLB_MRearbitrate&lt;1&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0_PLB_MRearbitrate&lt;1&gt;</arg> has no load.
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0_PLB_UABus&lt;0&gt;</arg> has no load.
@@ -398,13 +398,13 @@
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;31&gt;</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0_TFT_IIC_SCL_I</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">xps_tft_0_TFT_IIC_SCL_I</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0_TFT_IIC_SDA_I</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">xps_tft_0_TFT_IIC_SDA_I</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF</arg> has no load.
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">ppc440_0/PPCS1PLBRDCOMP</arg> has no load.
@@ -2405,25 +2405,25 @@
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/Bus_Error_Det</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SrdBTerm</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SrdBTerm</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SrdDAck</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SrdDAck</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SwrBTerm</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SwrBTerm</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SwrDAck</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SwrDAck</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0/SPLB_Rst&lt;0&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/SPLB_Rst&lt;0&gt;</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_Sssize&lt;0&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_Sssize&lt;0&gt;</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_Sssize&lt;1&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_Sssize&lt;1&gt;</arg> has no load.
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/MPLB_Rst&lt;0&gt;</arg> has no load.
@@ -3110,58 +3110,7 @@
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">proc_sys_reset_0/proc_sys_reset_0/Peripheral_Reset&lt;0&gt;</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/MD_error</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_VSYNC</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DE</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_CLK_N</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_CLK_P</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_HSYNC</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;11&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;10&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;9&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;8&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;7&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;6&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;5&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;4&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;3&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;2&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;1&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">xps_tft_0/TFT_DVI_DATA&lt;0&gt;</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">xps_tft_0/MD_error</arg> has no load.
 </msg>
 
 <msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
@@ -3310,6 +3259,9 @@ of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <ar
 <msg type="warning" file="Pack" num="2515" delta="old" >The LUT-1 inverter &quot;<arg fmt="%s" index="1">Hard_Ethernet_MAC/Hard_Ethernet_MAC/TemacPhy_RST_n1_INV_0</arg>&quot; failed to join the OLOGIC comp matched to output buffer &quot;<arg fmt="%s" index="2">fpga_0_Hard_Ethernet_MAC_TemacPhy_RST_n_pin_OBUF</arg>&quot;.  This may result in suboptimal timing.  <arg fmt="%z" index="3">The LUT-1 inverter Hard_Ethernet_MAC/Hard_Ethernet_MAC/TemacPhy_RST_n1_INV_0 drives multiple loads.</arg>
 </msg>
 
+<msg type="warning" file="Pack" num="2515" delta="old" >The LUT-1 inverter &quot;<arg fmt="%s" index="1">xps_tft_0/xps_tft_0/TFT_CTRL_I/VSYNC_U3/Clk_stb_inv1_INV_0</arg>&quot; failed to join the OLOGIC comp matched to output buffer &quot;<arg fmt="%s" index="2">xps_tft_0_TFT_HSYNC_pin_OBUF</arg>&quot;.  This may result in suboptimal timing.  <arg fmt="%z" index="3">The LUT-1 inverter xps_tft_0/xps_tft_0/TFT_CTRL_I/VSYNC_U3/Clk_stb_inv1_INV_0 drives multiple loads.</arg>
+</msg>
+
 <msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
 </msg>
 
@@ -3355,7 +3307,7 @@ of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <ar
 <msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
 <msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;31&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
