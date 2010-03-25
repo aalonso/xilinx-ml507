@@ -268,7 +268,12 @@ Net xps_tft_0_TFT_DVI_DATA_pin<11> LOC = AN14 | IOSTANDARD = LVDCI_33;
 Net xps_tft_0_TFT_RESET_pin LOC = AK6 | IOSTANDARD = LVCMOS33;
 Net xps_tft_0_TFT_IIC_SCL LOC = U27 | DRIVE = 6 | SLEW = SLOW | IOSTANDARD = LVCMOS18;
 Net xps_tft_0_TFT_IIC_SDA LOC = T29 | DRIVE = 6 | SLEW = SLOW | IOSTANDARD = LVCMOS18;
-
+# xps_ps2 mouse
+Net xps_ps2_0_PS2_1_DATA LOC = U26 |SLEW = SLOW | IOSTANDARD = LVCMOS18 | TIG;
+Net xps_ps2_0_PS2_1_CLK LOC = R27 |SLEW = SLOW | IOSTANDARD = LVCMOS18 | TIG;
+# xps_ps2 keyboard
+Net xps_ps2_0_PS2_2_DATA LOC = T25 |SLEW = SLOW | IOSTANDARD = LVCMOS18 | TIG;
+Net xps_ps2_0_PS2_2_CLK LOC = T26 |SLEW = SLOW | IOSTANDARD = LVCMOS18 | TIG;
 
 ###### DDR2_SDRAM
 ############################################################################

@@ -87,42 +87,6 @@ LinkerScript: TestApp_Peripheral_ppc440_0/src/TestApp_Peripheral_LinkScr.ld
 ProgCCFlags: 
 CompileInXps: 1
 NonXpsApp: 0
-SwProj: TestApp_xps_tft_ppc440_0
-Processor: ppc440_0
-Executable: TestApp_xps_tft_ppc440_0/executable.elf
-Source: TestApp_xps_tft_ppc440_0/src/xtft_example.c
-DefaultInit: EXECUTABLE
-InitBram: 0
-Active: 1
-CompilerOptLevel: 2
-GlobPtrOpt: 0
-DebugSym: 1
-ProfileFlag: 0
-ProgStart: 
-StackSize: 
-HeapSize: 
-LinkerScript: TestApp_xps_tft_ppc440_0/src/TestApp_xps_tft_LinkSrc.ld
-ProgCCFlags: 
-CompileInXps: 1
-NonXpsApp: 0
-SwProj: TestApp_xps_tft_colorbar
-Processor: ppc440_0
-Executable: TestApp_xps_tft_colorbar/executable.elf
-Source: TestApp_xps_tft_colorbar/src/xtft_tapp_colorbar.c
-DefaultInit: EXECUTABLE
-InitBram: 0
-Active: 1
-CompilerOptLevel: 2
-GlobPtrOpt: 0
-DebugSym: 1
-ProfileFlag: 0
-ProgStart: 
-StackSize: 
-HeapSize: 
-LinkerScript: TestApp_xps_tft_colorbar/src/xtft_tapp_LinkSrc.ld
-ProgCCFlags: 
-CompileInXps: 1
-NonXpsApp: 0
 SwProj: TestApp_xps_tft_colorbar_ddr
 Processor: ppc440_0
 Executable: TestApp_xps_tft_colorbar_ddr/executable.elf

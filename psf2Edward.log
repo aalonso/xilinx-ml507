@@ -1,12 +1,12 @@
 WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 214 -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 218 -
    PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
    value to 6
 
 Checking platform configuration ...
 IPNAME:plb_v46 INSTANCE:plb_v46_0 -
-/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 112 - 2
-master(s) : 15 slave(s)
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 116 - 2
+master(s) : 16 slave(s)
 
 Checking port drivers...
 WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -

@@ -24,10 +24,10 @@
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
-<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;31&gt;</arg> has no load.  PAR will not attempt to route this signal.
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;30&gt;</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
-<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;30&gt;</arg> has no load.  PAR will not attempt to route this signal.
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;31&gt;</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
 <msg type="info" file="Route" num="538" delta="old" >One or more MIG cores have been detected in your design and have been successfully

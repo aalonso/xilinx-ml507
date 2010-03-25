@@ -6,7 +6,7 @@ Parsing MHS File system.mhs...
 
 Overriding IP level properties ...
 WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 214 -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 218 -
    PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
    value to 6
 INFO:EDK:1560 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
@@ -32,6 +32,7 @@ Address Map for Processor ppc440_0
   (0x83c00000-0x83c0ffff) xps_timer_0	plb_v46_0
   (0x83e00000-0x83e0ffff) RS232_Uart_1	plb_v46_0
   (0x84000000-0x85ffffff) FLASH	plb_v46_0
+  (0x86a00000-0x86a0ffff) xps_ps2_0	plb_v46_0
   (0x86e00000-0x86e0ffff) xps_tft_0	plb_v46_0
   (0x90000000-0x9fffffff) ppc440_0	plb_v46_0
   (0x90000000-0x9fffffff) ppc440_0	plb_v46_0->ppc440_0->plb_v46_0
@@ -54,7 +55,7 @@ INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_04_a/data/plb_
    v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_NUM_SLAVES
-   value to 15
+   value to 16
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_04_a/data/plb_
    v46_v2_1_0.mpd line 72 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
@@ -206,6 +207,14 @@ INFO:EDK:1560 - IPNAME:xps_tft INSTANCE:xps_tft_0 -
 INFO:EDK:1560 - IPNAME:xps_tft INSTANCE:xps_tft_0 -
    /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_tft_v2_01_a/data/xps_
    tft_v2_1_0.mpd line 85 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:xps_ps2 INSTANCE:xps_ps2_0 -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ps2_v1_01_a/data/xps_
+   ps2_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_SPLB_DWIDTH value to
+   128
+INFO:EDK:1560 - IPNAME:xps_ps2 INSTANCE:xps_ps2_0 -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ps2_v1_01_a/data/xps_
+   ps2_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
    value to 2
 
 Checking platform address map ...

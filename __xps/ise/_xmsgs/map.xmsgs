@@ -8,30 +8,6 @@
 <msg type="info" file="Map" num="220" delta="old" >The command line option -timing is automatically supported for this architecture. Therefore, it is not necessary to specify this option.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N200</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N201</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N202</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N203</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N204</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N205</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N206</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N207</arg> has no load.
-</msg>
-
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N208</arg> has no load.
 </msg>
 
@@ -200,28 +176,28 @@
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N263</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N272</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N264</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N273</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N265</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N274</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N266</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N275</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N267</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N276</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N268</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N277</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N269</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N278</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N270</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N279</arg> has no load.
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N271</arg> has no load.
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N280</arg> has no load.
@@ -246,6 +222,30 @@
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N287</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N288</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N289</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N290</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N291</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N292</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N293</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N294</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N295</arg> has no load.
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0_M_abort&lt;0&gt;</arg> has no load.
@@ -2405,25 +2405,7 @@
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/Bus_Error_Det</arg> has no load.
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SrdBTerm</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SrdDAck</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SwrBTerm</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_SwrDAck</arg> has no load.
-</msg>
-
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/SPLB_Rst&lt;0&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_Sssize&lt;0&gt;</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/PLB_Sssize&lt;1&gt;</arg> has no load.
 </msg>
 
 <msg type="warning" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">plb_v46_0/MPLB_Rst&lt;0&gt;</arg> has no load.
@@ -3310,10 +3292,10 @@ of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <ar
 <msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;31&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;30&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;30&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">xps_bram_if_cntlr_1_port_BRAM_Addr&lt;31&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
 <msg type="warning" file="PhysDesignRules" num="1412" delta="old" >Dangling pins on block:&lt;<arg fmt="%s" index="1">Hard_Ethernet_MAC/Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.IO_YES_01.gmii_rxc0_delay</arg>&gt;:&lt;<arg fmt="%s" index="2">IODELAY_IODELAY</arg>&gt;.  When DELAY_SRC is not DATAIN programming the DATAIN input pin is not used and will be ignored.
