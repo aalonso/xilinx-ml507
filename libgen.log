@@ -1,0 +1,232 @@
+Release 11.5 - libgen Xilinx EDK 11.5 Build EDK_LS5.70
+ (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc5vfx70tff1136-1 -msg
+__xps/ise/xmsgprops.lst system.mss 
+
+Release 11.5 - psf2Edward EDK_LS5.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 218 -
+   PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
+   value to 6
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 116 - 2
+master(s) : 16 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2099 - PORT:fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin
+   CONNECTOR:fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin -
+   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 66 -
+   floating connection!
+WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
+WARNING:EDK:2099 - PORT:HostReq CONNECTOR:host_req -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 267 - floating connection!
+WARNING:EDK:2099 - PORT:HostAddr CONNECTOR:host_addr -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 268 - floating connection!
+WARNING:EDK:2099 - PORT:HostEmac1Sel CONNECTOR:host_emac1_sel -
+   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /xps_ll_temac_v2_1_0.mpd line 269 - floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+WARNING:EDK:453 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
+   line 79 - PARAMETER CLOCK_HZ is deprecated !. .
+   To avoid seeing this Warning again, please remove PARAMETER CLOCK_HZ.
+WARNING:EDK:469 -
+   /opt/Xilinx/11.4/EDK/sw/XilinxProcessorIPLib/drivers/tft_v2_00_a/data/tft_v2_
+   1_0.mdd line 45 - Driver tft 2.00.a does not support peripheral xps_tft
+   2.01.a. List of peripherals supported by driver "tft" are : "xps_tft " !
+WARNING:EDK:468 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
+   line 139 - Driver "tft" does not support Hardware Instance "xps_tft_0" !
+INFO:EDK:1740 - List of peripherals connected to processor instance ppc440_0: 
+  - DDR2_SDRAM
+  - DIP_Switches_8Bit
+  - FLASH
+  - Hard_Ethernet_MAC
+  - IIC_EEPROM
+  - LEDs_8Bit
+  - LEDs_Positions
+  - Push_Buttons_5Bit
+  - RS232_Uart_1
+  - SysACE_CompactFlash
+  - xps_bram_if_cntlr_1
+  - xps_intc_0
+  - xps_ps2_0
+  - xps_tft_0
+  - xps_timebase_wdt_0
+  - xps_timer_0
+
+-- Generating libraries for processor: ppc440_0 --
+
+
+Staging source files.
+Running DRCs.
+#--------------------------------------
+# device-tree BSP DRC...!
+#--------------------------------------
+Running generate.
+#--------------------------------------
+# device-tree BSP generate...
+#--------------------------------------
+--- device tree generator version: v1.3 ---
+generating xilinx.dts
+Clock Port Summary:
+ppc440_0.CPMC440CLK connected to clk_400_0000MHzPLL0:
+    CLK_FREQ_HZ = 400000000
+ppc440_0.CPMINTERCONNECTCLK connected to clk_200_0000MHzPLL0:
+    CLK_FREQ_HZ = 200000000
+ppc440_0.CPMMCCLK connected to clk_200_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 200000000
+ppc440_0.CPMDMA0LLCLK connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+ppc440_0.CPMPPCMPLBCLK connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+ppc440_0.CPMPPCS0PLBCLK connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+plb_v46_0.PLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_bram_if_cntlr_1.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_bram_if_cntlr_1_bram.BRAM_Clk_A connected to
+xps_bram_if_cntlr_1_port_BRAM_Clk:
+    CLK_FREQ_HZ = 100000000
+LEDs_8Bit.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+LEDs_Positions.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+Push_Buttons_5Bit.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+DIP_Switches_8Bit.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+IIC_EEPROM.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+DDR2_SDRAM.mc_mibclk connected to clk_200_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 200000000
+DDR2_SDRAM.mi_mcclk90 connected to clk_200_0000MHz90PLL0_ADJUST:
+    CLK_FREQ_HZ = 200000000
+DDR2_SDRAM.mi_mcclkdiv2 connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+DDR2_SDRAM.mi_mcclk_200 connected to clk_200_0000MHzPLL0:
+    CLK_FREQ_HZ = 200000000
+SysACE_CompactFlash.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+RS232_Uart_1.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+FLASH.RdClk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+FLASH.MCH_SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+Hard_Ethernet_MAC.GTX_CLK_0 connected to clk_125_0000MHz:
+    CLK_FREQ_HZ = 125000000
+Hard_Ethernet_MAC.REFCLK connected to clk_200_0000MHzPLL0:
+    CLK_FREQ_HZ = 200000000
+Hard_Ethernet_MAC.LlinkTemac0_CLK connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+Hard_Ethernet_MAC.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_timebase_wdt_0.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_timer_0.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+clock_generator_0.CLKIN connected to dcm_clk_s:
+    CLK_FREQ_HZ = 100000000
+clock_generator_0.CLKOUT0 connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT1 connected to clk_125_0000MHz:
+    CLK_FREQ_HZ = 125000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT2 connected to clk_200_0000MHz90PLL0_ADJUST:
+    CLK_FREQ_HZ = 200000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT3 connected to clk_200_0000MHzPLL0:
+    CLK_FREQ_HZ = 200000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT4 connected to clk_200_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 200000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT5 connected to clk_400_0000MHzPLL0:
+    CLK_FREQ_HZ = 400000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+clock_generator_0.CLKOUT6 connected to clk_25_0000MHz:
+    CLK_FREQ_HZ = 25000000
+    CLK_INPORT = 
+    CLK_FACTOR = 
+proc_sys_reset_0.Slowest_sync_clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_intc_0.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_tft_0.SYS_TFT_Clk connected to clk_25_0000MHz:
+    CLK_FREQ_HZ = 25000000
+xps_tft_0.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_tft_0.MPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+xps_ps2_0.SPLB_Clk connected to clk_100_0000MHzPLL0_ADJUST:
+    CLK_FREQ_HZ = 100000000
+Clock Frequency: 400000000
+IP connected to bus: plb_v46_0
+-master MPLB plb_v46_0 ppc440_0
+-master MPLB plb_v46_0 xps_tft_0
+-slave SPLB0 plb_v46_0 ppc440_0
+-slave SPLB plb_v46_0 xps_bram_if_cntlr_1
+-slave SPLB plb_v46_0 LEDs_8Bit
+-slave SPLB plb_v46_0 LEDs_Positions
+-slave SPLB plb_v46_0 Push_Buttons_5Bit
+-slave SPLB plb_v46_0 DIP_Switches_8Bit
+-slave SPLB plb_v46_0 IIC_EEPROM
+-slave SPLB plb_v46_0 SysACE_CompactFlash
+-slave SPLB plb_v46_0 RS232_Uart_1
+-slave SPLB plb_v46_0 FLASH
+-slave SPLB plb_v46_0 Hard_Ethernet_MAC
+-slave SPLB plb_v46_0 xps_timebase_wdt_0
+-slave SPLB plb_v46_0 xps_timer_0
+-slave SPLB plb_v46_0 xps_intc_0
+-slave SPLB plb_v46_0 xps_tft_0
+-slave SPLB plb_v46_0 xps_ps2_0
+WARNING:EDK - : Bank 0 of EMC core FLASH is used in asynchronous mode.  We
+   assume this core is connected to a flash memory, although in some older
+   designs this configuration may have been used to interface to a peripheral. 
+   Current design recommendations suggest using an EPC core to interface to such
+   peripherals.
+
+WARNING:EDK - : no console ip was specified.  This may prevent output from
+   appearing on the boot console.
+
+Running post_generate.
+Running execs_generate.

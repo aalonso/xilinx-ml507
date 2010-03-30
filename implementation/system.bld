@@ -1,0 +1,476 @@
+Release 11.5 ngdbuild L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/11.4/ISE/bin/lin64/unwrapped/ngdbuild -ise
+../__xps/ise/system.ise -p xc5vfx70tff1136-1 -nt timestamp -bm system.bmm
+/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system.ngc -uc
+system.ucf system.ngd
+
+Reading NGO file
+"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:134 - Constraint <INST: UniqueName:
+   /system/EXPANDED/system/xps_tft_0/xps_tft_0\/TFT_CTRL_I\/tft_rst_d1_or000011_
+   INV_0 TNM = TNM_TFT_RST_xps_tft_0>: No appropriate instances for the TNM
+   constraint were found under block
+   "xps_tft_0/xps_tft_0/TFT_CTRL_I/tft_rst_d1_or000011_INV_0" (type=INV).
+
+WARNING:ConstraintSystem:134 - Constraint <INST: UniqueName:
+   /system/EXPANDED/system/xps_tft_0/xps_tft_0\/TFT_CTRL_I\/VSYNC_U3\/V_bp_cnt_t
+   c_cmp_eq00001 TNM = TNM_TFT_CLOCK_xps_tft_0>: No appropriate instances for
+   the TNM constraint were found under block
+   "xps_tft_0/xps_tft_0/TFT_CTRL_I/VSYNC_U3/V_bp_cnt_tc_cmp_eq00001"
+   (type=LUT5).
+
+WARNING:ConstraintSystem:134 - Constraint <INST: UniqueName:
+   /system/EXPANDED/system/xps_tft_0/xps_tft_0\/TFT_CTRL_I\/VSYNC_U3\/V_p_cnt_tc
+   _cmp_eq00001 TNM = TNM_TFT_CLOCK_xps_tft_0>: No appropriate instances for the
+   TNM constraint were found under block
+   "xps_tft_0/xps_tft_0/TFT_CTRL_I/VSYNC_U3/V_p_cnt_tc_cmp_eq00001" (type=LUT2).
+
+WARNING:ConstraintSystem:56 - Constraint <AREA_GROUP "DDR_CAPTURE_FFS" GROUP =
+   CLOSED;> [system.ucf(431)]: Unable to find an active 'Area_Group' constraint
+   named 'DDR_CAPTURE_FFS'.
+
+WARNING:ConstraintSystem:194 - The TNM 'TNM_TFT_RST_xps_tft_0', does not
+   directly or indirectly drive any flip-flops, latches and/or RAMs and is not
+   actively used by any referencing constraint.
+
+WARNING:ConstraintSystem:194 - The TNM 'TNM_TFT_CLOCK_xps_tft_0', does not
+   directly or indirectly drive any flip-flops, latches and/or RAMs and is not
+   actively used by any referencing constraint.
+
+WARNING:ConstraintSystem:194 - The TNM 'TNM_TFT_CLOCK_xps_tft_0', does not
+   directly or indirectly drive any flip-flops, latches and/or RAMs and is not
+   actively used by any referencing constraint.
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL1.PLL1_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL1_CLK_OUT_0_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL1_CLK_OUT_0_" TS_sys_clk_pin *
+   1.25 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL1.PLL1_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL1_CLK_OUT_1_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL1_CLK_OUT_1_" TS_sys_clk_pin *
+   0.25 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_0_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_0_" TS_sys_clk_pin
+   HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_1_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_1_" TS_sys_clk_pin *
+   2 PHASE 1.25 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_2_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_2_" TS_sys_clk_pin *
+   2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_3_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_3_" TS_sys_clk_pin *
+   2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT4: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_4_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_4_" TS_sys_clk_pin *
+   4 HIGH 50%>
+
+Done...
+Checking Partitions ...
+
+Processing BMM file ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_bram_if_cntlr_1/xps_bram_if_cntlr_1/INCLUDE_BURST_SUPPORT.I_SLAVE_BURST_
+   ATTACH/I_DBEAT_CONTROL/I_DBEAT_CNTR/STRUCTURAL_A_GEN.I_ADDSUB_GEN[4].FDRE_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib
+   /gen_rden[1].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib
+   /gen_rden[2].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib
+   /gen_rden[3].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib
+   /gen_rden[4].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib
+   /gen_rden[5].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib
+   /gen_rden[6].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib
+   /gen_rden[7].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/EMC_CTRL_I/MEM_STATE_MACHINE_I/READ_COMPLETE_PIPE_GEN[6].READ_CO
+   MPLETE_PIPE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/EMC_CTRL_I/MEM_STEER_I/RDDATA_PATH_MUX_GEN.ASYNC_ADDR_CNT_GEN.RD
+   DATA_EN_GEN_ASYNC[3].RDDATA_EN_REG_ASYNC' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/EMC_CTRL_I/MEM_STEER_I/ASYNC_MEM_RDACK_GEN.AALIGN_PIPE_GEN[1].AA
+   LIGN_PIPE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/EMC_CTRL_I/ADDR_COUNTER_MUX_I/ADDRESS_STORE_GEN[31].ADDRESS_REG'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/EMC_CTRL_I/ADDR_COUNTER_MUX_I/ADDRESS_STORE_GEN[30].ADDRESS_REG'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_DECODER/GEN_CE_FOR_SHARED.GEN_BKEND_CE_REGISTERS[0].I_BKEND_WRCE_REG'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_DECODER/GEN_CE_FOR_SHARED.GEN_BKEND_CE_REGISTERS[0].I_BKEND_RDCE_REG'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].
+   FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].F
+   DRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[0].I_FDRSE_BE0t
+   o3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[1].I_FDRSE_BE0t
+   o3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[2].I_FDRSE_BE0t
+   o3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[3].I_FDRSE_BE0t
+   o3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_BUS_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG
+   ' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH/FLASH/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I_SLAVE_ATTAC
+   HMENT/I_STEER_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_R
+   EG' has unconnected output pin
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.IO_YES_01.gmii_rxc0_delay"
+   of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld0" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld1" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld2" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld3" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld4" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld5" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld6" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deld7" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deldv" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "IOBDELAY_TYPE" is not allowed on symbol
+   "Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.I_EMAC_TOP/gmii0/YES_IO_1.i
+   deler" of type "IODELAY".  This attribute will be ignored.
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[0].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[1].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[2].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[3].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[4].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[5].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[6].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[7].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[8].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[9].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[10].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[11].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[12].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[13].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[14].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[15].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[16].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[17].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[18].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[19].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[20].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[0].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[1].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[2].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[3].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[4].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[5].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[6].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[7].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[8].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[9].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[10].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[11].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[12].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[13].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[14].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[15].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[16].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[17].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[18].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[19].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:486 - Attribute "SIM_DEVICE" is not allowed on symbol
+   "clock_generator_0/Using_PLL1.PLL1_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst"
+   of type "PLL_ADV".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_DEVICE" is not allowed on symbol
+   "clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst"
+   of type "PLL_ADV".  This attribute will be ignored.
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_tft_0/xps_tft_0/PLBV46_MASTER_BURST_I/I_RD_WR_CONTROL/I_RDSOP_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_tft_0/xps_tft_0/PLBV46_MASTER_BURST_I/I_RD_WR_CONTROL/I_WRERR_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_tft_0/xps_tft_0/PLBV46_MASTER_BURST_I/I_RD_WR_CONTROL/I_RDERR_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_tft_0/xps_tft_0/PLBV46_MASTER_BURST_I/I_RD_WR_CONTROL/I_FIFO_REN_WRACK_R
+   EG' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'N208' has no driver
+WARNING:NgdBuild:452 - logical net 'N209' has no driver
+WARNING:NgdBuild:452 - logical net 'N210' has no driver
+WARNING:NgdBuild:452 - logical net 'N211' has no driver
+WARNING:NgdBuild:452 - logical net 'N212' has no driver
+WARNING:NgdBuild:452 - logical net 'N213' has no driver
+WARNING:NgdBuild:452 - logical net 'N214' has no driver
+WARNING:NgdBuild:452 - logical net 'N215' has no driver
+WARNING:NgdBuild:452 - logical net 'N216' has no driver
+WARNING:NgdBuild:452 - logical net 'N217' has no driver
+WARNING:NgdBuild:452 - logical net 'N218' has no driver
+WARNING:NgdBuild:452 - logical net 'N219' has no driver
+WARNING:NgdBuild:452 - logical net 'N220' has no driver
+WARNING:NgdBuild:452 - logical net 'N221' has no driver
+WARNING:NgdBuild:452 - logical net 'N222' has no driver
+WARNING:NgdBuild:452 - logical net 'N223' has no driver
+WARNING:NgdBuild:452 - logical net 'N224' has no driver
+WARNING:NgdBuild:452 - logical net 'N225' has no driver
+WARNING:NgdBuild:452 - logical net 'N226' has no driver
+WARNING:NgdBuild:452 - logical net 'N227' has no driver
+WARNING:NgdBuild:452 - logical net 'N228' has no driver
+WARNING:NgdBuild:452 - logical net 'N229' has no driver
+WARNING:NgdBuild:452 - logical net 'N230' has no driver
+WARNING:NgdBuild:452 - logical net 'N231' has no driver
+WARNING:NgdBuild:452 - logical net 'N232' has no driver
+WARNING:NgdBuild:452 - logical net 'N233' has no driver
+WARNING:NgdBuild:452 - logical net 'N234' has no driver
+WARNING:NgdBuild:452 - logical net 'N235' has no driver
+WARNING:NgdBuild:452 - logical net 'N236' has no driver
+WARNING:NgdBuild:452 - logical net 'N237' has no driver
+WARNING:NgdBuild:452 - logical net 'N238' has no driver
+WARNING:NgdBuild:452 - logical net 'N239' has no driver
+WARNING:NgdBuild:452 - logical net 'N240' has no driver
+WARNING:NgdBuild:452 - logical net 'N241' has no driver
+WARNING:NgdBuild:452 - logical net 'N242' has no driver
+WARNING:NgdBuild:452 - logical net 'N243' has no driver
+WARNING:NgdBuild:452 - logical net 'N244' has no driver
+WARNING:NgdBuild:452 - logical net 'N245' has no driver
+WARNING:NgdBuild:452 - logical net 'N246' has no driver
+WARNING:NgdBuild:452 - logical net 'N247' has no driver
+WARNING:NgdBuild:452 - logical net 'N248' has no driver
+WARNING:NgdBuild:452 - logical net 'N249' has no driver
+WARNING:NgdBuild:452 - logical net 'N250' has no driver
+WARNING:NgdBuild:452 - logical net 'N251' has no driver
+WARNING:NgdBuild:452 - logical net 'N252' has no driver
+WARNING:NgdBuild:452 - logical net 'N253' has no driver
+WARNING:NgdBuild:452 - logical net 'N254' has no driver
+WARNING:NgdBuild:452 - logical net 'N255' has no driver
+WARNING:NgdBuild:452 - logical net 'N256' has no driver
+WARNING:NgdBuild:452 - logical net 'N257' has no driver
+WARNING:NgdBuild:452 - logical net 'N258' has no driver
+WARNING:NgdBuild:452 - logical net 'N259' has no driver
+WARNING:NgdBuild:452 - logical net 'N260' has no driver
+WARNING:NgdBuild:452 - logical net 'N261' has no driver
+WARNING:NgdBuild:452 - logical net 'N262' has no driver
+WARNING:NgdBuild:452 - logical net 'N263' has no driver
+WARNING:NgdBuild:452 - logical net 'N264' has no driver
+WARNING:NgdBuild:452 - logical net 'N265' has no driver
+WARNING:NgdBuild:452 - logical net 'N266' has no driver
+WARNING:NgdBuild:452 - logical net 'N267' has no driver
+WARNING:NgdBuild:452 - logical net 'N268' has no driver
+WARNING:NgdBuild:452 - logical net 'N269' has no driver
+WARNING:NgdBuild:452 - logical net 'N270' has no driver
+WARNING:NgdBuild:452 - logical net 'N271' has no driver
+WARNING:NgdBuild:452 - logical net 'N280' has no driver
+WARNING:NgdBuild:452 - logical net 'N281' has no driver
+WARNING:NgdBuild:452 - logical net 'N282' has no driver
+WARNING:NgdBuild:452 - logical net 'N283' has no driver
+WARNING:NgdBuild:452 - logical net 'N284' has no driver
+WARNING:NgdBuild:452 - logical net 'N285' has no driver
+WARNING:NgdBuild:452 - logical net 'N286' has no driver
+WARNING:NgdBuild:452 - logical net 'N287' has no driver
+WARNING:NgdBuild:452 - logical net 'N288' has no driver
+WARNING:NgdBuild:452 - logical net 'N289' has no driver
+WARNING:NgdBuild:452 - logical net 'N290' has no driver
+WARNING:NgdBuild:452 - logical net 'N291' has no driver
+WARNING:NgdBuild:452 - logical net 'N292' has no driver
+WARNING:NgdBuild:452 - logical net 'N293' has no driver
+WARNING:NgdBuild:452 - logical net 'N294' has no driver
+WARNING:NgdBuild:452 - logical net 'N295' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 169
+
+Total memory usage is 451368 kilobytes
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  34 sec
+Total CPU time to NGDBUILD completion:   34 sec
+
+Writing NGDBUILD log file "system.bld"...

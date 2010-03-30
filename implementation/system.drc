@@ -1,0 +1,15 @@
+WARNING:PhysDesignRules:367 - The signal
+   <fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <xps_bram_if_cntlr_1_port_BRAM_Addr<30>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <xps_bram_if_cntlr_1_port_BRAM_Addr<31>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:1412 - Dangling pins on
+   block:<Hard_Ethernet_MAC/Hard_Ethernet_MAC/V5HARD_SYS.I_TEMAC/SINGLE_GMII.IO_
+   YES_01.gmii_rxc0_delay>:<IODELAY_IODELAY>.  When DELAY_SRC is not DATAIN
+   programming the DATAIN input pin is not used and will be ignored.
+DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

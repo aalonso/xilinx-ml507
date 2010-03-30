@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="EDK" num="453" delta="new" ><arg fmt="%s" index="1">/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss</arg> line <arg fmt="%i" index="2">79</arg> - <arg fmt="%s" index="3">PARAMETER</arg> <arg fmt="%s" index="4">CLOCK_HZ</arg> is deprecated !. <arg fmt="%s" index="5"></arg>.
+To avoid seeing this Warning again, please remove <arg fmt="%s" index="6">PARAMETER</arg> <arg fmt="%s" index="7">CLOCK_HZ</arg>.
+</msg>
+
+<msg type="warning" file="EDK" num="469" delta="old" ><arg fmt="%s" index="1">/opt/Xilinx/11.4/EDK/sw/XilinxProcessorIPLib/drivers/tft_v2_00_a/data/tft_v2_1_0.mdd</arg> line <arg fmt="%i" index="2">45</arg> - Driver <arg fmt="%s" index="3">tft</arg> <arg fmt="%s" index="4">2.00.a</arg> does not support peripheral <arg fmt="%s" index="5">xps_tft</arg> <arg fmt="%s" index="6">2.01.a</arg>. List of peripherals supported by driver &quot;<arg fmt="%s" index="7">tft</arg>&quot; are : &quot;<arg fmt="%s" index="8">xps_tft </arg>&quot; !
+</msg>
+
+<msg type="warning" file="EDK" num="468" delta="new" ><arg fmt="%s" index="1">/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss</arg> line <arg fmt="%i" index="2">139</arg> - Driver &quot;<arg fmt="%s" index="3">tft</arg>&quot; does not support Hardware Instance &quot;<arg fmt="%s" index="4">xps_tft_0</arg>&quot; !
+</msg>
+
+<msg type="info" file="EDK" num="1740" delta="old" >List of peripherals connected to processor instance <arg fmt="%s" index="1">ppc440_0</arg>: 
+</msg>
+
+<msg type="warning" file="EDK" num="0" delta="new" >: Bank 0 of EMC core FLASH is used in asynchronous mode.  We assume this core is connected to a flash memory, although in some older designs this configuration may have been used to interface to a peripheral.  Current design recommendations suggest using an EPC core to interface to such peripherals.
+</msg>
+
+<msg type="warning" file="EDK" num="0" delta="new" >: no console ip was specified.  This may prevent output from appearing on the boot console.
+</msg>
+
+</messages>
+

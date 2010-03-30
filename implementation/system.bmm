@@ -1,0 +1,26 @@
+// File: /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system.bmm
+
+ADDRESS_MAP ppc440_0 PPC440 100
+	ADDRESS_SPACE xps_bram_if_cntlr_1_bram_combined COMBINED [0xffff0000:0xffffffff]
+		ADDRESS_RANGE RAMB32
+		BUS_BLOCK
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_0 [63:60] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_1 [59:56] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_2 [55:52] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_3 [51:48] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_4 [47:44] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_5 [43:40] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_6 [39:36] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_7 [35:32] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_8 [31:28] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_9 [27:24] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_10 [23:20] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_11 [19:16] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_12 [15:12] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_13 [11:8] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_14 [7:4] ;
+			xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_15 [3:0] ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+	END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

@@ -1,0 +1,2 @@
+svf2ace -wtck -d -m 16776192 -i ml507_bsp_u-boot.svf -o ml507_bsp_u-boot.ace
+quit

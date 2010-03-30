@@ -1,0 +1,45 @@
+Hardware reference design for xilinx ml507 fpga
+ 
+Master branch holds the project setting following the presentation
+`ML507 BSB PPC440 Design Creation Using 11.1 EDK Base System Builder`
+and can be found at http://www.xilinx.com/products/boards/ml507/reference_designs.htm
+ 
+Device-tree branch adds the divice-tree generation infrastruture to be able to generate
+a device tree descriptor.
+ 
+The genace_all.sh scripts generates system ace images a combination of the bitstream 
+(hardware model) and the firs executable to be run on the powerpc processor; 
+ 
+./genace_all.sh
+ 
+Will create a directory "ML50X" where it place the final ace images.
+ 
+Booting Linux from the Compact Flash
+ 
+Partition the CF
+ 
+First partition 
+ * File system  FAT16 
+ * Size         40 Mb
+ * Bootflag     True
+ 
+Second partition
+ * File system  Ext2
+ * Size         Space left
+ 
+Place u-boot.ace image in first partition
+Place u-boot.dtb in first partition
+Place u-boot.bin in first partition
+ 
+Place root file system on second partition
+ 
+ 
+Booting Linux
+
+u-boot options
+ 
+fatload ace 0 0x03000000 uimage.dtb 12288
+fatload ace 0 0x03020000 uimage.bin 1884397
+ 
+bootm 0x03020000 - 0x03000000
+ 

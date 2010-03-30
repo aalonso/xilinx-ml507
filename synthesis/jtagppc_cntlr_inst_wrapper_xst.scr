@@ -1,0 +1,13 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc5vfx70tff1136-1
+-top jtagppc_cntlr_inst_wrapper
+-ifmt MIXED
+-ifn jtagppc_cntlr_inst_wrapper_xst.prj
+-ofn ../implementation/jtagppc_cntlr_inst_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation/jtagppc_cntlr_inst_wrapper}
+-vlgincdir {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
