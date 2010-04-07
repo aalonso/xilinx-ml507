@@ -1,4 +1,4 @@
-// File: /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system_stub.bmm
+// File: /home/aalonso/workspace/ppc44x/xilinx-ml507/implementation/system_stub.bmm
 
 ADDRESS_MAP ppc440_0 PPC440 100
 	ADDRESS_SPACE xps_bram_if_cntlr_1_bram_combined COMBINED [0xffff0000:0xffffffff]

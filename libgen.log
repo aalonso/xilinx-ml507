@@ -8,39 +8,38 @@ __xps/ise/xmsgprops.lst system.mss
 Release 11.5 - psf2Edward EDK_LS5.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 WARNING:EDK:1557 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 218 -
-   PARAMETER C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the
-   value to 6
+   /home/aalonso/workspace/ppc44x/xilinx-ml507/system.mhs line 217 - PARAMETER
+   C_DQ_BITS has value 8 specified in MHS, but tcl is overriding the value to 6
 
 Checking platform configuration ...
 IPNAME:plb_v46 INSTANCE:plb_v46_0 -
-/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 116 - 2
-master(s) : 16 slave(s)
+/home/aalonso/workspace/ppc44x/xilinx-ml507/system.mhs line 115 - 2 master(s) :
+16 slave(s)
 
 Checking port drivers...
 WARNING:EDK:2098 - PORT:HostMiimRdy CONNECTOR:host_mii_rdy -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 264 - No driver found. Port will be driven to
    GND!
 WARNING:EDK:2098 - PORT:HostRdData CONNECTOR:host_rd_data -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 265 - No driver found. Port will be driven to
    GND!
 WARNING:EDK:2099 - PORT:fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin
    CONNECTOR:fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin -
-   /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mhs line 66 -
-   floating connection!
+   /home/aalonso/workspace/ppc44x/xilinx-ml507/system.mhs line 66 - floating
+   connection!
 WARNING:EDK:2099 - PORT:HostMiimSel CONNECTOR:host_mii_sel -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 266 - floating connection!
 WARNING:EDK:2099 - PORT:HostReq CONNECTOR:host_req -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 267 - floating connection!
 WARNING:EDK:2099 - PORT:HostAddr CONNECTOR:host_addr -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 268 - floating connection!
 WARNING:EDK:2099 - PORT:HostEmac1Sel CONNECTOR:host_emac1_sel -
-   /opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
+   /opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/data
    /xps_ll_temac_v2_1_0.mpd line 269 - floating connection!
 
 Performing Clock DRCs...
@@ -58,15 +57,15 @@ Running system level DRCs...
 Performing System level DRCs on properties...
 
 Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
-WARNING:EDK:453 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
-   line 79 - PARAMETER CLOCK_HZ is deprecated !. .
+WARNING:EDK:453 - /home/aalonso/workspace/ppc44x/xilinx-ml507/system.mss line 81
+   - PARAMETER CLOCK_HZ is deprecated !. .
    To avoid seeing this Warning again, please remove PARAMETER CLOCK_HZ.
 WARNING:EDK:469 -
-   /opt/Xilinx/11.4/EDK/sw/XilinxProcessorIPLib/drivers/tft_v2_00_a/data/tft_v2_
+   /opt/Xilinx/11.5/EDK/sw/XilinxProcessorIPLib/drivers/tft_v2_00_a/data/tft_v2_
    1_0.mdd line 45 - Driver tft 2.00.a does not support peripheral xps_tft
    2.01.a. List of peripherals supported by driver "tft" are : "xps_tft " !
-WARNING:EDK:468 - /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/system.mss
-   line 139 - Driver "tft" does not support Hardware Instance "xps_tft_0" !
+WARNING:EDK:468 - /home/aalonso/workspace/ppc44x/xilinx-ml507/system.mss line
+   141 - Driver "tft" does not support Hardware Instance "xps_tft_0" !
 INFO:EDK:1740 - List of peripherals connected to processor instance ppc440_0: 
   - DDR2_SDRAM
   - DIP_Switches_8Bit
@@ -224,9 +223,6 @@ WARNING:EDK - : Bank 0 of EMC core FLASH is used in asynchronous mode.  We
    designs this configuration may have been used to interface to a peripheral. 
    Current design recommendations suggest using an EPC core to interface to such
    peripherals.
-
-WARNING:EDK - : no console ip was specified.  This may prevent output from
-   appearing on the boot console.
 
 Running post_generate.
 Running execs_generate.

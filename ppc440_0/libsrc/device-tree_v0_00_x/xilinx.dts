@@ -43,7 +43,8 @@
 		serial0 = &RS232_Uart_1;
 	} ;
 	chosen {
-		bootargs = "console=ttyS0 ip=on root=/dev/xsa2 rw";
+		bootargs = "console=tty0 ip=on root=/dev/xsa2 rw";
+		linux,stdout-path = "/plb@0/serial@83e00000";
 	} ;
 	cpus {
 		#address-cells = <1>;
@@ -282,7 +283,7 @@
 				interrupt-parent = <&xps_intc_0>;
 				interrupts = < 3 2 >;
 				llink-connected = <&DMA0>;
-				local-mac-address = [ 00 0a 35 a2 01 00 ];
+				local-mac-address = [ 00 0a 35 91 63 00 ];
 				reg = < 0xff000000 0x40 >;
 				xlnx,avb = <0x0>;
 				xlnx,bus2core-clk-ratio = <0x1>;
@@ -419,7 +420,7 @@
 			} ;
 		} ;
 		xps_tft_0: tft@86e00000 {
-			compatible = "xlnx,xps-tft-2.01.a", "xlnx,xps-tft-2.00.a";
+			compatible = "xlnx,xps-tft-2.01.a";
 			reg = < 0x86e00000 0x10000 >;
 			xlnx,dcr-splb-slave-if = <0x1>;
 			xlnx,default-tft-base-addr = <0x0>;

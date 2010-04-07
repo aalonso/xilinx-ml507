@@ -1,7 +1,7 @@
 Release 11.5 - xst L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 --> 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "ppc440_0_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/" "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc5vfx70tff1136-1
@@ -53,10 +53,10 @@ Cores Search Directories           : {../implementation/ppc440_0_wrapper}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440_virtex5_v1_01_a/hdl/vhdl/ppc440_virtex5.vhd" in Library ppc440_virtex5_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440_virtex5_v1_01_a/hdl/vhdl/ppc440_virtex5.vhd" in Library ppc440_virtex5_v1_01_a.
 Entity <ppc440_virtex5> compiled.
 Entity <ppc440_virtex5> (Architecture <structure>) compiled.
-Compiling vhdl file "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/ppc440_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/ppc440_0_wrapper.vhd" in Library work.
 Entity <ppc440_0_wrapper> compiled.
 Entity <ppc440_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -162,11 +162,11 @@ Analyzing hierarchy for entity <ppc440_virtex5> in library <ppc440_virtex5_v1_01
 	C_SPLB0_MID_WIDTH = 1
 	C_SPLB0_NATIVE_DWIDTH = 128
 	C_SPLB0_NUM_MASTERS = 2
-	C_SPLB0_NUM_MPLB_ADDR_RNG = 1
+	C_SPLB0_NUM_MPLB_ADDR_RNG = 0
 	C_SPLB0_P2P = 0
 	C_SPLB0_PROPAGATE_MIRQ = 0
 	C_SPLB0_READ_PIPE_ENABLE = 1
-	C_SPLB0_RNG0_MPLB_BASEADDR = "10010000000000000000000000000000"
+	C_SPLB0_RNG0_MPLB_BASEADDR = "11111111111111111111111111111111"
 	C_SPLB0_RNG0_MPLB_HIGHADDR = "10011111111111111111111111111111"
 	C_SPLB0_RNG1_MPLB_BASEADDR = "11111111111111111111111111111111"
 	C_SPLB0_RNG1_MPLB_HIGHADDR = "00000000000000000000000000000000"
@@ -207,7 +207,7 @@ Analyzing hierarchy for entity <ppc440_virtex5> in library <ppc440_virtex5_v1_01
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <ppc440_0_wrapper> in library <work> (Architecture <STRUCTURE>).
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/ppc440_0_wrapper.vhd" line 782: Unconnected output port 'PPC440MCCLKOUT' of component 'ppc440_virtex5'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/ppc440_0_wrapper.vhd" line 782: Unconnected output port 'PPC440MCCLKOUT' of component 'ppc440_virtex5'.
 Entity <ppc440_0_wrapper> analyzed. Unit <ppc440_0_wrapper> generated.
 
 Analyzing generic Entity <ppc440_virtex5> in library <ppc440_virtex5_v1_01_a> (Architecture <structure>).
@@ -307,11 +307,11 @@ Analyzing generic Entity <ppc440_virtex5> in library <ppc440_virtex5_v1_01_a> (A
 	C_SPLB0_MID_WIDTH = 1
 	C_SPLB0_NATIVE_DWIDTH = 128
 	C_SPLB0_NUM_MASTERS = 2
-	C_SPLB0_NUM_MPLB_ADDR_RNG = 1
+	C_SPLB0_NUM_MPLB_ADDR_RNG = 0
 	C_SPLB0_P2P = 0
 	C_SPLB0_PROPAGATE_MIRQ = 0
 	C_SPLB0_READ_PIPE_ENABLE = 1
-	C_SPLB0_RNG0_MPLB_BASEADDR = "10010000000000000000000000000000"
+	C_SPLB0_RNG0_MPLB_BASEADDR = "11111111111111111111111111111111"
 	C_SPLB0_RNG0_MPLB_HIGHADDR = "10011111111111111111111111111111"
 	C_SPLB0_RNG1_MPLB_BASEADDR = "11111111111111111111111111111111"
 	C_SPLB0_RNG1_MPLB_HIGHADDR = "00000000000000000000000000000000"
@@ -396,7 +396,7 @@ Analyzing generic Entity <ppc440_virtex5> in library <ppc440_virtex5_v1_01_a> (A
     Set user-defined property "PPCM_ARBCONFIG =  00432010" for instance <PPC440_i> in unit <ppc440_virtex5>.
     Set user-defined property "PPCM_CONTROL =  8000009F" for instance <PPC440_i> in unit <ppc440_virtex5>.
     Set user-defined property "PPCM_COUNTER =  00000500" for instance <PPC440_i> in unit <ppc440_virtex5>.
-    Set user-defined property "PPCS0_ADDRMAP_TMPL0 =  C0003000" for instance <PPC440_i> in unit <ppc440_virtex5>.
+    Set user-defined property "PPCS0_ADDRMAP_TMPL0 =  C0000000" for instance <PPC440_i> in unit <ppc440_virtex5>.
     Set user-defined property "PPCS0_ADDRMAP_TMPL1 =  00000000" for instance <PPC440_i> in unit <ppc440_virtex5>.
     Set user-defined property "PPCS0_ADDRMAP_TMPL2 =  00000000" for instance <PPC440_i> in unit <ppc440_virtex5>.
     Set user-defined property "PPCS0_ADDRMAP_TMPL3 =  00000000" for instance <PPC440_i> in unit <ppc440_virtex5>.
@@ -422,7 +422,7 @@ Entity <ppc440_virtex5> analyzed. Unit <ppc440_virtex5> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <ppc440_virtex5>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440_virtex5_v1_01_a/hdl/vhdl/ppc440_virtex5.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440_virtex5_v1_01_a/hdl/vhdl/ppc440_virtex5.vhd".
 WARNING:Xst:647 - Input <PLBPPCS0UABUS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLBPPCS1UABUS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <PPCS1PLBMWRERR_i<1:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -439,7 +439,7 @@ Unit <ppc440_virtex5> synthesized.
 
 
 Synthesizing Unit <ppc440_0_wrapper>.
-    Related source file is "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/ppc440_0_wrapper.vhd".
+    Related source file is "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/ppc440_0_wrapper.vhd".
 Unit <ppc440_0_wrapper> synthesized.
 
 
@@ -688,13 +688,13 @@ Delay:               0.670ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 13.09 secs
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.59 secs
  
 --> 
 
 
-Total memory usage is 481032 kilobytes
+Total memory usage is 481016 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    9 (   0 filtered)

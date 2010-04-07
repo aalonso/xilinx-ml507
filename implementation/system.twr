@@ -2,7 +2,7 @@
 Release 11.5 Trace  (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 
-/opt/Xilinx/11.4/ISE/bin/lin64/unwrapped/trce -ise ../__xps/ise/system.ise -e 3
+/opt/Xilinx/11.5/ISE/bin/lin64/unwrapped/trce -ise ../__xps/ise/system.ise -e 3
 -xml system.twx system.ncd system.pcf
 
 Design file:              system.ncd
@@ -863,17 +863,17 @@ Design statistics:
    Minimum input required time before clock:   1.514ns
 
 
-Analysis completed Wed Mar 24 15:09:23 2010 
+Analysis completed Mon Apr  5 15:56:31 2010 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 693 MB
+Peak Memory Usage: 694 MB
 
-Total REAL time to Trace completion: 32 secs 
-Total CPU time to Trace completion: 31 secs 
+Total REAL time to Trace completion: 37 secs 
+Total CPU time to Trace completion: 37 secs 
 
 
 

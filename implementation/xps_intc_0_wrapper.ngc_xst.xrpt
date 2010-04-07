@@ -5,47 +5,51 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Wed Mar 24 14:56:48 2010">
+  <application stringID="Xst" timeStamp="Mon Apr  5 15:41:11 2010">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/DSP_Tools/lin64"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/DSP_Tools/lin64"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/EDK"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/EDK"/>
         </row>
         <row stringID="row" value="2">
-          <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
-          <item stringID="value" value="2100:pcdesign;X:\licenses\Xilinx.lic"/>
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/PlanAhead"/>
         </row>
         <row stringID="row" value="3">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/PlanAhead"/>
-        </row>
-        <row stringID="row" value="4">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/ISE:/opt/Xilinx/11.4/EDK"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
         <item stringID="User_EnvOsname" value="Fedora"/>
         <item stringID="User_EnvOsrelease" value="Fedora release 12 (Constantine)"/>
       </item>
-      <item stringID="User_EnvHost" value="localhost.localdomain"/>
+      <item stringID="User_EnvHost" value="aalonso-pc"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM)2 Duo CPU     T8300  @ 2.40GHz"/>
-          <item stringID="speed" value="1600.000 MHz"/>
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
         </row>
         <row stringID="row" value="1">
-          <item stringID="arch" value="Intel(R) Core(TM)2 Duo CPU     T8300  @ 2.40GHz"/>
-          <item stringID="speed" value="2000.000 MHz"/>
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
         </row>
       </table>
     </section>

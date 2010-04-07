@@ -2,9 +2,11 @@
 # Generate ace files
 # Adrian Alonso <aalonso00@gmail.com>
 
+# -start_address 0x02022a00
+
 # Set Xilinx edk tools
 if [ -z ${XILINX_EDK} ]; then
-    source xlnx-env
+    source xlnx-setup-env
 fi
 
 # Remove existing ace files
@@ -18,12 +20,12 @@ do
 done
 
 
-xmd -tcl genace.tcl -hw implementation/download.bit -ace ml507_bsp_bootloop.ace -board ml507
+xmd -tcl genace.tcl -hw implementation/download.bit -ace ml507_bsp_bootloop.ace -board ml507 
 cp -p ml507_bsp_bootloop.ace ML50X/cfg0
 
 if [ -f u-boot ]; then
     xmd -tcl genace.tcl -hw implementation/system.bit -elf u-boot \
-    -ace ml507_sys_u-boot.ace -board ml507
+    -ace ml507_sys_u-boot.ace -board ml507 
     cp -p ml507_sys_u-boot.ace ML50X/cfg1
     xmd -tcl genace.tcl -hw implementation/download.bit -elf u-boot \
     -ace ml507_bsp_u-boot.ace -board ml507

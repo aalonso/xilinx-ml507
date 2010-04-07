@@ -6,6 +6,8 @@ BEGIN OS
  PARAMETER OS_NAME = device-tree
  PARAMETER OS_VER = 0.00.x
  PARAMETER PROC_INSTANCE = ppc440_0
+ PARAMETER bootargs = console=ttyS0 ip=on root=/dev/xsa2 rw
+ PARAMETER console device = RS232_Uart_1
 END
 
 

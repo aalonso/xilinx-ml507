@@ -1,7 +1,7 @@
 Release 11.5 - xst L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 --> 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "ddr2_sdram_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/" "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc5vfx70tff1136-1
@@ -53,44 +53,44 @@ Cores Search Directories           : {../implementation/ddr2_sdram_wrapper}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" in library ppc440mc_ddr2_v3_00_a
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" in library ppc440mc_ddr2_v3_00_a
 Module <clk_reset> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ddr2_top.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ddr2_top.v" in library ppc440mc_ddr2_v3_00_a
 Module <u_ctrl> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/idelay_ctrl.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/idelay_ctrl.v" in library ppc440mc_ddr2_v3_00_a
 Module <ddr2_top> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/mem_if_top.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/mem_if_top.v" in library ppc440mc_ddr2_v3_00_a
 Module <idelay_ctrl> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" in library ppc440mc_ddr2_v3_00_a
 Module <mem_if_top> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_calib> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dm_iob.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dm_iob.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_ctl_io> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dq_iob.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dq_iob.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_dm_iob> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_dq_iob> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_dqs_iob> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_io.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_io.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_init> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_top.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_top.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_io> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_top> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_ram_d.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_ram_d.v" in library ppc440mc_ddr2_v3_00_a
 Module <phy_write> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" in library ppc440mc_ddr2_v3_00_a
 Module <usr_ram_d> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr.v" in library ppc440mc_ddr2_v3_00_a
 Module <usr_rd> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" in library ppc440mc_ddr2_v3_00_a
 Module <usr_wr> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr_fifo.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr_fifo.v" in library ppc440mc_ddr2_v3_00_a
 Module <usr_top> compiled
-Compiling verilog file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ppc440mc_ddr2.v" in library ppc440mc_ddr2_v3_00_a
+Compiling verilog file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ppc440mc_ddr2.v" in library ppc440mc_ddr2_v3_00_a
 Module <usr_wr_fifo> compiled
 Module <ppc440mc_ddr2> compiled
 Compiling verilog file "../hdl/ddr2_sdram_wrapper.v" in library work
@@ -711,11 +711,11 @@ Module <idelay_ctrl> is correct for synthesis.
 Analyzing module <clk_reset> in library <ppc440mc_ddr2_v3_00_a>.
 	RST_SYNC_NUM = 32'sb00000000000000000000000000000011
 	TCQ = 100
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 124: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 127: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 132: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 134: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 140: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 124: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 127: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 132: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 134: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v" line 140: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
 Module <clk_reset> is correct for synthesis.
  
@@ -821,11 +821,11 @@ Analyzing module <phy_write> in library <ppc440mc_ddr2_v3_00_a>.
 	REG_ENABLE = 32'sb00000000000000000000000000000000
 	TCQ = 32'sb00000000000000000000000001100100
 	WR_LATENCY = 32'sb00000000000000000000000000000011
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 197: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 200: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 201: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 205: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 278: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 197: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 200: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 201: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 205: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v" line 278: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
 Module <phy_write> is correct for synthesis.
  
@@ -924,13 +924,13 @@ Analyzing module <phy_calib> in library <ppc440mc_ddr2_v3_00_a>.
 	REG_ENABLE = 32'sb00000000000000000000000000000000
 	SIM_ONLY = 32'sb00000000000000000000000000000000
 	TCQ = 32'sb00000000000000000000000001100100
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 518: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 519: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 591: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 592: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 593: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 518: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 519: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 591: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 592: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 593: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
-"/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 590: Found FullParallel Case directive in module <phy_calib>.
+"/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v" line 590: Found FullParallel Case directive in module <phy_calib>.
 INFO:Xst:1433 - Contents of array <calib_rden_dly> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
 INFO:Xst:1433 - Contents of array <calib_rden_dly> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
 INFO:Xst:1433 - Contents of array <calib_rden_dly> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
@@ -1212,9 +1212,9 @@ Analyzing module <phy_dqs_iob> in library <ppc440mc_ddr2_v3_00_a>.
 	IDEL_HIGH_PERF = "TRUE"
 	IODELAY_GRP = "DDR2_SDRAM"
 	TCQ = 32'sb00000000000000000000000001100100
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" line 214: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" line 156: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" line 157: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" line 214: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" line 156: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v" line 157: Delay is ignored for synthesis.
 Module <phy_dqs_iob> is correct for synthesis.
  
     Set user-defined property "DELAY_SRC =  I" for instance <u_idelay_dqs> in unit <phy_dqs_iob>.
@@ -1343,11 +1343,11 @@ Analyzing module <phy_ctl_io> in library <ppc440mc_ddr2_v3_00_a>.
 	ROW_WIDTH = 32'sb00000000000000000000000000001101
 	TCQ = 32'sb00000000000000000000000001100100
 	TWO_T_TIME_EN = 32'sb00000000000000000000000000000000
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 168: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 169: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 170: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 171: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 172: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 168: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 169: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 170: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 171: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v" line 172: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
 Module <phy_ctl_io> is correct for synthesis.
  
@@ -1493,14 +1493,14 @@ Analyzing module <phy_init> in library <ppc440mc_ddr2_v3_00_a>.
 	TWO_T_TIME_EN = 32'sb00000000000000000000000000000000
 	TWR = 32'sb00000000000000000011101010011000
 	WR_RECOVERY = 5
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 487: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 488: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 489: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 491: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 492: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 487: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 488: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 489: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 491: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 492: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
-"/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 861: Found Parallel Case directive in module <phy_init>.
-"/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 858: Found FullParallel Case directive in module <phy_init>.
+"/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 861: Found Parallel Case directive in module <phy_init>.
+"/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v" line 858: Found FullParallel Case directive in module <phy_init>.
 Module <phy_init> is correct for synthesis.
  
     Set user-defined property "INIT =  0" for instance <u_ff_phy_init_data_sel> in unit <phy_init>.
@@ -1519,11 +1519,11 @@ Analyzing module <usr_top> in library <ppc440mc_ddr2_v3_00_a>.
 	ROW_WIDTH = 13
 	SIM_ONLY = 0
 	TCQ = 100
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 189: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 193: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 197: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 198: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 202: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 189: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 193: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 197: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 198: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v" line 202: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
 Module <usr_top> is correct for synthesis.
  
@@ -1535,11 +1535,11 @@ Analyzing module <usr_rd> in library <ppc440mc_ddr2_v3_00_a>.
 	RDF_FIFO_NUM = 32'sb00000000000000000000000000000001
 	READ_DATA_PIPELINE = 0
 	TCQ = 100
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 141: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 142: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 143: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 144: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 145: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 141: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 142: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 143: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 144: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v" line 145: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
 Module <usr_rd> is correct for synthesis.
  
@@ -1989,11 +1989,11 @@ Analyzing module <u_ctrl> in library <ppc440mc_ddr2_v3_00_a>.
 	TWTR_CYC = 7
 	TWTR_TMP_MIN = 2
 	WR_LAT = 3
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 379: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 383: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 392: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 393: Delay is ignored for synthesis.
-WARNING:Xst:916 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 394: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 379: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 383: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 392: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 393: Delay is ignored for synthesis.
+WARNING:Xst:916 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v" line 394: Delay is ignored for synthesis.
 WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
 Module <u_ctrl> is correct for synthesis.
  
@@ -2013,7 +2013,7 @@ INFO:Xst:2679 - Register <calib_err<1>> in unit <phy_calib> has a constant value
 INFO:Xst:2679 - Register <mi_mc_wr_r> in unit <u_ctrl> has a constant value of X during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <clk_reset>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/clk_reset.v".
     Found 3-bit register for signal <rst0_sync_r>.
     Found 3-bit register for signal <rst200_sync_r>.
     Found 3-bit register for signal <rst90_sync_r>.
@@ -2024,7 +2024,7 @@ Unit <clk_reset> synthesized.
 
 
 Synthesizing Unit <phy_write>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_write.v".
 WARNING:Xst:647 - Input <rmw_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <wr_stages<10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <wdf_mask_r1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -2060,12 +2060,12 @@ Unit <phy_write> synthesized.
 
 
 Synthesizing Unit <idelay_ctrl>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/idelay_ctrl.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/idelay_ctrl.v".
 Unit <idelay_ctrl> synthesized.
 
 
 Synthesizing Unit <u_ctrl>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ctrl.v".
 WARNING:Xst:1305 - Output <ctrl_rmw_disable> is never assigned. Tied to value 0.
 WARNING:Xst:647 - Input <mi_mc_add<35:32>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <wrdata_val_r3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -2239,7 +2239,7 @@ Unit <u_ctrl> synthesized.
 
 
 Synthesizing Unit <phy_ctl_io>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_ctl_io.v".
 WARNING:Xst:647 - Input <clk90> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst90> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 13-bit register for signal <addr_mux>.
@@ -2254,7 +2254,7 @@ Unit <phy_ctl_io> synthesized.
 
 
 Synthesizing Unit <phy_init>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_init.v".
 WARNING:Xst:1780 - Signal <load_mode_reg3<15:13>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <load_mode_reg3<12:0>> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000.
 WARNING:Xst:1780 - Signal <load_mode_reg2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -2358,7 +2358,7 @@ Unit <phy_init> synthesized.
 
 
 Synthesizing Unit <phy_calib>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_calib.v".
 WARNING:Xst:647 - Input <dbg_idel_down_dq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <dbg_idel_down_all> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <dbg_sel_all_idel_dqs> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2630,12 +2630,12 @@ Unit <phy_calib> synthesized.
 
 
 Synthesizing Unit <phy_dm_iob>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dm_iob.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dm_iob.v".
 Unit <phy_dm_iob> synthesized.
 
 
 Synthesizing Unit <phy_dqs_iob>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dqs_iob.v".
     Found 1-bit register for signal <dqs_rst_n_r>.
     Summary:
 	inferred   1 D-type flip-flop(s).
@@ -2643,7 +2643,7 @@ Unit <phy_dqs_iob> synthesized.
 
 
 Synthesizing Unit <phy_dq_iob>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dq_iob.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_dq_iob.v".
 WARNING:Xst:1780 - Signal <stg1_out_rise_sg3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <stg1_out_rise_sg2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <stg1_out_fall_sg3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -2652,7 +2652,7 @@ Unit <phy_dq_iob> synthesized.
 
 
 Synthesizing Unit <usr_rd>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_rd.v".
 WARNING:Xst:1305 - Output <rmw_wr_data_rdy> is never assigned. Tied to value 0.
 WARNING:Xst:647 - Input <wdf_rmw_rise_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ctrl_rmw_data_sel> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2721,7 +2721,7 @@ Unit <usr_rd> synthesized.
 
 
 Synthesizing Unit <usr_wr_fifo>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr_fifo.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr_fifo.v".
 WARNING:Xst:1780 - Signal <wdf_parity_out> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <tmp_parity_out_ecc> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <tmp_data_out_ecc> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -2730,12 +2730,12 @@ Unit <usr_wr_fifo> synthesized.
 
 
 Synthesizing Unit <phy_io>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_io.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_io.v".
 Unit <phy_io> synthesized.
 
 
 Synthesizing Unit <usr_wr>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_wr.v".
 WARNING:Xst:1305 - Output <wdf_rmw_rise_data> is never assigned. Tied to value 0000000000000000000000000000000000000000000000000000000000000000.
 WARNING:Xst:647 - Input <ctrl_rmw_data_sel> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wdf_mask_rden> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2759,12 +2759,12 @@ Unit <usr_wr> synthesized.
 
 
 Synthesizing Unit <phy_top>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_top.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/phy_top.v".
 Unit <phy_top> synthesized.
 
 
 Synthesizing Unit <usr_top>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/usr_top.v".
 WARNING:Xst:647 - Input <rmw_flag_r> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ctrl_rmw_disable> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rmw_wr_flag> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2789,7 +2789,7 @@ Unit <usr_top> synthesized.
 
 
 Synthesizing Unit <mem_if_top>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/mem_if_top.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/mem_if_top.v".
 WARNING:Xst:1780 - Signal <wr_dataval_r1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <wr_dataval_r> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <rmw_flag_reg> is used but never assigned. This sourceless signal will be automatically connected to value 0.
@@ -2830,13 +2830,13 @@ Unit <mem_if_top> synthesized.
 
 
 Synthesizing Unit <ddr2_top>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ddr2_top.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ddr2_top.v".
 WARNING:Xst:646 - Signal <clk200> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <ddr2_top> synthesized.
 
 
 Synthesizing Unit <ppc440mc_ddr2>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ppc440mc_ddr2.v".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/hdl/verilog/ppc440mc_ddr2.v".
 Unit <ppc440mc_ddr2> synthesized.
 
 
@@ -5096,13 +5096,13 @@ WARNING:Xst:616 - Invalid property "SYN_PRESERVE 1": Did not attach to DDR2_SDRA
 WARNING:Xst:616 - Invalid property "SYN_PRESERVE 1": Did not attach to DDR2_SDRAM/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/gen_dm_inst.gen_dm[7].u_iob_dm/u_dm_ce.
 
 
-Total REAL time to Xst completion: 64.00 secs
-Total CPU time to Xst completion: 63.11 secs
+Total REAL time to Xst completion: 80.00 secs
+Total CPU time to Xst completion: 78.56 secs
  
 --> 
 
 
-Total memory usage is 585776 kilobytes
+Total memory usage is 585624 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1431 (   0 filtered)

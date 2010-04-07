@@ -6,7 +6,7 @@
 #
 # Command line for ngdbuild
 #
-ngdbuild -ise ../__xps/ise/system.ise -p xc5vfx70tff1136-1 -nt timestamp -bm system.bmm "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system.ngc" -uc system.ucf system.ngd 
+ngdbuild -ise ../__xps/ise/system.ise -p xc5vfx70tff1136-1 -nt timestamp -bm system.bmm "/home/aalonso/workspace/ppc44x/xilinx-ml507/implementation/system.ngc" -uc system.ucf system.ngd 
 
 #
 # Command line for map

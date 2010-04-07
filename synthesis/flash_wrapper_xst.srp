@@ -1,7 +1,7 @@
 Release 11.5 - xst L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 --> 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "flash_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/" "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc5vfx70tff1136-1
@@ -53,267 +53,267 @@ Cores Search Directories           : {../implementation/flash_wrapper}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
 Package <family_support> compiled.
 Package body <family_support> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
 Package <proc_common_pkg> compiled.
 Package body <proc_common_pkg> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/inferred_lut4.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/inferred_lut4.vhd" in Library proc_common_v3_00_a.
 Entity <inferred_lut4> compiled.
 Entity <inferred_lut4> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/muxf_struct_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/muxf_struct_f.vhd" in Library proc_common_v3_00_a.
 Entity <muxf_struct> compiled.
 Entity <muxf_struct> (Architecture <imp>) compiled.
 Entity <muxf_struct_f> compiled.
 Entity <muxf_struct_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_bit.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_bit.vhd" in Library proc_common_v3_00_a.
 Entity <pf_counter_bit> compiled.
 Entity <pf_counter_bit> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/cntr_incr_decr_addn_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/cntr_incr_decr_addn_f.vhd" in Library proc_common_v3_00_a.
 Entity <cntr_incr_decr_addn_f> compiled.
 Entity <cntr_incr_decr_addn_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_f.vhd" in Library proc_common_v3_00_a.
 Entity <dynshreg_f> compiled.
 Entity <dynshreg_f> (Architecture <behavioral>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder_bit.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder_bit.vhd" in Library proc_common_v3_00_a.
 Entity <pf_adder_bit> compiled.
 Entity <pf_adder_bit> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter.vhd" in Library proc_common_v3_00_a.
 Entity <pf_counter> compiled.
 Entity <pf_counter> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter.vhd" in Library proc_common_v3_00_a.
 Entity <pf_occ_counter> compiled.
 Entity <pf_occ_counter> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_bit.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_bit.vhd" in Library proc_common_v3_00_a.
 Entity <counter_bit> compiled.
 Entity <counter_bit> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy_f.vhd" in Library proc_common_v3_00_a.
 Entity <or_muxcy_f> compiled.
 Entity <or_muxcy_f> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu_f.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo_rbu_f> compiled.
 Entity <srl_fifo_rbu_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd" in Library proc_common_v3_00_a.
 Package <family> compiled.
 Package body <family> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter_top.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter_top.vhd" in Library proc_common_v3_00_a.
 Entity <pf_occ_counter_top> compiled.
 Entity <pf_occ_counter_top> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_top.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_top.vhd" in Library proc_common_v3_00_a.
 Entity <pf_counter_top> compiled.
 Entity <pf_counter_top> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder.vhd" in Library proc_common_v3_00_a.
 Entity <pf_adder> compiled.
 Entity <pf_adder> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
 Entity <or_muxcy> compiled.
 Entity <or_muxcy> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter.vhd" in Library proc_common_v3_00_a.
 Entity <Counter> compiled.
 Entity <Counter> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/coregen_comp_defs.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/coregen_comp_defs.vhd" in Library proc_common_v3_00_a.
 Package <coregen_comp_defs> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" in Library proc_common_v3_00_a.
 Package <Common_Types> compiled.
-WARNING:HDLParsers:3534 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" Line 223. In the function Get_RLOC_Name, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" Line 223. In the function Get_RLOC_Name, not all control paths contain a return statement.
 Package body <Common_Types> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/conv_funs_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/conv_funs_pkg.vhd" in Library proc_common_v3_00_a.
 Package <conv_funs_pkg> compiled.
 Package body <conv_funs_pkg> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
 Package <ipif_pkg> compiled.
 Package body <ipif_pkg> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/async_fifo_fg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/async_fifo_fg.vhd" in Library proc_common_v3_00_a.
 Entity <async_fifo_fg> compiled.
 Entity <async_fifo_fg> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/sync_fifo_fg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/sync_fifo_fg.vhd" in Library proc_common_v3_00_a.
 Entity <sync_fifo_fg> compiled.
 Entity <sync_fifo_fg> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/blk_mem_gen_wrapper.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/blk_mem_gen_wrapper.vhd" in Library proc_common_v3_00_a.
 Entity <blk_mem_gen_wrapper> compiled.
 Entity <blk_mem_gen_wrapper> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/addsub.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/addsub.vhd" in Library proc_common_v3_00_a.
 Entity <addsub> compiled.
 Entity <addsub> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr.vhd" in Library proc_common_v3_00_a.
 Entity <direct_path_cntr> compiled.
 Entity <direct_path_cntr> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr_ai.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr_ai.vhd" in Library proc_common_v3_00_a.
 Entity <direct_path_cntr_ai> compiled.
 Entity <direct_path_cntr_ai> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/down_counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/down_counter.vhd" in Library proc_common_v3_00_a.
 Entity <down_counter> compiled.
 Entity <down_counter> (Architecture <simulation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/eval_timer.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/eval_timer.vhd" in Library proc_common_v3_00_a.
 Entity <eval_timer> compiled.
 Entity <eval_timer> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer.vhd" in Library proc_common_v3_00_a.
 Entity <IPIF_Steer> compiled.
 Entity <IPIF_Steer> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer128.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer128.vhd" in Library proc_common_v3_00_a.
 Entity <ipif_steer128> compiled.
 Entity <ipif_steer128> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_mirror128.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_mirror128.vhd" in Library proc_common_v3_00_a.
 Entity <ipif_mirror128> compiled.
 Entity <ipif_mirror128> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" in Library proc_common_v3_00_a.
 Entity <ld_arith_reg> compiled.
 Entity <ld_arith_reg> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg2.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg2.vhd" in Library proc_common_v3_00_a.
 Entity <ld_arith_reg2> compiled.
 Entity <ld_arith_reg2> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot.vhd" in Library proc_common_v3_00_a.
 Entity <mux_onehot> compiled.
 Entity <mux_onehot> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_bits.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_bits.vhd" in Library proc_common_v3_00_a.
 Entity <or_bits> compiled.
 Entity <or_bits> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate.vhd" in Library proc_common_v3_00_a.
 Entity <or_gate> compiled.
 Entity <or_gate> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
 Entity <or_gate128> compiled.
 Entity <or_gate128> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_dpram_select.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_dpram_select.vhd" in Library proc_common_v3_00_a.
 Entity <pf_dpram_select> compiled.
 Entity <pf_dpram_select> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect.vhd" in Library proc_common_v3_00_a.
 Entity <pselect> compiled.
 Entity <pselect> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_mask.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_mask.vhd" in Library proc_common_v3_00_a.
 Entity <pselect_mask> compiled.
 Entity <pselect_mask> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl16_fifo.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl16_fifo.vhd" in Library proc_common_v3_00_a.
 Entity <srl16_fifo> compiled.
 Entity <srl16_fifo> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo.vhd" in Library proc_common_v3_00_a.
 Entity <SRL_FIFO> compiled.
 Entity <SRL_FIFO> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo2.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo2.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo2> compiled.
 Entity <srl_fifo2> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo3.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo3.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo3> compiled.
 Entity <srl_fifo3> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo_rbu> compiled.
 Entity <srl_fifo_rbu> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/valid_be.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/valid_be.vhd" in Library proc_common_v3_00_a.
 Entity <valid_be> compiled.
 Entity <valid_be> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_with_enable_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_with_enable_f.vhd" in Library proc_common_v3_00_a.
 Entity <or_with_enable_f> compiled.
 Entity <or_with_enable_f> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_i_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_i_f.vhd" in Library proc_common_v3_00_a.
 Entity <dynshreg_i_f> compiled.
 Entity <dynshreg_i_f> (Architecture <behavioral>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot_f.vhd" in Library proc_common_v3_00_a.
 Entity <mux_onehot_f> compiled.
 Entity <mux_onehot_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_f.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo_f> compiled.
 Entity <srl_fifo_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/compare_vectors_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/compare_vectors_f.vhd" in Library proc_common_v3_00_a.
 Entity <compare_vectors_f> compiled.
 Entity <compare_vectors_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
 Entity <pselect_f> compiled.
 Entity <pselect_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
 Entity <counter_f> compiled.
 Entity <counter_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate_f.vhd" in Library proc_common_v3_00_a.
 Entity <or_gate_f> compiled.
 Entity <or_gate_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd" in Library proc_common_v3_00_a.
 Entity <soft_reset> compiled.
 Entity <soft_reset> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/flex_addr_cntr.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/flex_addr_cntr.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <flex_addr_cntr> compiled.
 Entity <flex_addr_cntr> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/be_reset_gen.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/be_reset_gen.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <be_reset_gen> compiled.
 Entity <be_reset_gen> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <plb_address_decoder> compiled.
 Entity <plb_address_decoder> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/wr_buffer.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/wr_buffer.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <wr_buffer> compiled.
 Entity <wr_buffer> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <burst_support> compiled.
 Entity <burst_support> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <addr_reg_cntr_brst_flex> compiled.
 Entity <addr_reg_cntr_brst_flex> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/access_buffer.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/access_buffer.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <access_buffer> compiled.
 Entity <access_buffer> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/readdata_buffer.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/readdata_buffer.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <readdata_buffer> compiled.
 Entity <readdata_buffer> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/chnl_logic.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/chnl_logic.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <chnl_logic> compiled.
 Entity <chnl_logic> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/addr_be_gen.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/addr_be_gen.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <addr_be_gen> compiled.
 Entity <addr_be_gen> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/ipic_logic.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/ipic_logic.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <ipic_logic> compiled.
 Entity <ipic_logic> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/arbitration_logic.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/arbitration_logic.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <arbitration_logic> compiled.
 Entity <arbitration_logic> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/addr_data_mux_demux.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/addr_data_mux_demux.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <addr_data_mux_demux> compiled.
 Entity <addr_data_mux_demux> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <plb_slave_attachment> compiled.
 Entity <plb_slave_attachment> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/data_mirror_128.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/data_mirror_128.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <data_mirror_128> compiled.
 Entity <data_mirror_128> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd" in Library emc_common_v4_01_a.
 Entity <ipic_if> compiled.
 Entity <ipic_if> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd" in Library emc_common_v4_01_a.
 Entity <mem_state_machine> compiled.
 Entity <mem_state_machine> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd" in Library emc_common_v4_01_a.
 Entity <addr_counter_mux> compiled.
 Entity <addr_counter_mux> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd" in Library emc_common_v4_01_a.
 Entity <counters> compiled.
 Entity <counters> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd" in Library emc_common_v4_01_a.
 Entity <select_param> compiled.
 Entity <select_param> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd" in Library emc_common_v4_01_a.
 Entity <mem_steer> compiled.
 Entity <mem_steer> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd" in Library emc_common_v4_01_a.
 Entity <io_registers> compiled.
 Entity <io_registers> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plbv46_slave_burst.vhd" in Library plbv46_slave_burst_v1_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plbv46_slave_burst.vhd" in Library plbv46_slave_burst_v1_01_a.
 Entity <plbv46_slave_burst> compiled.
 Entity <plbv46_slave_burst> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/arb_mux_demux.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/arb_mux_demux.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <arb_mux_demux> compiled.
 Entity <arb_mux_demux> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_interface.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_interface.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <mch_interface> compiled.
 Entity <mch_interface> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" in Library mch_plbv46_slave_burst_v2_01_a.
 Entity <mch_plbv46_slave_burst> compiled.
 Entity <mch_plbv46_slave_burst> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd" in Library emc_common_v4_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd" in Library emc_common_v4_01_a.
 Entity <EMC> compiled.
 Entity <EMC> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" in Library xps_mch_emc_v3_01_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" in Library xps_mch_emc_v3_01_a.
 Entity <xps_mch_emc> compiled.
 Entity <xps_mch_emc> (Architecture <implementation>) compiled.
-Compiling vhdl file "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/flash_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/flash_wrapper.vhd" in Library work.
 Entity <flash_wrapper> compiled.
 Entity <flash_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -419,14 +419,14 @@ Analyzing hierarchy for entity <xps_mch_emc> in library <xps_mch_emc_v3_01_a> (a
 	C_XCL2_WRITEXFER = 1
 	C_XCL3_LINESIZE = 4
 	C_XCL3_WRITEXFER = 1
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_control> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_data> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_write> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_full> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_control> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_data> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_read> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_exists> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_control> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_data> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_write> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_full> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_control> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_data> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_read> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_exists> is not supported.
 
 Analyzing hierarchy for entity <mch_plbv46_slave_burst> in library <mch_plbv46_slave_burst_v2_01_a> (architecture <imp>) with generics.
 	C_CACHLINE_ADDR_MODE = 0
@@ -859,34 +859,34 @@ Analyzing generic Entity <xps_mch_emc> in library <xps_mch_emc_v3_01_a> (Archite
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_control> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_data> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_write> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_full> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_control> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_data> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_read> is not supported.
-WARNING:Xst:2096 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_exists> is not supported.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_Clk' of component 'mch_plbv46_slave_burst'.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_Reset' of component 'mch_plbv46_slave_burst'.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_BurstLength' of component 'mch_plbv46_slave_burst'.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_AddrBurstCntLoad' of component 'mch_plbv46_slave_burst'.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_WrReq' of component 'mch_plbv46_slave_burst'.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_RdReq' of component 'mch_plbv46_slave_burst'.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 402: Null range in type of signal <MCH_Access_Control>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 403: Null range in type of signal <MCH_Access_Data>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 405: Null range in type of signal <MCH_Access_Write>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 406: Null range in type of signal <MCH_Access_Full>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 408: Null range in type of signal <MCH_ReadData_Control>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 409: Null range in type of signal <MCH_ReadData_Data>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 411: Null range in type of signal <MCH_ReadData_Read>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 412: Null range in type of signal <MCH_ReadData_Exists>.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_control> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_data> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_write> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_access_full> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_control> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_data> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_read> is not supported.
+WARNING:Xst:2096 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Use of null array slice on signal <mch_readdata_exists> is not supported.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_Clk' of component 'mch_plbv46_slave_burst'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_Reset' of component 'mch_plbv46_slave_burst'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_BurstLength' of component 'mch_plbv46_slave_burst'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_AddrBurstCntLoad' of component 'mch_plbv46_slave_burst'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_WrReq' of component 'mch_plbv46_slave_burst'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 912: Unconnected output port 'Bus2IP_RdReq' of component 'mch_plbv46_slave_burst'.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 402: Null range in type of signal <MCH_Access_Control>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 403: Null range in type of signal <MCH_Access_Data>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 405: Null range in type of signal <MCH_Access_Write>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 406: Null range in type of signal <MCH_Access_Full>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 408: Null range in type of signal <MCH_ReadData_Control>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 409: Null range in type of signal <MCH_ReadData_Data>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 411: Null range in type of signal <MCH_ReadData_Read>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 412: Null range in type of signal <MCH_ReadData_Exists>.
     Set property "REGISTER_DUPLICATION = yes" for signal <Bus2IP_Addr> in unit <mch_plbv46_slave_burst>.
     Set property "REGISTER_DUPLICATION = yes" for signal <Bus2IP_Burst> in unit <mch_plbv46_slave_burst>.
     Set property "REGISTER_DUPLICATION = yes" for signal <Bus2IP_WrReq> in unit <mch_plbv46_slave_burst>.
     Set property "REGISTER_DUPLICATION = yes" for signal <Bus2IP_RdReq> in unit <mch_plbv46_slave_burst>.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 1039: Unconnected output port 'IP2Bus_retry' of component 'EMC'.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 1039: Unconnected output port 'IP2Bus_toutSup' of component 'EMC'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 1039: Unconnected output port 'IP2Bus_retry' of component 'EMC'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd" line 1039: Unconnected output port 'IP2Bus_toutSup' of component 'EMC'.
 Entity <xps_mch_emc> analyzed. Unit <xps_mch_emc> generated.
 
 Analyzing generic Entity <mch_plbv46_slave_burst> in library <mch_plbv46_slave_burst_v2_01_a> (Architecture <imp>).
@@ -917,18 +917,18 @@ Analyzing generic Entity <mch_plbv46_slave_burst> in library <mch_plbv46_slave_b
 	C_WR_BUFFER_DEPTH = 16
 	C_XCL_LINESIZE_ARRAY = (4,4,4,4)
 	C_XCL_WRITEXFER_ARRAY = (1,1,1,1)
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 402: Null range in type of signal <MCH_Access_Control>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 403: Null range in type of signal <MCH_Access_Data>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 405: Null range in type of signal <MCH_Access_Write>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 406: Null range in type of signal <MCH_Access_Full>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 408: Null range in type of signal <MCH_ReadData_Control>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 409: Null range in type of signal <MCH_ReadData_Data>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 411: Null range in type of signal <MCH_ReadData_Read>.
-WARNING:Xst:1994 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 412: Null range in type of signal <MCH_ReadData_Exists>.
-WARNING:Xst:1995 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 702: Use of null array on signal <MCH_Access_Full> is not supported.
-WARNING:Xst:1995 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 703: Use of null array on signal <MCH_ReadData_Control> is not supported.
-WARNING:Xst:1995 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 704: Use of null array on signal <MCH_ReadData_Data> is not supported.
-WARNING:Xst:1995 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 705: Use of null array on signal <MCH_ReadData_Exists> is not supported.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 402: Null range in type of signal <MCH_Access_Control>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 403: Null range in type of signal <MCH_Access_Data>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 405: Null range in type of signal <MCH_Access_Write>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 406: Null range in type of signal <MCH_Access_Full>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 408: Null range in type of signal <MCH_ReadData_Control>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 409: Null range in type of signal <MCH_ReadData_Data>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 411: Null range in type of signal <MCH_ReadData_Read>.
+WARNING:Xst:1994 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 412: Null range in type of signal <MCH_ReadData_Exists>.
+WARNING:Xst:1995 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 702: Use of null array on signal <MCH_Access_Full> is not supported.
+WARNING:Xst:1995 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 703: Use of null array on signal <MCH_ReadData_Control> is not supported.
+WARNING:Xst:1995 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 704: Use of null array on signal <MCH_ReadData_Data> is not supported.
+WARNING:Xst:1995 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd" line 705: Use of null array on signal <MCH_ReadData_Exists> is not supported.
 Entity <mch_plbv46_slave_burst> analyzed. Unit <mch_plbv46_slave_burst> generated.
 
 Analyzing generic Entity <plbv46_slave_burst> in library <plbv46_slave_burst_v1_01_a> (Architecture <implementation>).
@@ -947,7 +947,7 @@ Analyzing generic Entity <plbv46_slave_burst> in library <plbv46_slave_burst_v1_
 	C_SPLB_P2P = 0
 	C_SPLB_SMALLEST_MASTER = 64
 	C_WR_BUFFER_DEPTH = 16
-INFO:Xst:1561 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plbv46_slave_burst.vhd" line 625: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plbv46_slave_burst.vhd" line 625: Mux is complete : default of case is discarded
 Entity <plbv46_slave_burst> analyzed. Unit <plbv46_slave_burst> generated.
 
 Analyzing generic Entity <plb_slave_attachment> in library <plbv46_slave_burst_v1_01_a> (Architecture <implementation>).
@@ -972,10 +972,10 @@ Analyzing generic Entity <plb_slave_attachment> in library <plbv46_slave_burst_v
     Set user-defined property "INIT =  0" for instance <I_RDREQ_FDRSE> in unit <plb_slave_attachment>.
     Set user-defined property "INIT =  0" for instance <GEN_WRITE_BUFFER.GEN_WRBUF_WREN1> in unit <plb_slave_attachment>.
     Set user-defined property "INIT =  0" for instance <GEN_WRITE_BUFFER.GEN_WRBUF_WREN2> in unit <plb_slave_attachment>.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" line 2040: Unconnected output port 'Data_Exists' of component 'wr_buffer'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" line 2040: Unconnected output port 'Data_Exists' of component 'wr_buffer'.
     Set user-defined property "INIT =  0" for instance <I_WRREQ_FDRSE> in unit <plb_slave_attachment>.
     Set user-defined property "INIT =  0" for instance <GEN_FOR_32.DPHASE_REG1> in unit <plb_slave_attachment>.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" line 3380: Unconnected output port 'BE_out' of component 'addr_reg_cntr_brst_flex'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" line 3380: Unconnected output port 'BE_out' of component 'addr_reg_cntr_brst_flex'.
 INFO:Xst:2679 - Register <Sl_SSize> in unit <plb_slave_attachment> has a constant value of 00 during circuit operation. The register is replaced by logic.
 Entity <plb_slave_attachment> analyzed. Unit <plb_slave_attachment> generated.
 
@@ -1061,38 +1061,38 @@ Entity <wr_buffer> analyzed. Unit <wr_buffer> generated.
 Analyzing generic Entity <burst_support> in library <plbv46_slave_burst_v1_01_a> (Architecture <implementation>).
 	C_FAMILY = "virtex5"
 	C_MAX_DBEAT_CNT = 64
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd" line 260: Unconnected output port 'Carry_Out' of component 'counter_f'.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd" line 323: Unconnected output port 'Carry_Out' of component 'counter_f'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd" line 260: Unconnected output port 'Carry_Out' of component 'counter_f'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd" line 323: Unconnected output port 'Carry_Out' of component 'counter_f'.
 Entity <burst_support> analyzed. Unit <burst_support> generated.
 
 Analyzing generic Entity <counter_f> in library <proc_common_v3_00_a> (Architecture <imp>).
 	C_FAMILY = "virtex5"
 	C_NUM_BITS = 7
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 214: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 214: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
 Entity <counter_f> analyzed. Unit <counter_f> generated.
 
 Analyzing generic Entity <addr_reg_cntr_brst_flex.1> in library <plbv46_slave_burst_v1_01_a> (Architecture <implementation>).
@@ -1107,7 +1107,7 @@ Analyzing generic Entity <addr_reg_cntr_brst_flex.1> in library <plbv46_slave_bu
     Set user-defined property "INIT =  0" for instance <GEN_FOR_SHARED.GEN_S_H_SIZE_REG[1].I_SIZE_S_H_REG> in unit <addr_reg_cntr_brst_flex.1>.
     Set user-defined property "INIT =  0" for instance <GEN_FOR_SHARED.GEN_S_H_SIZE_REG[2].I_SIZE_S_H_REG> in unit <addr_reg_cntr_brst_flex.1>.
     Set user-defined property "INIT =  0" for instance <GEN_FOR_SHARED.GEN_S_H_SIZE_REG[3].I_SIZE_S_H_REG> in unit <addr_reg_cntr_brst_flex.1>.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd" line 628: Unconnected output port 'Carry_Out' of component 'flex_addr_cntr'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd" line 628: Unconnected output port 'Carry_Out' of component 'flex_addr_cntr'.
 Entity <addr_reg_cntr_brst_flex.1> analyzed. Unit <addr_reg_cntr_brst_flex.1> generated.
 
 Analyzing generic Entity <flex_addr_cntr.1> in library <plbv46_slave_burst_v1_01_a> (Architecture <implementation>).
@@ -1203,7 +1203,7 @@ Analyzing generic Entity <addr_reg_cntr_brst_flex.2> in library <plbv46_slave_bu
     Set user-defined property "INIT =  0" for instance <GEN_FOR_SHARED.GEN_S_H_SIZE_REG[1].I_SIZE_S_H_REG> in unit <addr_reg_cntr_brst_flex.2>.
     Set user-defined property "INIT =  0" for instance <GEN_FOR_SHARED.GEN_S_H_SIZE_REG[2].I_SIZE_S_H_REG> in unit <addr_reg_cntr_brst_flex.2>.
     Set user-defined property "INIT =  0" for instance <GEN_FOR_SHARED.GEN_S_H_SIZE_REG[3].I_SIZE_S_H_REG> in unit <addr_reg_cntr_brst_flex.2>.
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd" line 628: Unconnected output port 'Carry_Out' of component 'flex_addr_cntr'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd" line 628: Unconnected output port 'Carry_Out' of component 'flex_addr_cntr'.
 Entity <addr_reg_cntr_brst_flex.2> analyzed. Unit <addr_reg_cntr_brst_flex.2> generated.
 
 Analyzing generic Entity <flex_addr_cntr.2> in library <plbv46_slave_burst_v1_01_a> (Architecture <implementation>).
@@ -1334,42 +1334,42 @@ Analyzing generic Entity <ld_arith_reg.1> in library <proc_common_v3_00_a> (Arch
 	C_LD_WIDTH = 9
 	C_REG_WIDTH = 9
 	C_RESET_VALUE = "000000000"
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
 Entity <ld_arith_reg.1> analyzed. Unit <ld_arith_reg.1> generated.
 
 Analyzing Entity <mem_state_machine> in library <emc_common_v4_01_a> (Architecture <imp>).
@@ -1434,14 +1434,14 @@ Analyzing generic Entity <ld_arith_reg.2> in library <proc_common_v3_00_a> (Arch
 	C_LD_WIDTH = 2
 	C_REG_WIDTH = 2
 	C_RESET_VALUE = "00"
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
 Entity <ld_arith_reg.2> analyzed. Unit <ld_arith_reg.2> generated.
 
 Analyzing Entity <counters> in library <emc_common_v4_01_a> (Architecture <imp>).
@@ -1455,26 +1455,26 @@ Analyzing generic Entity <ld_arith_reg.3> in library <proc_common_v3_00_a> (Arch
 	C_LD_WIDTH = 5
 	C_REG_WIDTH = 5
 	C_RESET_VALUE = "11111"
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 331: Instantiating black box module <FDSE>.
 Entity <ld_arith_reg.3> analyzed. Unit <ld_arith_reg.3> generated.
 
 Analyzing generic Entity <ld_arith_reg.4> in library <proc_common_v3_00_a> (Architecture <imp>).
@@ -1485,26 +1485,26 @@ Analyzing generic Entity <ld_arith_reg.4> in library <proc_common_v3_00_a> (Arch
 	C_LD_WIDTH = 5
 	C_REG_WIDTH = 5
 	C_RESET_VALUE = "00000"
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 284: Instantiating black box module <MULT_AND>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 294: Instantiating black box module <MUXCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 305: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" line 321: Instantiating black box module <FDRE>.
 Entity <ld_arith_reg.4> analyzed. Unit <ld_arith_reg.4> generated.
 
 Analyzing generic Entity <select_param> in library <emc_common_v4_01_a> (Architecture <IMP>).
@@ -1636,7 +1636,7 @@ Analyzing generic Entity <mem_steer> in library <emc_common_v4_01_a> (Architectu
     Set user-defined property "INIT =  0" for instance <RDDATA_PATH_MUX_GEN.ASYNC_ADDR_CNT_GEN.RDDATA_EN_GEN_ASYNC[1].RDDATA_EN_REG_ASYNC> in unit <mem_steer>.
     Set user-defined property "INIT =  0" for instance <RDDATA_PATH_MUX_GEN.ASYNC_ADDR_CNT_GEN.RDDATA_EN_GEN_ASYNC[2].RDDATA_EN_REG_ASYNC> in unit <mem_steer>.
     Set user-defined property "INIT =  0" for instance <RDDATA_PATH_MUX_GEN.ASYNC_ADDR_CNT_GEN.RDDATA_EN_GEN_ASYNC[3].RDDATA_EN_REG_ASYNC> in unit <mem_steer>.
-WARNING:Xst:790 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd" line 1419: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd" line 1419: Index value(s) does not match array range, simulation mismatch.
 Entity <mem_steer> analyzed. Unit <mem_steer> generated.
 
 Analyzing generic Entity <io_registers> in library <emc_common_v4_01_a> (Architecture <imp>).
@@ -1654,7 +1654,7 @@ Entity <io_registers> analyzed. Unit <io_registers> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <data_mirror_128>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/data_mirror_128.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/data_mirror_128.vhd".
 WARNING:Xst:647 - Input <Addr_In<0:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Addr_In<8:9>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <sig_addr_bits_A28_A29> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1664,26 +1664,26 @@ Unit <data_mirror_128> synthesized.
 
 
 Synthesizing Unit <be_reset_gen>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/be_reset_gen.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/be_reset_gen.vhd".
 WARNING:Xst:647 - Input <Addr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MSize> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <be_reset_gen> synthesized.
 
 
 Synthesizing Unit <pselect_f>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
 WARNING:Xst:647 - Input <A<7:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <pselect_f> synthesized.
 
 
 Synthesizing Unit <or_gate128>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd".
 WARNING:Xst:1780 - Signal <test> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 Unit <or_gate128> synthesized.
 
 
 Synthesizing Unit <select_param>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd".
 WARNING:Xst:647 - Input <Bus2IP_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_Mem_CS<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_RNW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1696,7 +1696,7 @@ Unit <select_param> synthesized.
 
 
 Synthesizing Unit <io_registers>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd".
     Register <mem_cken_reg> equivalent to <mem_adv_ldn_reg> has been removed
     Register <mem_lbon_reg> equivalent to <mem_adv_ldn_reg> has been removed
     Found 16-bit register for signal <Mem_DQ_I_int>.
@@ -1718,7 +1718,7 @@ Unit <io_registers> synthesized.
 
 
 Synthesizing Unit <plb_address_decoder>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_address_decoder.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_address_decoder.vhd".
 WARNING:Xst:647 - Input <Address_In_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Address_Valid_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <addr_out_s_h> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1726,7 +1726,7 @@ Unit <plb_address_decoder> synthesized.
 
 
 Synthesizing Unit <wr_buffer>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/wr_buffer.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/wr_buffer.vhd".
 WARNING:Xst:646 - Signal <addr_cy<4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit xor2 for signal <hsum_A_0$xor0000> created at line 281.
     Found 1-bit xor2 for signal <hsum_A_1$xor0000> created at line 281.
@@ -1736,7 +1736,7 @@ Unit <wr_buffer> synthesized.
 
 
 Synthesizing Unit <counter_f>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd".
 WARNING:Xst:646 - Signal <alu_cy<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit xor2 for signal <count_AddSub_0$xor0000> created at line 233.
     Found 1-bit xor2 for signal <count_AddSub_0$xor0001> created at line 233.
@@ -1758,7 +1758,7 @@ Unit <counter_f> synthesized.
 
 
 Synthesizing Unit <flex_addr_cntr_1>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/flex_addr_cntr.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/flex_addr_cntr.vhd".
 WARNING:Xst:647 - Input <burst_bytes> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <xfer_64> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <be_extended> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1766,7 +1766,7 @@ Unit <flex_addr_cntr_1> synthesized.
 
 
 Synthesizing Unit <flex_addr_cntr_2>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/flex_addr_cntr.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/flex_addr_cntr.vhd".
 WARNING:Xst:647 - Input <burst_bytes> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <xfer_64> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <be_extended> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1774,7 +1774,7 @@ Unit <flex_addr_cntr_2> synthesized.
 
 
 Synthesizing Unit <mem_state_machine>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd".
 WARNING:Xst:647 - Input <Bus2IP_RNW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Using one-hot encoding for signal <crnt_state>.
     Found 1-bit register for signal <Data_strobe>.
@@ -1797,7 +1797,7 @@ Unit <mem_state_machine> synthesized.
 
 
 Synthesizing Unit <mem_steer>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd".
 WARNING:Xst:647 - Input <Synch_mem> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Two_pipe_delay> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_Mem_CS<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1823,33 +1823,33 @@ Unit <mem_steer> synthesized.
 
 
 Synthesizing Unit <ld_arith_reg_1>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
 WARNING:Xst:646 - Signal <cry<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <ld_arith_reg_1> synthesized.
 
 
 Synthesizing Unit <ld_arith_reg_2>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
 WARNING:Xst:646 - Signal <cry<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <ld_arith_reg_2> synthesized.
 
 
 Synthesizing Unit <ld_arith_reg_3>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
 WARNING:Xst:646 - Signal <cry<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit xor2 for signal <q_i_ns_4$xor0000>.
 Unit <ld_arith_reg_3> synthesized.
 
 
 Synthesizing Unit <ld_arith_reg_4>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd".
 WARNING:Xst:646 - Signal <cry<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit xor2 for signal <q_i_ns_4$xor0000>.
 Unit <ld_arith_reg_4> synthesized.
 
 
 Synthesizing Unit <burst_support>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/burst_support.vhd".
 WARNING:Xst:647 - Input <WrBuf_wen> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <RNW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <cntl_done_reg>.
@@ -1862,7 +1862,7 @@ Unit <burst_support> synthesized.
 
 
 Synthesizing Unit <addr_reg_cntr_brst_flex_1>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd".
 WARNING:Xst:647 - Input <Addr_Cnt_Size_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <s_h_size<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <master_64> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1873,7 +1873,7 @@ Unit <addr_reg_cntr_brst_flex_1> synthesized.
 
 
 Synthesizing Unit <addr_reg_cntr_brst_flex_2>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/addr_reg_cntr_brst_flex.vhd".
 WARNING:Xst:647 - Input <Addr_Cnt_Size_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <s_h_size<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <master_64> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1884,7 +1884,7 @@ Unit <addr_reg_cntr_brst_flex_2> synthesized.
 
 
 Synthesizing Unit <ipic_if>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd".
 WARNING:Xst:647 - Input <Burst_length<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <IP2Bus_WrAck>.
     Found 1-bit register for signal <IP2Bus_AddrAck>.
@@ -1898,7 +1898,7 @@ Unit <ipic_if> synthesized.
 
 
 Synthesizing Unit <addr_counter_mux>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd".
 WARNING:Xst:647 - Input <Address_strobe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 2-bit up counter for signal <addr_cnt_i>.
     Summary:
@@ -1907,12 +1907,12 @@ Unit <addr_counter_mux> synthesized.
 
 
 Synthesizing Unit <counters>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd".
 Unit <counters> synthesized.
 
 
 Synthesizing Unit <EMC>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd".
 WARNING:Xst:647 - Input <Bus2IP_RdReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_WrReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_Burst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1926,7 +1926,7 @@ Unit <EMC> synthesized.
 
 
 Synthesizing Unit <plb_slave_attachment>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd".
 WARNING:Xst:647 - Input <PLB_UABus> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1780 - Signal <wrreq_out> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <write_cntrl_burst> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -2065,7 +2065,7 @@ Unit <plb_slave_attachment> synthesized.
 
 
 Synthesizing Unit <plbv46_slave_burst>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plbv46_slave_burst.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_burst_v1_01_a/hdl/vhdl/plbv46_slave_burst.vhd".
 WARNING:Xst:647 - Input <PLB_wrPrim> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLB_SAValid> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLB_wrPendReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2083,7 +2083,7 @@ Unit <plbv46_slave_burst> synthesized.
 
 
 Synthesizing Unit <mch_plbv46_slave_burst>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/mch_plbv46_slave_burst_v2_01_a/hdl/vhdl/mch_plbv46_slave_burst.vhd".
 WARNING:Xst:1305 - Output <Bus2IP_RdCE> is never assigned. Tied to value 0.
 WARNING:Xst:1305 - Output <Bus2IP_WrCE> is never assigned. Tied to value 0.
 WARNING:Xst:1780 - Signal <plb2ip_wrreq> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -2114,7 +2114,7 @@ Unit <mch_plbv46_slave_burst> synthesized.
 
 
 Synthesizing Unit <xps_mch_emc>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/hdl/vhdl/xps_mch_emc.vhd".
 WARNING:Xst:646 - Signal <mch_readdata_read> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <mch_readdata_exists> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <mch_readdata_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -2127,7 +2127,7 @@ Unit <xps_mch_emc> synthesized.
 
 
 Synthesizing Unit <flash_wrapper>.
-    Related source file is "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/flash_wrapper.vhd".
+    Related source file is "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/flash_wrapper.vhd".
 Unit <flash_wrapper> synthesized.
 
 
@@ -2526,13 +2526,13 @@ Offset:              1.146ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 14.98 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 19.11 secs
  
 --> 
 
 
-Total memory usage is 591132 kilobytes
+Total memory usage is 591104 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  344 (   0 filtered)

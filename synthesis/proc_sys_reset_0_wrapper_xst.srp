@@ -1,7 +1,7 @@
 Release 11.5 - xst L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 --> 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "proc_sys_reset_0_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/" "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc5vfx70tff1136-1
@@ -53,19 +53,19 @@ Cores Search Directories           : {../implementation/proc_sys_reset_0_wrapper
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/upcnt_n.vhd" in Library proc_sys_reset_v2_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/upcnt_n.vhd" in Library proc_sys_reset_v2_00_a.
 Entity <upcnt_n> compiled.
 Entity <upcnt_n> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/lpf.vhd" in Library proc_sys_reset_v2_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/lpf.vhd" in Library proc_sys_reset_v2_00_a.
 Entity <lpf> compiled.
 Entity <lpf> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/sequence.vhd" in Library proc_sys_reset_v2_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/sequence.vhd" in Library proc_sys_reset_v2_00_a.
 Entity <sequence> compiled.
 Entity <sequence> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/proc_sys_reset.vhd" in Library proc_sys_reset_v2_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/proc_sys_reset.vhd" in Library proc_sys_reset_v2_00_a.
 Entity <proc_sys_reset> compiled.
 Entity <proc_sys_reset> (Architecture <imp>) compiled.
-Compiling vhdl file "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/proc_sys_reset_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/proc_sys_reset_0_wrapper.vhd" in Library work.
 Entity <proc_sys_reset_0_wrapper> compiled.
 Entity <proc_sys_reset_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -123,7 +123,7 @@ Analyzing generic Entity <lpf> in library <proc_sys_reset_v2_00_a> (Architecture
 	C_AUX_RST_WIDTH = 4
 	C_EXT_RESET_HIGH = '0'
 	C_EXT_RST_WIDTH = 4
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/lpf.vhd" line 171: Instantiating black box module <SRL16>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/lpf.vhd" line 171: Instantiating black box module <SRL16>.
     Set user-defined property "INIT =  FFFF" for instance <POR_SRL_I> in unit <lpf>.
 Entity <lpf> analyzed. Unit <lpf> generated.
 
@@ -142,7 +142,7 @@ Entity <upcnt_n.2> analyzed. Unit <upcnt_n.2> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <upcnt_n_1>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/upcnt_n.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/upcnt_n.vhd".
     Found 4-bit up counter for signal <q_int>.
     Summary:
 	inferred   1 Counter(s).
@@ -150,7 +150,7 @@ Unit <upcnt_n_1> synthesized.
 
 
 Synthesizing Unit <upcnt_n_2>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/upcnt_n.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/upcnt_n.vhd".
     Found 6-bit up counter for signal <q_int>.
     Summary:
 	inferred   1 Counter(s).
@@ -158,7 +158,7 @@ Unit <upcnt_n_2> synthesized.
 
 
 Synthesizing Unit <lpf>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/lpf.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/lpf.vhd".
     Found 1-bit register for signal <asr_d1>.
     Found 4-bit register for signal <asr_lpf>.
     Found 1-bit register for signal <exr_d1>.
@@ -172,7 +172,7 @@ Unit <lpf> synthesized.
 
 
 Synthesizing Unit <sequence>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/sequence.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/sequence.vhd".
     Register <sys_dec<0>> equivalent to <bsr_dec<0>> has been removed
     Register <core_dec<1>> equivalent to <bsr_dec<1>> has been removed
     Register <pr_dec<1>> equivalent to <bsr_dec<1>> has been removed
@@ -206,7 +206,7 @@ Unit <sequence> synthesized.
 
 
 Synthesizing Unit <proc_sys_reset>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/proc_sys_reset.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/hdl/vhdl/proc_sys_reset.vhd".
     Register <RstcPPCresetchip_1> equivalent to <RstcPPCresetchip_0> has been removed
     Register <RstcPPCresetsys_1> equivalent to <RstcPPCresetsys_0> has been removed
     Found 1-bit register for signal <RstcPPCresetsys_0>.
@@ -232,7 +232,7 @@ Unit <proc_sys_reset> synthesized.
 
 
 Synthesizing Unit <proc_sys_reset_0_wrapper>.
-    Related source file is "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/proc_sys_reset_0_wrapper.vhd".
+    Related source file is "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/proc_sys_reset_0_wrapper.vhd".
 Unit <proc_sys_reset_0_wrapper> synthesized.
 
 
@@ -475,13 +475,13 @@ Offset:              0.471ns (Levels of Logic = 0)
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.78 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.17 secs
  
 --> 
 
 
-Total memory usage is 494632 kilobytes
+Total memory usage is 494648 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

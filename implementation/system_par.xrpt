@@ -5,47 +5,51 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Wed Mar 24 15:07:23 2010">
+  <application stringID="par" timeStamp="Mon Apr  5 15:54:10 2010">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
-          <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
-          <item stringID="value" value="2100:pcdesign;X:\licenses\Xilinx.lic"/>
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK"/>
         </row>
         <row stringID="row" value="1">
-          <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/ISE:/opt/Xilinx/11.4/EDK"/>
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/PlanAhead"/>
         </row>
         <row stringID="row" value="2">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/PlanAhead"/>
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/EDK"/>
         </row>
         <row stringID="row" value="3">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/EDK"/>
-        </row>
-        <row stringID="row" value="4">
           <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="/opt/Xilinx/11.4/DSP_Tools/lin64"/>
+          <item stringID="value" value="/opt/Xilinx/11.5/DSP_Tools/lin64"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
         <item stringID="User_EnvOsname" value="Fedora"/>
         <item stringID="User_EnvOsrelease" value="Fedora release 12 (Constantine)"/>
       </item>
-      <item stringID="User_EnvHost" value="localhost.localdomain"/>
+      <item stringID="User_EnvHost" value="aalonso-pc"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM)2 Duo CPU     T8300  @ 2.40GHz"/>
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
           <item stringID="speed" value="1200.000 MHz"/>
         </row>
         <row stringID="row" value="1">
-          <item stringID="arch" value="Intel(R) Core(TM)2 Duo CPU     T8300  @ 2.40GHz"/>
-          <item stringID="speed" value="2400.000 MHz"/>
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="arch" value="AMD Phenom(tm) 9750 Quad-Core Processor"/>
+          <item stringID="speed" value="1200.000 MHz"/>
         </row>
       </table>
     </section>
@@ -68,12 +72,12 @@
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="1 mins 40 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="1 mins 39 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="2 mins 1 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="2 mins "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="1 mins 50 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="1 mins 48 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="2 mins 10 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="2 mins 10 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">

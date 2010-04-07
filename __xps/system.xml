@@ -1,7 +1,7 @@
 
-<EDKSYSTEM EDKVERSION="11.5" EDWVERSION="1.1" TIMESTAMP="Thu Mar 25 11:42:56 2010">
+<EDKSYSTEM EDKVERSION="11.5" EDWVERSION="1.1" TIMESTAMP="Mon Apr  5 16:52:14 2010">
 
-  <SYSTEMINFO ARCH="virtex5" DEVICE="5vfx70t" PACKAGE="ff1136" PART="5vfx70tff1136-1" SOURCE="/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/" SPEEDGRADE="-1"/>
+  <SYSTEMINFO ARCH="virtex5" DEVICE="5vfx70t" PACKAGE="ff1136" PART="5vfx70tff1136-1" SOURCE="/home/aalonso/workspace/ppc44x/xilinx-ml507/" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
     <PORT DIR="IO" ENDIAN="LITTLE" LSB="0" MHS_INDEX="0" MSB="7" NAME="fpga_0_LEDs_8Bit_GPIO_IO_pin" SIGNAME="fpga_0_LEDs_8Bit_GPIO_IO_pin"/>
@@ -74,7 +74,7 @@
       <DESCRIPTION TYPE="SHORT">PowerPC 440 Virtex-5</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">A wrapper to instantiate the PowerPC 440 Processor Block primitive</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440_virtex5_v1_01_a/doc/ppc440_virtex5.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440_virtex5_v1_01_a/doc/ppc440_virtex5.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_PIR" TYPE="std_logic_vector(28 to 31)" VALUE="0b1111">
@@ -293,7 +293,7 @@
       <PARAMETER CHANGEDBY="USER" MPD_INDEX="71" NAME="C_SPLB0_USE_MPLB_ADDR" TYPE="integer" VALUE="1">
         <DESCRIPTION>Allow SPLB0 to Access MPLB Addr</DESCRIPTION>
       </PARAMETER>
-      <PARAMETER CHANGEDBY="USER" MPD_INDEX="72" NAME="C_SPLB0_NUM_MPLB_ADDR_RNG" TYPE="integer" VALUE="1">
+      <PARAMETER MPD_INDEX="72" NAME="C_SPLB0_NUM_MPLB_ADDR_RNG" TYPE="integer" VALUE="0">
         <DESCRIPTION>Number of MPLB Addr Ranges</DESCRIPTION>
       </PARAMETER>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="73" NAME="C_SPLB0_RNG_MC_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x00000000">
@@ -302,7 +302,7 @@
       <PARAMETER ADDRESS="HIGH" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="74" NAME="C_SPLB0_RNG_MC_HIGHADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x0fffffff">
         <DESCRIPTION>High Addr </DESCRIPTION>
       </PARAMETER>
-      <PARAMETER ADDRESS="BASE" ADDR_TYPE="BRIDGE" CHANGEDBY="USER" MPD_INDEX="75" NAME="C_SPLB0_RNG0_MPLB_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x90000000">
+      <PARAMETER ADDRESS="BASE" ADDR_TYPE="BRIDGE" MPD_INDEX="75" NAME="C_SPLB0_RNG0_MPLB_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0xffffffff">
         <DESCRIPTION></DESCRIPTION>
       </PARAMETER>
       <PARAMETER ADDRESS="HIGH" ADDR_TYPE="BRIDGE" CHANGEDBY="USER" MPD_INDEX="76" NAME="C_SPLB0_RNG0_MPLB_HIGHADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x9FFFFFFF">
@@ -497,7 +497,7 @@
             <BUSINTERFACE NAME="SPLB0"/>
           </SLVINTERFACES>
         </MEMRANGE>
-        <MEMRANGE BASEDECIMAL="2415919104" BASENAME="C_SPLB0_RNG0_MPLB_BASEADDR" BASEVALUE="0x90000000" HIGHDECIMAL="2684354559" HIGHNAME="C_SPLB0_RNG0_MPLB_HIGHADDR" HIGHVALUE="0x9FFFFFFF" MEMTYPE="BRIDGE" MINSIZE="0x08000000" SIZE="268435456" SIZEABRV="256M">
+        <MEMRANGE BASEDECIMAL="4294967295" BASENAME="C_SPLB0_RNG0_MPLB_BASEADDR" BASEVALUE="0xffffffff" HIGHDECIMAL="2684354559" HIGHNAME="C_SPLB0_RNG0_MPLB_HIGHADDR" HIGHVALUE="0x9FFFFFFF" IS_VALID="FALSE" MEMTYPE="BRIDGE" MINSIZE="0x08000000" SIZE="0" SIZEABRV="U">
           <SLVINTERFACES>
             <BUSINTERFACE NAME="SPLB0"/>
           </SLVINTERFACES>
@@ -545,16 +545,6 @@
         <MEMRANGE BASEDECIMAL="0" BASENAME="C_SPLB0_RNG_MC_BASEADDR" BASEVALUE="0x00000000" HIGHDECIMAL="268435455" HIGHNAME="C_SPLB0_RNG_MC_HIGHADDR" HIGHVALUE="0x0fffffff" INSTANCE="ppc440_0" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" IS_VALID="TRUE" MEMTYPE="REGISTER" SIZE="268435456" SIZEABRV="256M">
           <ACCESSROUTE>
             <ROUTEPNT INDEX="0" INSTANCE="plb_v46_0"/>
-          </ACCESSROUTE>
-        </MEMRANGE>
-        <MEMRANGE BASEDECIMAL="2415919104" BASENAME="C_SPLB0_RNG0_MPLB_BASEADDR" BASEVALUE="0x90000000" HIGHDECIMAL="2684354559" HIGHNAME="C_SPLB0_RNG0_MPLB_HIGHADDR" HIGHVALUE="0x9FFFFFFF" INSTANCE="ppc440_0" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" IS_VALID="TRUE" MEMTYPE="BRIDGE" SIZE="268435456" SIZEABRV="256M">
-          <ACCESSROUTE>
-            <ROUTEPNT INDEX="0" INSTANCE="plb_v46_0"/>
-          </ACCESSROUTE>
-          <ACCESSROUTE>
-            <ROUTEPNT INDEX="0" INSTANCE="plb_v46_0"/>
-            <ROUTEPNT INDEX="1" INSTANCE="ppc440_0"/>
-            <ROUTEPNT INDEX="2" INSTANCE="plb_v46_0"/>
           </ACCESSROUTE>
         </MEMRANGE>
         <MEMRANGE BASEDECIMAL="4294901760" BASENAME="C_BASEADDR" BASEVALUE="0xffff0000" HIGHDECIMAL="4294967295" HIGHNAME="C_HIGHADDR" HIGHVALUE="0xffffffff" INSTANCE="xps_bram_if_cntlr_1" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" IS_VALID="TRUE" MEMTYPE="MEMORY" SIZE="65536" SIZEABRV="64K">
@@ -1023,7 +1013,7 @@
       <DESCRIPTION TYPE="SHORT">Processor Local Bus (PLB) 4.6</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">'Xilinx 64-bit Processor Local Bus (PLB) consists of a bus control unit, a watchdog timer, and separate address, write, and read data path units with a a three-cycle only arbitration feature'</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_04_a/doc/plb_v46.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_04_a/doc/plb_v46.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER CHANGEDBY="SYSTEM" MPD_INDEX="0" NAME="C_PLBV46_NUM_MASTERS" TYPE="integer" VALUE="2">
@@ -1199,7 +1189,7 @@
       <DESCRIPTION TYPE="SHORT">XPS BRAM Controller</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Attaches BRAM to the PLBV46</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/doc/xps_bram_if_cntlr.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/doc/xps_bram_if_cntlr.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="MEMORY" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector" VALUE="0xffff0000">
@@ -1310,7 +1300,7 @@
       <DESCRIPTION TYPE="SHORT">Block RAM (BRAM) Block</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">The BRAM Block is a configurable memory module that attaches to a variety of BRAM Interface Controllers.</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a/doc/bram_block.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a/doc/bram_block.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER CHANGEDBY="SYSTEM" MPD_INDEX="0" NAME="C_MEMSIZE" TYPE="integer" VALUE="0x10000">
@@ -1357,7 +1347,7 @@
       <DESCRIPTION TYPE="SHORT">XPS General Purpose IO</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">General Purpose Input/Output (GPIO) core for the PLBV46 bus.</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x81440000">
@@ -1501,7 +1491,7 @@
       <DESCRIPTION TYPE="SHORT">XPS General Purpose IO</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">General Purpose Input/Output (GPIO) core for the PLBV46 bus.</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x81420000">
@@ -1645,7 +1635,7 @@
       <DESCRIPTION TYPE="SHORT">XPS General Purpose IO</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">General Purpose Input/Output (GPIO) core for the PLBV46 bus.</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x81400000">
@@ -1792,7 +1782,7 @@
       <DESCRIPTION TYPE="SHORT">XPS General Purpose IO</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">General Purpose Input/Output (GPIO) core for the PLBV46 bus.</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_gpio_v2_00_a/doc/xps_gpio.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x81460000">
@@ -1939,7 +1929,7 @@
       <DESCRIPTION TYPE="SHORT">XPS IIC Interface</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">PLBV46 interface to Philips I2C bus v2.1</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_iic_v2_02_a/doc/xps_iic.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_iic_v2_02_a/doc/xps_iic.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_IIC_FREQ" TYPE="INTEGER" VALUE="100000">
@@ -2070,7 +2060,7 @@
       <DESCRIPTION TYPE="SHORT">PowerPC 440 DDR2 Memory Controller</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">A wrapper to instantiate the PowerPC 440 DDR2 Memory Controller</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/doc/ppc440mc_ddr2.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/ppc440mc_ddr2_v3_00_a/doc/ppc440mc_ddr2.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_DDR_BAWIDTH" TYPE="integer" VALUE="2">
@@ -2241,7 +2231,7 @@
       <DESCRIPTION TYPE="SHORT">XPS System ACE Interface Controller(Compact Flash)</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Interface between the PLBV46 and the Microprocessor Interface (MPU) of the System ACE Compact Flash solution peripheral</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_sysace_v1_01_a/doc/xps_sysace.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_sysace_v1_01_a/doc/xps_sysace.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector" VALUE="0x83600000">
@@ -2373,7 +2363,7 @@
       <DESCRIPTION TYPE="SHORT">XPS UART (16550-style)</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">PLBV46 16550/450 UART (Universal Asynchronous Receiver/Transmitter)</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_uart16550_v3_00_a/doc/xps_uart16550.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_uart16550_v3_00_a/doc/xps_uart16550.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector" VALUE="0x83e00000">
@@ -2543,7 +2533,7 @@
       <DESCRIPTION TYPE="SHORT">XPS Multi-Channel External Memory Controller(SRAM/Flash)</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Xilinx Multi-CHannel (MCH) PLBV46 external memory controller</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/doc/xps_mch_emc.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_mch_emc_v3_01_a/doc/xps_mch_emc.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_FAMILY" TYPE="STRING" VALUE="virtex5">
@@ -3013,7 +3003,7 @@
     <MODULE HWVERSION="2.03.a" INSTANCE="Hard_Ethernet_MAC" IPTYPE="PERIPHERAL" MHS_INDEX="13" MODCLASS="PERIPHERAL" MODTYPE="xps_ll_temac">
       <DESCRIPTION TYPE="SHORT">XPS LocalLink Tri-mode Ethernet MAC</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/doc/xps_ll_temac.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ll_temac_v2_03_a/doc/xps_ll_temac.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO EXPIRESON="Jun-30-2016" ICON_NAME="ps_core_preferred" STATE="VALID" TYPE="Hardware_Evaluation"/>
       <PARAMETER CHANGEDBY="USER" MPD_INDEX="0" NAME="C_NUM_IDELAYCTRL" TYPE="INTEGER" VALUE="2">
@@ -3403,7 +3393,7 @@
       <DESCRIPTION TYPE="SHORT">XPS Watchdog Timer</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Watchdog Timer with PLBV46 interface</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_timebase_wdt_v1_01_a/doc/xps_timebase_wdt.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_timebase_wdt_v1_01_a/doc/xps_timebase_wdt.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_WDT_INTERVAL" TYPE="INTEGER" VALUE="30">
@@ -3517,7 +3507,7 @@
       <DESCRIPTION TYPE="SHORT">XPS Timer/Counter</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Timer counter with PLBV46 interface</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/xps_timer_v1_01_b/doc/xps_timer.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/xps_timer_v1_01_b/doc/xps_timer.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_FAMILY" TYPE="STRING" VALUE="virtex5">
@@ -3656,7 +3646,7 @@
       <DESCRIPTION TYPE="SHORT">Clock Generator</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Clock generator for processor system.</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/clock_generator_v3_02_a/doc/clock_generator.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/clock_generator_v3_02_a/doc/clock_generator.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_FAMILY" TYPE="STRING" VALUE="virtex5"/>
@@ -4276,7 +4266,7 @@
       <DESCRIPTION TYPE="SHORT">PowerPC JTAG Controller</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">JTAGPPC wrapper allows the PowerPC to connect to the JTAG chain of the FPGA.</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/doc/jtagppc_cntlr.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/doc/jtagppc_cntlr.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER CHANGEDBY="SYSTEM" MPD_INDEX="0" NAME="C_DEVICE" TYPE="string" VALUE="5vfx70t"/>
@@ -4313,7 +4303,7 @@
       <DESCRIPTION TYPE="SHORT">Processor System Reset Module</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Reset management module</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/doc/proc_sys_reset.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v2_00_a/doc/proc_sys_reset.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER CHANGEDBY="SYSTEM" MPD_INDEX="0" NAME="C_SUBFAMILY" TYPE="string" VALUE="fx">
@@ -4379,7 +4369,7 @@
       <DESCRIPTION TYPE="SHORT">XPS Interrupt Controller</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">intc core attached to the PLBV46</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_00_a/doc/xps_intc.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_00_a/doc/xps_intc.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_FAMILY" TYPE="STRING" VALUE="virtex5">
@@ -4530,7 +4520,7 @@
       <DESCRIPTION TYPE="SHORT">XPS TFT</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">XPS TFT</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_tft_v2_01_a/doc/xps_tft.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_tft_v2_01_a/doc/xps_tft.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER MPD_INDEX="0" NAME="C_FAMILY" TYPE="STRING" VALUE="virtex5">
@@ -4758,7 +4748,7 @@
       <DESCRIPTION TYPE="SHORT">XPS PS2 Interface</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">PLBV46 to PS2 Adapter</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_ps2_v1_01_a/doc/xps_ps2.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_ps2_v1_01_a/doc/xps_ps2.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETER ADDRESS="BASE" ADDR_TYPE="REGISTER" CHANGEDBY="USER" MPD_INDEX="0" NAME="C_BASEADDR" TYPE="std_logic_vector(0 to 31)" VALUE="0x86a00000">

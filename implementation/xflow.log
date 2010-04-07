@@ -2,15 +2,15 @@ Release 11.5 Xflow L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 xflow -wd implementation -p xc5vfx70tff1136-1 -implement xflow.opt -ise
 ../__xps/ise/system.ise system.ngc  
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd>
-with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
-.... Copying flowfile /opt/Xilinx/11.4/ISE/xilinx/data/fpga.flw into working
-directory /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation 
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd>
+with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
+.... Copying flowfile /opt/Xilinx/11.5/ISE/xilinx/data/fpga.flw into working
+directory /home/aalonso/workspace/ppc44x/xilinx-ml507/implementation 
 
 Using Flow File:
-/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/fpga.flw 
+/home/aalonso/workspace/ppc44x/xilinx-ml507/implementation/fpga.flw 
 Using Option File(s): 
- /home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/xflow.opt 
+ /home/aalonso/workspace/ppc44x/xilinx-ml507/implementation/xflow.opt 
 
 Creating Script File ... 
 
@@ -18,21 +18,21 @@ Creating Script File ...
 # Starting program ngdbuild
 # ngdbuild -ise ../__xps/ise/system.ise -p xc5vfx70tff1136-1 -nt timestamp -bm
 system.bmm
-"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system.ngc" -uc
+"/home/aalonso/workspace/ppc44x/xilinx-ml507/implementation/system.ngc" -uc
 system.ucf system.ngd 
 #----------------------------------------------#
 Release 11.5 - ngdbuild L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd>
-with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd>
+with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
-Command Line: /opt/Xilinx/11.4/ISE/bin/lin64/unwrapped/ngdbuild -ise
+Command Line: /opt/Xilinx/11.5/ISE/bin/lin64/unwrapped/ngdbuild -ise
 ../__xps/ise/system.ise -p xc5vfx70tff1136-1 -nt timestamp -bm system.bmm
-/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system.ngc -uc
+/home/aalonso/workspace/ppc44x/xilinx-ml507/implementation/system.ngc -uc
 system.ucf system.ngd
 
 Reading NGO file
-"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/implementation/system.ngc" ...
+"/home/aalonso/workspace/ppc44x/xilinx-ml507/implementation/system.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -493,8 +493,8 @@ NGDBUILD Design Results Summary:
   Number of warnings: 169
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  34 sec
-Total CPU time to NGDBUILD completion:   34 sec
+Total REAL time to NGDBUILD completion:  46 sec
+Total CPU time to NGDBUILD completion:   46 sec
 
 Writing NGDBUILD log file "system.bld"...
 
@@ -509,8 +509,8 @@ NGDBUILD done.
 #----------------------------------------------#
 Release 11.5 - Map L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/data/Xdh_PrimTypeLib.xda>
-with local file </opt/Xilinx/11.4/ISE/data/Xdh_PrimTypeLib.xda>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/data/Xdh_PrimTypeLib.xda>
+with local file </opt/Xilinx/11.5/ISE/data/Xdh_PrimTypeLib.xda>
 Using target part "5vfx70tff1136-1".
 WARNING:LIT:243 - Logical network N208 has no load.
 WARNING:LIT:243 - Logical network N209 has no load.
@@ -2085,11 +2085,11 @@ WARNING:Timing:3223 - Timing constraint TS_RX_CLIENT_CLK0_2_REF_CLK = MAXDELAY
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 50 secs 
-Total CPU  time at the beginning of Placer: 49 secs 
+Total REAL time at the beginning of Placer: 1 mins 1 secs 
+Total CPU  time at the beginning of Placer: 1 mins 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:1365828f) REAL time: 55 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:1365828f) REAL time: 1 mins 7 secs 
 
 Phase 2.7  Design Feasibility Check
 WARNING:Place:838 - An IO Bus with more than one IO standard is found.
@@ -2104,19 +2104,19 @@ WARNING:Place:838 - An IO Bus with more than one IO standard is found.
    	 Comp: fpga_0_LEDs_8Bit_GPIO_IO_pin<0>   IOSTANDARD = LVCMOS18
 
 
-Phase 2.7  Design Feasibility Check (Checksum:1365828f) REAL time: 55 secs 
+Phase 2.7  Design Feasibility Check (Checksum:1365828f) REAL time: 1 mins 7 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:682f1c92) REAL time: 55 secs 
+Phase 3.31  Local Placement Optimization (Checksum:682f1c92) REAL time: 1 mins 7 secs 
 
 Phase 4.37  Local Placement Optimization
-Phase 4.37  Local Placement Optimization (Checksum:3b206b9d) REAL time: 55 secs 
+Phase 4.37  Local Placement Optimization (Checksum:3b206b9d) REAL time: 1 mins 8 secs 
 
 Phase 5.33  Local Placement Optimization
-Phase 5.33  Local Placement Optimization (Checksum:3b206b9d) REAL time: 3 mins 32 secs 
+Phase 5.33  Local Placement Optimization (Checksum:3b206b9d) REAL time: 4 mins 14 secs 
 
 Phase 6.32  Local Placement Optimization
-Phase 6.32  Local Placement Optimization (Checksum:3b206b9d) REAL time: 3 mins 33 secs 
+Phase 6.32  Local Placement Optimization (Checksum:3b206b9d) REAL time: 4 mins 15 secs 
 
 Phase 7.2  Initial Clock and IO Placement
 
@@ -2356,10 +2356,10 @@ WARNING:Place:971 - A GCLK / GCLK clock component pair have been found that are 
    <BUFGCTRL_X0Y31>. The GCLK site can use the fast path to the other GCLK if both the GCLK components are placed in the
    same half of the device (TOP or BOTTOM). You may want to analyze why this problem exists and correct it. This is not
    an error so processing will continue.
-Phase 7.2  Initial Clock and IO Placement (Checksum:3962e03f) REAL time: 3 mins 36 secs 
+Phase 7.2  Initial Clock and IO Placement (Checksum:3962e03f) REAL time: 4 mins 18 secs 
 
 Phase 8.36  Local Placement Optimization
-Phase 8.36  Local Placement Optimization (Checksum:3962e03f) REAL time: 3 mins 36 secs 
+Phase 8.36  Local Placement Optimization (Checksum:3962e03f) REAL time: 4 mins 18 secs 
 
 .............................
 .......................................................................................................
@@ -2787,13 +2787,13 @@ maybe moved to adjacent clock-regions as long as the "number of clocks per regio
 ######################################################################################
 
 
-Phase 9.30  Global Clock Region Assignment (Checksum:3962e03f) REAL time: 3 mins 58 secs 
+Phase 9.30  Global Clock Region Assignment (Checksum:3962e03f) REAL time: 4 mins 44 secs 
 
 Phase 10.3  Local Placement Optimization
-Phase 10.3  Local Placement Optimization (Checksum:3962e03f) REAL time: 3 mins 58 secs 
+Phase 10.3  Local Placement Optimization (Checksum:3962e03f) REAL time: 4 mins 45 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:3962e03f) REAL time: 3 mins 59 secs 
+Phase 11.5  Local Placement Optimization (Checksum:3962e03f) REAL time: 4 mins 45 secs 
 
 Phase 12.8  Global Placement
 ............................
@@ -2803,25 +2803,25 @@ Phase 12.8  Global Placement
 ...............................................................................................
 .......................................................................................
 ................
-Phase 12.8  Global Placement (Checksum:d68719e4) REAL time: 5 mins 40 secs 
+Phase 12.8  Global Placement (Checksum:d68719e4) REAL time: 6 mins 49 secs 
 
 Phase 13.29  Local Placement Optimization
-Phase 13.29  Local Placement Optimization (Checksum:d68719e4) REAL time: 5 mins 40 secs 
+Phase 13.29  Local Placement Optimization (Checksum:d68719e4) REAL time: 6 mins 49 secs 
 
 Phase 14.5  Local Placement Optimization
-Phase 14.5  Local Placement Optimization (Checksum:d68719e4) REAL time: 5 mins 42 secs 
+Phase 14.5  Local Placement Optimization (Checksum:d68719e4) REAL time: 6 mins 51 secs 
 
 Phase 15.18  Placement Optimization
-Phase 15.18  Placement Optimization (Checksum:b72a6050) REAL time: 6 mins 36 secs 
+Phase 15.18  Placement Optimization (Checksum:b72a6050) REAL time: 7 mins 59 secs 
 
 Phase 16.5  Local Placement Optimization
-Phase 16.5  Local Placement Optimization (Checksum:b72a6050) REAL time: 6 mins 38 secs 
+Phase 16.5  Local Placement Optimization (Checksum:b72a6050) REAL time: 8 mins 1 secs 
 
 Phase 17.34  Placement Validation
-Phase 17.34  Placement Validation (Checksum:b72a6050) REAL time: 6 mins 38 secs 
+Phase 17.34  Placement Validation (Checksum:b72a6050) REAL time: 8 mins 2 secs 
 
-Total REAL time to Placer completion: 6 mins 39 secs 
-Total CPU  time to Placer completion: 6 mins 34 secs 
+Total REAL time to Placer completion: 8 mins 3 secs 
+Total CPU  time to Placer completion: 8 mins 
 Running post-placement packing...
 Writing output files...
 
@@ -2890,9 +2890,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.43
 
-Peak Memory Usage:  1105 MB
-Total REAL time to MAP completion:  6 mins 56 secs 
-Total CPU time to MAP completion:   6 mins 50 secs 
+Peak Memory Usage:  1102 MB
+Total REAL time to MAP completion:  8 mins 22 secs 
+Total CPU time to MAP completion:   8 mins 19 secs 
 
 Mapping completed.
 See MAP report file "system_map.mrp" for details.
@@ -2906,12 +2906,12 @@ system.pcf
 #----------------------------------------------#
 Release 11.5 - par L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/data/parBmgr.acd> with local file
-</opt/Xilinx/11.4/ISE/data/parBmgr.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/data/parBmgr.acd> with local file
+</opt/Xilinx/11.5/ISE/data/parBmgr.acd>
 
 
 Loading device for application Rf_Device from file '5vfx70t.nph' in environment
-/opt/Xilinx/11.4/ISE:/opt/Xilinx/11.4/EDK.
+/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK.
    "system" is an NCD, version 3.2, device xc5vfx70t, package ff1136, speed -1
 
 Constraints file: system.pcf.
@@ -2983,8 +2983,8 @@ Device Utilization Summary:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 26 secs 
-Finished initial Timing Analysis.  REAL time: 27 secs 
+Starting initial Timing Analysis.  REAL time: 32 secs 
+Finished initial Timing Analysis.  REAL time: 32 secs 
 
 WARNING:Par:288 - The signal fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin_IBUF has no load.  PAR will not attempt to route
    this signal.
@@ -2995,7 +2995,7 @@ WARNING:Par:288 - The signal xps_bram_if_cntlr_1_port_BRAM_Addr<31> has no load.
 Starting Router
 
 
-Phase  1  : 50454 unrouted;      REAL time: 30 secs 
+Phase  1  : 50454 unrouted;      REAL time: 36 secs 
 INFO:Route:538 - One or more MIG cores have been detected in your design and have been successfully
    placed and routed. These MIG core(s) have critical skew and delay requirements 
    that are independent of the user (UCF) timing constraints. These MIG-related timing 
@@ -3003,27 +3003,27 @@ INFO:Route:538 - One or more MIG cores have been detected in your design and hav
    separately that all timing constraints specified in the UCF file have been met.
 
 
-Phase  2  : 43033 unrouted;      REAL time: 35 secs 
+Phase  2  : 43033 unrouted;      REAL time: 42 secs 
 
-Phase  3  : 15130 unrouted;      REAL time: 1 mins 2 secs 
+Phase  3  : 15130 unrouted;      REAL time: 1 mins 14 secs 
 
-Phase  4  : 15172 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 10 secs 
+Phase  4  : 15172 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 26 secs 
 
 Updating file: system.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 29 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 48 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 29 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 48 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 29 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 48 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 29 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:78, Component Switching Limit:0)     REAL time: 1 mins 48 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 34 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 54 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 40 secs 
-Total REAL time to Router completion: 1 mins 40 secs 
-Total CPU time to Router completion: 1 mins 39 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 1 secs 
+Total REAL time to Router completion: 2 mins 1 secs 
+Total CPU time to Router completion: 2 mins 
 
 Partition Implementation Status
 -------------------------------
@@ -3436,8 +3436,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 3 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 1 mins 50 secs 
-Total CPU time to PAR completion: 1 mins 48 secs 
+Total REAL time to PAR completion: 2 mins 10 secs 
+Total CPU time to PAR completion: 2 mins 10 secs 
 
 Peak Memory Usage:  831 MB
 
@@ -3465,10 +3465,10 @@ Release 11.5 - Trace  (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 
 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd>
-with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd>
+with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 Loading device for application Rf_Device from file '5vfx70t.nph' in environment
-/opt/Xilinx/11.4/ISE:/opt/Xilinx/11.4/EDK.
+/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK.
    "system" is an NCD, version 3.2, device xc5vfx70t, package ff1136, speed -1
 WARNING:Timing:3223 - Timing constraint TS_MC_RDEN_SEL_MUX = MAXDELAY FROM
    TIMEGRP "TNM_RDEN_SEL_MUX" TO TIMEGRP        "TNM_CLK0" TS_MC_CLK * 4;
@@ -3498,7 +3498,7 @@ INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more
 Release 11.5 Trace  (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 
-/opt/Xilinx/11.4/ISE/bin/lin64/unwrapped/trce -ise ../__xps/ise/system.ise -e 3
+/opt/Xilinx/11.5/ISE/bin/lin64/unwrapped/trce -ise ../__xps/ise/system.ise -e 3
 -xml system.twx system.ncd system.pcf
 
 
@@ -3532,13 +3532,13 @@ Design statistics:
    Minimum input required time before clock:   1.514ns
 
 
-Analysis completed Wed Mar 24 15:09:23 2010
+Analysis completed Mon Apr  5 15:56:31 2010
 --------------------------------------------------------------------------------
 
 Generating Report ...
 
 Number of warnings: 7
 Number of info messages: 3
-Total time: 32 secs 
+Total time: 37 secs 
 
 

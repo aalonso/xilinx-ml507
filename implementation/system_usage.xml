@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Wed Mar 24 15:10:26 2010"><group name="NetStatistics">
+<DesignStatistics TimeStamp="Mon Apr  5 15:57:47 2010"><group name="NetStatistics">
 <item name="NumNets_Active" rev="2">
 <attrib name="value" value="14072"/></item>
 <item name="NumNets_Gnd" rev="2">
@@ -268,7 +268,7 @@
 <attrib name="value" value="1"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Wed Mar 24 15:10:26 2010"><group name="SiteSummary">
+<DeviceUsage TimeStamp="Mon Apr  5 15:57:47 2010"><group name="SiteSummary">
 <item name="BUFG" rev="2">
 <attrib name="total" value="1000000"/><attrib name="used" value="11"/></item>
 <item name="BUFGCTRL" rev="2">
@@ -409,7 +409,7 @@
 <attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
 </group>
 </DeviceUsage>
-<ReportConfigData TimeStamp="Wed Mar 24 15:10:26 2010"><group name="IODELAY">
+<ReportConfigData TimeStamp="Mon Apr  5 15:57:47 2010"><group name="IODELAY">
 <item name="C" rev="2">
 <attrib name="C" value="80"/><attrib name="C_INV" value="0"/></item>
 <item name="DATAIN" rev="2">
@@ -1456,7 +1456,7 @@
 <attrib name="ASYNC" value="36"/><attrib name="SYNC" value="37"/></item>
 </group>
 </ReportConfigData>
-<ReportPinData TimeStamp="Wed Mar 24 15:10:26 2010"><group name="IODELAY">
+<ReportPinData TimeStamp="Mon Apr  5 15:57:47 2010"><group name="IODELAY">
 <item name="C" rev="2">
 <attrib name="value" value="80"/></item>
 <item name="CE" rev="2">

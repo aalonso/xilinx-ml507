@@ -1,7 +1,7 @@
 Release 11.5 - xst L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 --> 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_xst.prj"
-Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/" "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc5vfx70tff1136-1
@@ -54,7 +54,7 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" in Library work.
+Compiling vhdl file "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" in Library work.
 Entity <system> compiled.
 Entity <system> (Architecture <STRUCTURE>) compiled.
 
@@ -69,343 +69,343 @@ Analyzing hierarchy for entity <system> in library <work> (architecture <STRUCTU
 =========================================================================
 Analyzing Entity <system> in library <work> (Architecture <STRUCTURE>).
     Set property "BUFFER_TYPE = BUFGP" for signal <fpga_0_SysACE_CompactFlash_SysACE_CLK_pin> in unit <system>.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440MACHINECHECK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMCORESLEEPREQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMDECIRPTREQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMFITIRPTREQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMMSRCE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMMSREE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMTIMERRESETREQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMWDIRPTREQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCCPMINTERCONNECTBUSY' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440DBGSYSTEMCONTROL' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'SPLB0_Error' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'SPLB1_Error' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCEICINTERCONNECTIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRREAD' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRWRITE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRABUS' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRDBUSOUT' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDSDCRACK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDSDCRDBUSIN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDSDCRTIMEOUTWAIT' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECNONAUTON' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECFPUOP' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECLDSTXFERSIZE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECLOAD' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMNEXTINSTRREADY' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECSTORE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECUDI' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECUDIVALID' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMENDIAN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMFLUSH' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMINSTRUCTION' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMINSTRVALID' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMLOADBYTEADDR' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMLOADDATA' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMLOADDVALID' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMOPERANDVALID' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMRADATA' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMRBDATA' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMWRITEBACKOK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMMSRFE0' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMMSRFE1' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBADDRACK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWAIT' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBREARBITRATE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWRDACK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWRCOMP' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDDBUS' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDWDADDR' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDDACK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDCOMP' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDBTERM' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWRBTERM' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMBUSY' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMRDERR' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMWRERR' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBSSIZE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXD' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXREM' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXSOFN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXEOFN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXSOPN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXEOPN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXSRCRDYN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLRXDSTRDYN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLRSTENGINEACK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1TXIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1RXIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXD' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXREM' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXSOFN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXEOFN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXSOPN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXEOPN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXSRCRDYN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLRXDSTRDYN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLRSTENGINEACK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2TXIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2RXIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXD' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXREM' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXSOFN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXEOFN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXSOPN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXEOPN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXSRCRDYN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLRXDSTRDYN' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLRSTENGINEACK' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3TXIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3RXIRQ' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCBRANCHSTATUS' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCCYCLE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCEXECUTIONSTATUS' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCTRACESTATUS' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCTRIGGEREVENTOUT' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCTRIGGEREVENTTYPE' of component 'ppc440_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Rst' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_dcrAck' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_dcrDBus' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SaddrAck' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SMRdErr' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SMWrErr' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SMBusy' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdBTerm' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdComp' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdDAck' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdDBus' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdWdAddr' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Srearbitrate' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Sssize' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Swait' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SwrBTerm' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SwrComp' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SwrDAck' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'Bus_Error_Det' of component 'plb_v46_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2469: Unconnected output port 'BRAM_Din_B' of component 'xps_bram_if_cntlr_1_bram_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2487: Unconnected output port 'IP2INTC_Irpt' of component 'leds_8bit_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2487: Unconnected output port 'GPIO2_IO_O' of component 'leds_8bit_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2487: Unconnected output port 'GPIO2_IO_T' of component 'leds_8bit_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2540: Unconnected output port 'IP2INTC_Irpt' of component 'leds_positions_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2540: Unconnected output port 'GPIO2_IO_O' of component 'leds_positions_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2540: Unconnected output port 'GPIO2_IO_T' of component 'leds_positions_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2593: Unconnected output port 'GPIO2_IO_O' of component 'push_buttons_5bit_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2593: Unconnected output port 'GPIO2_IO_T' of component 'push_buttons_5bit_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2646: Unconnected output port 'GPIO2_IO_O' of component 'dip_switches_8bit_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2646: Unconnected output port 'GPIO2_IO_T' of component 'dip_switches_8bit_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2699: Unconnected output port 'Gpo' of component 'iic_eeprom_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2753: Unconnected output port 'idelay_ctrl_rdy' of component 'ddr2_sdram_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'baudoutN' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'ddis' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'dtrN' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'out1N' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'out2N' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'rtsN' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'rxrdyN' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'txrdyN' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'xout' of component 'rs232_uart_1_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_Access_Full' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_ReadData_Control' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_ReadData_Data' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_ReadData_Exists' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_Access_Full' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_ReadData_Control' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_ReadData_Data' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_ReadData_Exists' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_Access_Full' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_ReadData_Control' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_ReadData_Data' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_ReadData_Exists' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_Access_Full' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_ReadData_Control' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_ReadData_Data' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_ReadData_Exists' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_RPN' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_QWEN' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_BEN' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_CE' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_LBON' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_CKEN' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_RNW' of component 'flash_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TemacIntc1_Irpt' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_DST_RDY_n' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_SOP_n' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_EOP_n' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_SOF_n' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_EOF_n' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_REM' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_Data' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_SRC_RDY_n' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TXD_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_EN_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_ER_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TXD_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_EN_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_ER_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TXD_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TX_EN_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TX_ER_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TX_CLK_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXP_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXN_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXP_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXN_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXD_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TX_CTL_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXC_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXD_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TX_CTL_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXC_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MDC_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostMiimSel' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostReq' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostAddr' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostEmac1Sel' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbTxClk' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbTxClkEn' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbRxClk' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbRxClkEn' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbTxAck' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxData' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxDataValid' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxFrameGood' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxFrameBad' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac02AvbTxData' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac02AvbTxDataValid' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac02AvbTxUnderrun' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbTxClk' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbTxClkEn' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbRxClk' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbRxClkEn' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbTxAck' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxData' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxDataValid' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxFrameGood' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxFrameBad' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac12AvbTxData' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac12AvbTxDataValid' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac12AvbTxUnderrun' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TxClientClk_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStat_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsVld_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsByteVld_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RxClientClk_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStats_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsVld_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsByteVld_0' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TxClientClk_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStat_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsVld_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsByteVld_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RxClientClk_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStats_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsVld_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsByteVld_1' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MDIO_1_O' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MDIO_1_T' of component 'hard_ethernet_mac_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3218: Unconnected output port 'WDT_Reset' of component 'xps_timebase_wdt_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3267: Unconnected output port 'GenerateOut0' of component 'xps_timer_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3267: Unconnected output port 'GenerateOut1' of component 'xps_timer_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3267: Unconnected output port 'PWM0' of component 'xps_timer_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT7' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT8' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT9' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT10' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT11' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT12' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT13' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT14' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT15' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKFBOUT' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'PSDONE' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'DBGC405DEBUGHALT0' of component 'jtagppc_cntlr_inst_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'DBGC405DEBUGHALT1' of component 'jtagppc_cntlr_inst_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TCK1' of component 'jtagppc_cntlr_inst_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TDI1' of component 'jtagppc_cntlr_inst_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TMS1' of component 'jtagppc_cntlr_inst_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TRSTNEG1' of component 'jtagppc_cntlr_inst_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'RstcPPCresetcore_1' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'RstcPPCresetchip_1' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'RstcPPCresetsys_1' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'MB_Reset' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'Peripheral_Reset' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'MD_error' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'Sl_DCRDBus' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'Sl_DCRAck' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_DPS' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_CLK' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_R' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_G' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_B' of component 'xps_tft_0_wrapper'.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3608: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3616: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3624: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3632: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3640: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3648: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3656: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3664: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3672: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3680: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3688: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3696: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3704: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3712: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3720: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3728: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3736: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3744: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3752: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3760: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3768: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3776: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3784: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3792: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3800: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3808: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3816: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3824: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3832: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3840: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3848: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3856: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3864: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3872: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3880: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3888: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3896: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3904: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3912: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3920: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3928: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3936: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3944: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3952: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3960: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3968: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3976: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3984: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 3992: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4000: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4008: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4016: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4024: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4032: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4040: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4048: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4056: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4064: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4072: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4080: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4088: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4096: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4104: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4112: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4120: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4128: Instantiating black box module <IOBUF>.
-WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd" line 4136: Instantiating black box module <IOBUF>.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440MACHINECHECK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMCORESLEEPREQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMDECIRPTREQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMFITIRPTREQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMMSRCE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMMSREE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMTIMERRESETREQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440CPMWDIRPTREQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCCPMINTERCONNECTBUSY' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440DBGSYSTEMCONTROL' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'SPLB0_Error' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'SPLB1_Error' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCEICINTERCONNECTIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRREAD' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRWRITE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRABUS' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDMDCRDBUSOUT' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDSDCRACK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDSDCRDBUSIN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCDSDCRTIMEOUTWAIT' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECNONAUTON' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECFPUOP' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECLDSTXFERSIZE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECLOAD' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMNEXTINSTRREADY' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECSTORE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECUDI' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMDECUDIVALID' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMENDIAN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMFLUSH' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMINSTRUCTION' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMINSTRVALID' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMLOADBYTEADDR' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMLOADDATA' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMLOADDVALID' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMOPERANDVALID' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMRADATA' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMRBDATA' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMWRITEBACKOK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMMSRFE0' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'APUFCMMSRFE1' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBADDRACK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWAIT' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBREARBITRATE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWRDACK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWRCOMP' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDDBUS' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDWDADDR' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDDACK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDCOMP' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBRDBTERM' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBWRBTERM' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMBUSY' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMRDERR' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMWRERR' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBMIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'PPCS1PLBSSIZE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXD' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXREM' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXSOFN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXEOFN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXSOPN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXEOPN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLTXSRCRDYN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLRXDSTRDYN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1LLRSTENGINEACK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1TXIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA1RXIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXD' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXREM' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXSOFN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXEOFN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXSOPN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXEOPN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLTXSRCRDYN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLRXDSTRDYN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2LLRSTENGINEACK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2TXIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA2RXIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXD' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXREM' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXSOFN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXEOFN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXSOPN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXEOPN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLTXSRCRDYN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLRXDSTRDYN' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3LLRSTENGINEACK' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3TXIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'DMA3RXIRQ' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCBRANCHSTATUS' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCCYCLE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCEXECUTIONSTATUS' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCTRACESTATUS' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCTRIGGEREVENTOUT' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2004: Unconnected output port 'C440TRCTRIGGEREVENTTYPE' of component 'ppc440_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Rst' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_dcrAck' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_dcrDBus' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SaddrAck' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SMRdErr' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SMWrErr' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SMBusy' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdBTerm' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdComp' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdDAck' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdDBus' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SrdWdAddr' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Srearbitrate' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Sssize' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_Swait' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SwrBTerm' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SwrComp' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'PLB_SwrDAck' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2315: Unconnected output port 'Bus_Error_Det' of component 'plb_v46_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2469: Unconnected output port 'BRAM_Din_B' of component 'xps_bram_if_cntlr_1_bram_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2487: Unconnected output port 'IP2INTC_Irpt' of component 'leds_8bit_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2487: Unconnected output port 'GPIO2_IO_O' of component 'leds_8bit_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2487: Unconnected output port 'GPIO2_IO_T' of component 'leds_8bit_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2540: Unconnected output port 'IP2INTC_Irpt' of component 'leds_positions_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2540: Unconnected output port 'GPIO2_IO_O' of component 'leds_positions_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2540: Unconnected output port 'GPIO2_IO_T' of component 'leds_positions_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2593: Unconnected output port 'GPIO2_IO_O' of component 'push_buttons_5bit_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2593: Unconnected output port 'GPIO2_IO_T' of component 'push_buttons_5bit_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2646: Unconnected output port 'GPIO2_IO_O' of component 'dip_switches_8bit_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2646: Unconnected output port 'GPIO2_IO_T' of component 'dip_switches_8bit_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2699: Unconnected output port 'Gpo' of component 'iic_eeprom_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2753: Unconnected output port 'idelay_ctrl_rdy' of component 'ddr2_sdram_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'baudoutN' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'ddis' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'dtrN' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'out1N' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'out2N' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'rtsN' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'rxrdyN' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'txrdyN' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2846: Unconnected output port 'xout' of component 'rs232_uart_1_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_Access_Full' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_ReadData_Control' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_ReadData_Data' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH0_ReadData_Exists' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_Access_Full' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_ReadData_Control' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_ReadData_Data' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH1_ReadData_Exists' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_Access_Full' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_ReadData_Control' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_ReadData_Data' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH2_ReadData_Exists' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_Access_Full' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_ReadData_Control' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_ReadData_Data' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'MCH3_ReadData_Exists' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_RPN' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_QWEN' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_BEN' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_CE' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_LBON' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_CKEN' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 2911: Unconnected output port 'Mem_RNW' of component 'flash_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TemacIntc1_Irpt' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_DST_RDY_n' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_SOP_n' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_EOP_n' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_SOF_n' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_EOF_n' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_REM' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_Data' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1Llink_SRC_RDY_n' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TXD_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_EN_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_ER_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TXD_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_EN_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MII_TX_ER_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TXD_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TX_EN_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TX_ER_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'GMII_TX_CLK_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXP_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXN_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXP_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TXN_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXD_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TX_CTL_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXC_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXD_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TX_CTL_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RGMII_TXC_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MDC_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostMiimSel' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostReq' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostAddr' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'HostEmac1Sel' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbTxClk' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbTxClkEn' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbRxClk' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac0AvbRxClkEn' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbTxAck' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxData' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxDataValid' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxFrameGood' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac02AvbRxFrameBad' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac02AvbTxData' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac02AvbTxDataValid' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac02AvbTxUnderrun' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbTxClk' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbTxClkEn' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbRxClk' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac1AvbRxClkEn' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbTxAck' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxData' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxDataValid' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxFrameGood' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Mac12AvbRxFrameBad' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac12AvbTxData' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac12AvbTxDataValid' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'Temac12AvbTxUnderrun' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TxClientClk_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStat_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsVld_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsByteVld_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RxClientClk_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStats_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsVld_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsByteVld_0' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'TxClientClk_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStat_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsVld_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientTxStatsByteVld_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'RxClientClk_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStats_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsVld_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'ClientRxStatsByteVld_1' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MDIO_1_O' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3005: Unconnected output port 'MDIO_1_T' of component 'hard_ethernet_mac_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3218: Unconnected output port 'WDT_Reset' of component 'xps_timebase_wdt_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3267: Unconnected output port 'GenerateOut0' of component 'xps_timer_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3267: Unconnected output port 'GenerateOut1' of component 'xps_timer_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3267: Unconnected output port 'PWM0' of component 'xps_timer_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT7' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT8' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT9' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT10' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT11' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT12' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT13' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT14' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKOUT15' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'CLKFBOUT' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3320: Unconnected output port 'PSDONE' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'DBGC405DEBUGHALT0' of component 'jtagppc_cntlr_inst_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'DBGC405DEBUGHALT1' of component 'jtagppc_cntlr_inst_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TCK1' of component 'jtagppc_cntlr_inst_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TDI1' of component 'jtagppc_cntlr_inst_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TMS1' of component 'jtagppc_cntlr_inst_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3349: Unconnected output port 'JTGC405TRSTNEG1' of component 'jtagppc_cntlr_inst_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'RstcPPCresetcore_1' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'RstcPPCresetchip_1' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'RstcPPCresetsys_1' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'MB_Reset' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3370: Unconnected output port 'Peripheral_Reset' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'MD_error' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'Sl_DCRDBus' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'Sl_DCRAck' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_DPS' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_CLK' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_R' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_G' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:753 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3442: Unconnected output port 'TFT_VGA_B' of component 'xps_tft_0_wrapper'.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3608: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3616: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3624: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3632: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3640: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3648: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3656: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3664: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3672: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3680: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3688: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3696: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3704: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3712: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3720: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3728: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3736: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3744: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3752: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3760: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3768: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3776: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3784: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3792: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3800: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3808: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3816: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3824: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3832: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3840: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3848: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3856: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3864: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3872: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3880: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3888: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3896: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3904: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3912: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3920: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3928: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3936: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3944: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3952: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3960: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3968: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3976: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3984: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 3992: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4000: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4008: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4016: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4024: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4032: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4040: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4048: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4056: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4064: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4072: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4080: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4088: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4096: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4104: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4112: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4120: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4128: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd" line 4136: Instantiating black box module <IOBUF>.
 Entity <system> analyzed. Unit <system> generated.
 
 
@@ -416,7 +416,7 @@ Entity <system> analyzed. Unit <system> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <system>.
-    Related source file is "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/system.vhd".
+    Related source file is "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/system.vhd".
 WARNING:Xst:647 - Input <fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <plb_v46_0_SPLB_Rst<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <plb_v46_0_MPLB_Rst<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -1003,13 +1003,13 @@ Delay:                  1.363ns
 =========================================================================
 
 
-Total REAL time to Xst completion: 48.00 secs
-Total CPU time to Xst completion: 46.74 secs
+Total REAL time to Xst completion: 65.00 secs
+Total CPU time to Xst completion: 64.00 secs
  
 --> 
 
 
-Total memory usage is 600072 kilobytes
+Total memory usage is 600032 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  345 (   0 filtered)

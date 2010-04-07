@@ -1,15 +1,15 @@
 Release 11.5 - Bitgen L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd>
-with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd>
+with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 Loading device for application Rf_Device from file '5vfx70t.nph' in environment
-/opt/Xilinx/11.4/ISE:/opt/Xilinx/11.4/EDK.
+/opt/Xilinx/11.5/ISE:/opt/Xilinx/11.5/EDK.
    "system" is an NCD, version 3.2, device xc5vfx70t, package ff1136, speed -1
 Opened constraints file system.pcf.
 
-Wed Mar 24 15:09:36 2010
+Mon Apr  5 15:56:48 2010
 
-/opt/Xilinx/11.4/ISE/bin/lin64/unwrapped/bitgen -w -g TdoPin:PULLNONE -g DriveDone:No -g StartUpClk:JTAGCLK -g DONE_cycle:4 -g GTS_cycle:5 -g TckPin:PULLUP -g TdiPin:PULLUP -g TmsPin:PULLUP -g DonePipe:No -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:NONE -g Persist:No system.ncd 
+/opt/Xilinx/11.5/ISE/bin/lin64/unwrapped/bitgen -w -g TdoPin:PULLNONE -g DriveDone:No -g StartUpClk:JTAGCLK -g DONE_cycle:4 -g GTS_cycle:5 -g TckPin:PULLUP -g TdiPin:PULLUP -g TmsPin:PULLUP -g DonePipe:No -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:NONE -g Persist:No system.ncd 
 
 Summary of Bitgen Options:
 +----------------------+----------------------+

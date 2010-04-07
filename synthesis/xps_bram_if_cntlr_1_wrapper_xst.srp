@@ -1,7 +1,7 @@
 Release 11.5 - xst L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 --> 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "xps_bram_if_cntlr_1_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/" "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc5vfx70tff1136-1
@@ -53,210 +53,210 @@ Cores Search Directories           : {../implementation/xps_bram_if_cntlr_1_wrap
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
 Package <family_support> compiled.
 Package body <family_support> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
 Package <proc_common_pkg> compiled.
 Package body <proc_common_pkg> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/inferred_lut4.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/inferred_lut4.vhd" in Library proc_common_v3_00_a.
 Entity <inferred_lut4> compiled.
 Entity <inferred_lut4> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/muxf_struct_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/muxf_struct_f.vhd" in Library proc_common_v3_00_a.
 Entity <muxf_struct> compiled.
 Entity <muxf_struct> (Architecture <imp>) compiled.
 Entity <muxf_struct_f> compiled.
 Entity <muxf_struct_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_bit.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_bit.vhd" in Library proc_common_v3_00_a.
 Entity <pf_counter_bit> compiled.
 Entity <pf_counter_bit> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/cntr_incr_decr_addn_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/cntr_incr_decr_addn_f.vhd" in Library proc_common_v3_00_a.
 Entity <cntr_incr_decr_addn_f> compiled.
 Entity <cntr_incr_decr_addn_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_f.vhd" in Library proc_common_v3_00_a.
 Entity <dynshreg_f> compiled.
 Entity <dynshreg_f> (Architecture <behavioral>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder_bit.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder_bit.vhd" in Library proc_common_v3_00_a.
 Entity <pf_adder_bit> compiled.
 Entity <pf_adder_bit> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter.vhd" in Library proc_common_v3_00_a.
 Entity <pf_counter> compiled.
 Entity <pf_counter> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter.vhd" in Library proc_common_v3_00_a.
 Entity <pf_occ_counter> compiled.
 Entity <pf_occ_counter> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_bit.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_bit.vhd" in Library proc_common_v3_00_a.
 Entity <counter_bit> compiled.
 Entity <counter_bit> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy_f.vhd" in Library proc_common_v3_00_a.
 Entity <or_muxcy_f> compiled.
 Entity <or_muxcy_f> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu_f.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo_rbu_f> compiled.
 Entity <srl_fifo_rbu_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd" in Library proc_common_v3_00_a.
 Package <family> compiled.
 Package body <family> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter_top.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter_top.vhd" in Library proc_common_v3_00_a.
 Entity <pf_occ_counter_top> compiled.
 Entity <pf_occ_counter_top> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_top.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_top.vhd" in Library proc_common_v3_00_a.
 Entity <pf_counter_top> compiled.
 Entity <pf_counter_top> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder.vhd" in Library proc_common_v3_00_a.
 Entity <pf_adder> compiled.
 Entity <pf_adder> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
 Entity <or_muxcy> compiled.
 Entity <or_muxcy> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter.vhd" in Library proc_common_v3_00_a.
 Entity <Counter> compiled.
 Entity <Counter> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/coregen_comp_defs.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/coregen_comp_defs.vhd" in Library proc_common_v3_00_a.
 Package <coregen_comp_defs> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" in Library proc_common_v3_00_a.
 Package <Common_Types> compiled.
-WARNING:HDLParsers:3534 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" Line 223. In the function Get_RLOC_Name, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" Line 223. In the function Get_RLOC_Name, not all control paths contain a return statement.
 Package body <Common_Types> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/conv_funs_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/conv_funs_pkg.vhd" in Library proc_common_v3_00_a.
 Package <conv_funs_pkg> compiled.
 Package body <conv_funs_pkg> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/async_fifo_fg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/async_fifo_fg.vhd" in Library proc_common_v3_00_a.
 Entity <async_fifo_fg> compiled.
 Entity <async_fifo_fg> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/sync_fifo_fg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/sync_fifo_fg.vhd" in Library proc_common_v3_00_a.
 Entity <sync_fifo_fg> compiled.
 Entity <sync_fifo_fg> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/blk_mem_gen_wrapper.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/blk_mem_gen_wrapper.vhd" in Library proc_common_v3_00_a.
 Entity <blk_mem_gen_wrapper> compiled.
 Entity <blk_mem_gen_wrapper> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/addsub.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/addsub.vhd" in Library proc_common_v3_00_a.
 Entity <addsub> compiled.
 Entity <addsub> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr.vhd" in Library proc_common_v3_00_a.
 Entity <direct_path_cntr> compiled.
 Entity <direct_path_cntr> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr_ai.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr_ai.vhd" in Library proc_common_v3_00_a.
 Entity <direct_path_cntr_ai> compiled.
 Entity <direct_path_cntr_ai> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/down_counter.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/down_counter.vhd" in Library proc_common_v3_00_a.
 Entity <down_counter> compiled.
 Entity <down_counter> (Architecture <simulation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/eval_timer.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/eval_timer.vhd" in Library proc_common_v3_00_a.
 Entity <eval_timer> compiled.
 Entity <eval_timer> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer.vhd" in Library proc_common_v3_00_a.
 Entity <IPIF_Steer> compiled.
 Entity <IPIF_Steer> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer128.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer128.vhd" in Library proc_common_v3_00_a.
 Entity <ipif_steer128> compiled.
 Entity <ipif_steer128> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_mirror128.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_mirror128.vhd" in Library proc_common_v3_00_a.
 Entity <ipif_mirror128> compiled.
 Entity <ipif_mirror128> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" in Library proc_common_v3_00_a.
 Entity <ld_arith_reg> compiled.
 Entity <ld_arith_reg> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg2.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg2.vhd" in Library proc_common_v3_00_a.
 Entity <ld_arith_reg2> compiled.
 Entity <ld_arith_reg2> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot.vhd" in Library proc_common_v3_00_a.
 Entity <mux_onehot> compiled.
 Entity <mux_onehot> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_bits.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_bits.vhd" in Library proc_common_v3_00_a.
 Entity <or_bits> compiled.
 Entity <or_bits> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate.vhd" in Library proc_common_v3_00_a.
 Entity <or_gate> compiled.
 Entity <or_gate> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
 Entity <or_gate128> compiled.
 Entity <or_gate128> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_dpram_select.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_dpram_select.vhd" in Library proc_common_v3_00_a.
 Entity <pf_dpram_select> compiled.
 Entity <pf_dpram_select> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect.vhd" in Library proc_common_v3_00_a.
 Entity <pselect> compiled.
 Entity <pselect> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_mask.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_mask.vhd" in Library proc_common_v3_00_a.
 Entity <pselect_mask> compiled.
 Entity <pselect_mask> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl16_fifo.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl16_fifo.vhd" in Library proc_common_v3_00_a.
 Entity <srl16_fifo> compiled.
 Entity <srl16_fifo> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo.vhd" in Library proc_common_v3_00_a.
 Entity <SRL_FIFO> compiled.
 Entity <SRL_FIFO> (Architecture <IMP>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo2.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo2.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo2> compiled.
 Entity <srl_fifo2> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo3.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo3.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo3> compiled.
 Entity <srl_fifo3> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo_rbu> compiled.
 Entity <srl_fifo_rbu> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/valid_be.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/valid_be.vhd" in Library proc_common_v3_00_a.
 Entity <valid_be> compiled.
 Entity <valid_be> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_with_enable_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_with_enable_f.vhd" in Library proc_common_v3_00_a.
 Entity <or_with_enable_f> compiled.
 Entity <or_with_enable_f> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_i_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_i_f.vhd" in Library proc_common_v3_00_a.
 Entity <dynshreg_i_f> compiled.
 Entity <dynshreg_i_f> (Architecture <behavioral>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot_f.vhd" in Library proc_common_v3_00_a.
 Entity <mux_onehot_f> compiled.
 Entity <mux_onehot_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_f.vhd" in Library proc_common_v3_00_a.
 Entity <srl_fifo_f> compiled.
 Entity <srl_fifo_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/compare_vectors_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/compare_vectors_f.vhd" in Library proc_common_v3_00_a.
 Entity <compare_vectors_f> compiled.
 Entity <compare_vectors_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
 Entity <pselect_f> compiled.
 Entity <pselect_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate_f.vhd" in Library proc_common_v3_00_a.
 Entity <or_gate_f> compiled.
 Entity <or_gate_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd" in Library proc_common_v3_00_a.
 Entity <soft_reset> compiled.
 Entity <soft_reset> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
 Package <ipif_pkg> compiled.
 Package body <ipif_pkg> compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
 Entity <counter_f> compiled.
 Entity <counter_f> (Architecture <imp>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_be_reset_gen.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_be_reset_gen.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_be_reset_gen> compiled.
 Entity <xbic_be_reset_gen> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_be_support.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_be_support.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_addr_be_support> compiled.
 Entity <xbic_addr_be_support> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_decode.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_decode.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_addr_decode> compiled.
 Entity <xbic_addr_decode> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_cntr.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_cntr.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_addr_cntr> compiled.
 Entity <xbic_addr_cntr> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_dbeat_control.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_dbeat_control.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_dbeat_control> compiled.
 Entity <xbic_dbeat_control> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_data_steer_mirror.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_data_steer_mirror.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_data_steer_mirror> compiled.
 Entity <xbic_data_steer_mirror> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_slave_attach_sngl.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_slave_attach_sngl.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_slave_attach_sngl> compiled.
 Entity <xbic_slave_attach_sngl> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_slave_attach_burst.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_slave_attach_burst.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xbic_slave_attach_burst> compiled.
 Entity <xbic_slave_attach_burst> (Architecture <implementation>) compiled.
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xps_bram_if_cntlr.vhd" in Library xps_bram_if_cntlr_v1_00_b.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xps_bram_if_cntlr.vhd" in Library xps_bram_if_cntlr_v1_00_b.
 Entity <xps_bram_if_cntlr> compiled.
 Entity <xps_bram_if_cntlr> (Architecture <implementation>) compiled.
-Compiling vhdl file "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/xps_bram_if_cntlr_1_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/xps_bram_if_cntlr_1_wrapper.vhd" in Library work.
 Entity <xps_bram_if_cntlr_1_wrapper> compiled.
 Entity <xps_bram_if_cntlr_1_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -415,29 +415,29 @@ Entity <xbic_be_reset_gen> analyzed. Unit <xbic_be_reset_gen> generated.
 Analyzing generic Entity <xbic_dbeat_control> in library <xps_bram_if_cntlr_v1_00_b> (Architecture <implementation>).
 	C_FAMILY = "virtex5"
 	C_NATIVE_DWIDTH = 64
-WARNING:Xst:753 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_dbeat_control.vhd" line 582: Unconnected output port 'Carry_Out' of component 'counter_f'.
+WARNING:Xst:753 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_dbeat_control.vhd" line 582: Unconnected output port 'Carry_Out' of component 'counter_f'.
 INFO:Xst:2679 - Register <mult_cnt_sreg<3>> in unit <xbic_dbeat_control> has a constant value of 0 during circuit operation. The register is replaced by logic.
 Entity <xbic_dbeat_control> analyzed. Unit <xbic_dbeat_control> generated.
 
 Analyzing generic Entity <counter_f> in library <proc_common_v3_00_a> (Architecture <imp>).
 	C_FAMILY = "virtex5"
 	C_NUM_BITS = 4
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 214: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 214: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 237: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 244: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" line 250: Instantiating black box module <FDRE>.
 Entity <counter_f> analyzed. Unit <counter_f> generated.
 
 Analyzing generic Entity <xbic_data_steer_mirror> in library <xps_bram_if_cntlr_v1_00_b> (Architecture <implementation>).
@@ -458,21 +458,21 @@ INFO:Xst:2679 - Register <mult_cnt_sreg<2>> in unit <xbic_dbeat_control> has a c
 INFO:Xst:2679 - Register <Cline_special_case1_reg> in unit <xbic_dbeat_control> has a constant value of 0 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <xbic_addr_be_support>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_be_support.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_be_support.vhd".
 WARNING:Xst:647 - Input <PLB_Msize> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLB_UABus> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <xbic_addr_be_support> synthesized.
 
 
 Synthesizing Unit <xbic_addr_decode>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_decode.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_decode.vhd".
 WARNING:Xst:647 - Input <Address_Valid> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Address_In<16:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <xbic_addr_decode> synthesized.
 
 
 Synthesizing Unit <xbic_data_steer_mirror>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_data_steer_mirror.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_data_steer_mirror.vhd".
 WARNING:Xst:647 - Input <Steer_Addr_In<0:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Steer_Addr_In<4:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <sig_addr_bits_dwrd_wrd> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -481,14 +481,14 @@ Unit <xbic_data_steer_mirror> synthesized.
 
 
 Synthesizing Unit <xbic_be_reset_gen>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_be_reset_gen.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_be_reset_gen.vhd".
 WARNING:Xst:647 - Input <Addr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MSize> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <xbic_be_reset_gen> synthesized.
 
 
 Synthesizing Unit <xbic_addr_cntr>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_cntr.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_addr_cntr.vhd".
 WARNING:Xst:646 - Signal <qwdwrds_s_h> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <master_64_s_h> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <master_32_s_h> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -516,13 +516,13 @@ Unit <xbic_addr_cntr> synthesized.
 
 
 Synthesizing Unit <counter_f>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd".
 WARNING:Xst:646 - Signal <alu_cy<5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <counter_f> synthesized.
 
 
 Synthesizing Unit <xbic_dbeat_control>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_dbeat_control.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_dbeat_control.vhd".
 WARNING:Xst:647 - Input <RNW_In> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <req_init_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <doing_multi_dbeat> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -543,7 +543,7 @@ Unit <xbic_dbeat_control> synthesized.
 
 
 Synthesizing Unit <xbic_slave_attach_burst>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_slave_attach_burst.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xbic_slave_attach_burst.vhd".
 WARNING:Xst:647 - Input <PLB_rdBurst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLB_wrDBus<64:127>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLB_wrBurst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -581,7 +581,7 @@ Unit <xbic_slave_attach_burst> synthesized.
 
 
 Synthesizing Unit <xps_bram_if_cntlr>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xps_bram_if_cntlr.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/xps_bram_if_cntlr_v1_00_b/hdl/vhdl/xps_bram_if_cntlr.vhd".
 WARNING:Xst:647 - Input <PLB_wrPrim> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLB_SAValid> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <PLB_wrPendReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -608,7 +608,7 @@ Unit <xps_bram_if_cntlr> synthesized.
 
 
 Synthesizing Unit <xps_bram_if_cntlr_1_wrapper>.
-    Related source file is "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/xps_bram_if_cntlr_1_wrapper.vhd".
+    Related source file is "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/xps_bram_if_cntlr_1_wrapper.vhd".
 Unit <xps_bram_if_cntlr_1_wrapper> synthesized.
 
 
@@ -966,13 +966,13 @@ Delay:               0.000ns (Levels of Logic = 0)
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.77 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.65 secs
  
 --> 
 
 
-Total memory usage is 518580 kilobytes
+Total memory usage is 518584 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   99 (   0 filtered)

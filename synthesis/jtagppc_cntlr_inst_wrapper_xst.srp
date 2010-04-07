@@ -1,7 +1,7 @@
 Release 11.5 - xst L.70 (lin64)
 Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
 --> 
-PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.4/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.4/ISE/virtex5/data/virtex5.acd>
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </opt/Xilinx/11.5/ISE/virtex5/data/virtex5.acd>
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "jtagppc_cntlr_inst_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/pcores/" "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/aalonso/workspace/ppc44x/xilinx-ml507/pcores/" "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc5vfx70tff1136-1
@@ -53,10 +53,10 @@ Cores Search Directories           : {../implementation/jtagppc_cntlr_inst_wrapp
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" in Library jtagppc_cntlr_v2_01_c.
+Compiling vhdl file "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" in Library jtagppc_cntlr_v2_01_c.
 Entity <jtagppc_cntlr> compiled.
 Entity <jtagppc_cntlr> (Architecture <implementation>) compiled.
-Compiling vhdl file "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/jtagppc_cntlr_inst_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/jtagppc_cntlr_inst_wrapper.vhd" in Library work.
 Entity <jtagppc_cntlr_inst_wrapper> compiled.
 Entity <jtagppc_cntlr_inst_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -68,11 +68,11 @@ Analyzing hierarchy for entity <jtagppc_cntlr_inst_wrapper> in library <work> (a
 Analyzing hierarchy for entity <jtagppc_cntlr> in library <jtagppc_cntlr_v2_01_c> (architecture <implementation>) with generics.
 	C_DEVICE = "5vfx70t"
 	C_NUM_PPC_USED = 1
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
 
 
 =========================================================================
@@ -84,12 +84,12 @@ Entity <jtagppc_cntlr_inst_wrapper> analyzed. Unit <jtagppc_cntlr_inst_wrapper> 
 Analyzing generic Entity <jtagppc_cntlr> in library <jtagppc_cntlr_v2_01_c> (Architecture <implementation>).
 	C_DEVICE = "5vfx70t"
 	C_NUM_PPC_USED = 1
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
-WARNING:Xst:2211 - "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 305: Instantiating black box module <JTAGPPC440>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 241: Size of operands are different : result is <false>.
+WARNING:Xst:2211 - "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd" line 305: Instantiating black box module <JTAGPPC440>.
 Entity <jtagppc_cntlr> analyzed. Unit <jtagppc_cntlr> generated.
 
 
@@ -100,7 +100,7 @@ Entity <jtagppc_cntlr> analyzed. Unit <jtagppc_cntlr> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <jtagppc_cntlr>.
-    Related source file is "/opt/Xilinx/11.4/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd".
+    Related source file is "/opt/Xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/jtagppc_cntlr_v2_01_c/synhdl/vhdl/jtagppc_cntlr.vhd".
 WARNING:Xst:1305 - Output <JTGC405TCK1> is never assigned. Tied to value 0.
 WARNING:Xst:1305 - Output <JTGC405TDI1> is never assigned. Tied to value 0.
 WARNING:Xst:647 - Input <C405JTGTDO1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -116,7 +116,7 @@ Unit <jtagppc_cntlr> synthesized.
 
 
 Synthesizing Unit <jtagppc_cntlr_inst_wrapper>.
-    Related source file is "/home/aalonso/workspace/ppc44x/xlnx/xilinx-ml507/hdl/jtagppc_cntlr_inst_wrapper.vhd".
+    Related source file is "/home/aalonso/workspace/ppc44x/xilinx-ml507/hdl/jtagppc_cntlr_inst_wrapper.vhd".
 Unit <jtagppc_cntlr_inst_wrapper> synthesized.
 
 
@@ -265,13 +265,13 @@ Delay:               0.238ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.33 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.52 secs
  
 --> 
 
 
-Total memory usage is 490000 kilobytes
+Total memory usage is 490108 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   22 (   0 filtered)
